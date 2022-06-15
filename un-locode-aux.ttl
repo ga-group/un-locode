@@ -1,0 +1,168 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fibo-fbc-fct-bc: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> .
+@prefix fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> .
+@prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix un-loc: <http://data.ga-group.nl/un-locode/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.ga-group.nl/un-locode/>
+	a	owl:Ontology ;
+	dct:abstract	"""This ontology tracks the UN/LOCODE Code List (currently 2021-1).""" ;
+	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
+	dct:format	"text/turtle"^^xsd:string ;
+	dct:issued	"2022-06-18T05:00:00Z"^^xsd:dateTime ;
+	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
+	dct:modified	"2022-06-18T12:43:00Z"^^xsd:dateTime ;
+	dct:source	<https://unece.org/trade/cefact/unlocode-code-list-country-and-territory> ;
+	owl:imports	<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ;
+	owl:versionIRI	<http://data.ga-group.nl/20220601/un-locode/> ;
+	rdfs:label	"UN Location Code" ;
+	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
+	sm:contributor	"GA Financial Solutions GmbH" ;
+	sm:copyright	"Copyright (c) 2022 GA Financial Solutions GmbH" ;
+	sm:fileAbbreviation	"un-loc" ;
+	sm:filename	"un-locode.ttl" ;
+	vann:preferredNamespacePrefix	"un-loc"^^xsd:string ;
+	vann:preferredNamespaceUri	"http://data.ga-group.nl/un-locode/" .
+
+un-loc:Function
+	a	owl:Class ;
+	rdfs:label	"function"@en ;
+	skos:definition	"function of code, e.g. whether the location's airport or its main rail terminal is addressed."@en .
+
+un-loc:Status
+	a	owl:Class ;
+	rdfs:label	"status"@en ;
+	skos:definition	"status of code, e.g. whether approved by Government, by Customs, or based on a user requirement not necessarily recognised by an authority, etc."@en .
+
+un-loc:func-Airport
+	a	owl:Individual ;
+	a	un-loc:Function ;
+	rdfs:label	"Airport"@en ;
+	skos:definition	"the location is an Airport."@en .
+
+un-loc:func-BorderCrossing
+	a	owl:Individual ;
+	a	un-loc:Function ;
+	rdfs:label	"Border crossing"@en ;
+	skos:definition	"the location is a Border crossing."@en .
+
+un-loc:func-FixedTransport
+	a	owl:Individual ;
+	a	un-loc:Function ;
+	rdfs:label	"Fixed transport"@en ;
+	skos:definition	"reserved for fixed transport functions (e.g. oil platform)."@en .
+
+un-loc:func-Multimodal
+	a	owl:Individual ;
+	a	un-loc:Function ;
+	rdfs:label	"Multimodal"@en ;
+	skos:definition	"reserved for multimodal functions, ICDs etc."@en .
+
+un-loc:func-Port
+	a	owl:Individual ;
+	a	un-loc:Function ;
+	rdfs:label	"Port"@en ;
+	skos:definition	"the location is a Port, as defined in UN/ECE Recommendation 16."@en .
+
+un-loc:func-PostalExchangeOffice
+	a	owl:Individual ;
+	a	un-loc:Function ;
+	rdfs:label	"Postal exchange office"@en ;
+	skos:definition	"the location is a Postal exchange office."@en .
+
+un-loc:func-RailTerminal
+	a	owl:Individual ;
+	a	un-loc:Function ;
+	rdfs:label	"Rail terminal"@en ;
+	skos:definition	"the location is a Rail terminal."@en .
+
+un-loc:func-RoadTerminal
+	a	owl:Individual ;
+	a	un-loc:Function ;
+	rdfs:label	"Road terminal"@en ;
+	skos:definition	"the location is a Road terminal."@en .
+
+un-loc:hasFunction
+	a	owl:ObjectProperty ;
+	rdfs:label	"has function"@en ;
+	rdfs:range	un-loc:Function ;
+	skos:definition	"relates a location with its current function"@en .
+
+un-loc:hasStatus
+	a	owl:ObjectPropert ;
+	rdfs:label	"has status"@en ;
+	rdfs:range	un-loc:Status ;
+	skos:definition	"relates a location with its current status"@en .
+
+un-loc:stat-AA
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"AA" ;
+	skos:definition	"Approved by competent national government agency"@en .
+
+un-loc:stat-AC
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"AC" ;
+	skos:definition	"Approved by Customs Authority"@en .
+
+un-loc:stat-AF
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"AF" ;
+	skos:definition	"Approved by national facilitation body"@en .
+
+un-loc:stat-AI
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"AI" ;
+	skos:definition	"Code adopted by international organisation (IATA or ECLAC)"@en .
+
+un-loc:stat-AS
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"AS" ;
+	skos:definition	"Approved by national standardisation body"@en .
+
+un-loc:stat-QQ
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"QQ" ;
+	skos:definition	"Original entry not verified since date indicated"@en .
+
+un-loc:stat-RL
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"RL" ;
+	skos:definition	"Recognised location - Existence and representation of location name confirmed by check against nominated gazetteer or other reference work"@en .
+
+un-loc:stat-RN
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"RN" ;
+	skos:definition	"Request from credible national sources for locations in their own country"@en .
+
+un-loc:stat-RQ
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"RQ" ;
+	skos:definition	"Request under consideration"@en .
+
+un-loc:stat-RR
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"RR" ;
+	skos:definition	"Request rejected"@en .
+
+un-loc:stat-XX
+	a	owl:Individual ;
+	a	un-loc:Status ;
+	rdfs:label	"XX" ;
+	skos:definition	"Entry that will be removed from the next issue of UN/LOCODE"@en .

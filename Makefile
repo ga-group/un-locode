@@ -1,5 +1,8 @@
 SHELL := /bin/zsh
 
+sparql := /home/freundt/usr/apache-jena/bin/sparql
+stardog := STARDOG_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
+
 all:
 
 csv = $(patsubst download/%.htm,tmp/%.csv,$(wildcard download/*.htm))
@@ -27,6 +30,12 @@ tmp/%.ttl: tmp/%.csv sql/mklocode.tarql
 	tarql -t sql/mklocode.tarql $< \
 	> $@.t && mv $@.t $@
 
+un-locode.ttl: un-locode-aux.ttl $(ttl)
+	cat $^ \
+	> $@.t && mv $@.t $@
+	$(MAKE) $@.canon
+
+
 %.ttl.canon: %.ttl
 	rapper -i turtle $< >/dev/null
 	ttl2ttl --sortable $< \
@@ -37,7 +46,19 @@ tmp/%.ttl: tmp/%.csv sql/mklocode.tarql
 	| ttl2ttl -B \
 	> $@ && mv $@ $<
 
-un-locode.ttl: un-locode-aux.ttl $(ttl)
-	cat $^ \
-	> $@.t && mv $@.t $@
-	$(MAKE) $@.canon
+check.%: %.ttl shacl/%.shacl.ttl
+	truncate -s 0 /tmp/$@.ttl
+	$(stardog) data add --remove-all -g "http://data.ga-group.nl/un-locode/" iso $< $(ADDITIONAL)
+	$(stardog) icv report --output-format PRETTY_TURTLE -g "http://data.ga-group.nl/un-locode/" -r -l -1 iso shacl/$*.shacl.ttl \
+        >> /tmp/$@.ttl || true
+	$(MAKE) $*.rpt
+
+%.rpt: /tmp/check.%.ttl
+	$(sparql) --results text --data $< --query sql/valrpt.sql
+
+setup-stardog:                                                                                                                                                                                          
+	$(stardog)-admin db create -o reasoning.sameas=OFF -n iso
+	$(stardog) namespace add --prefix un-loc --uri http://data.ga-group.nl/un-locode/ iso
+
+unsetup-stardog:
+	$(stardog)-admin db drop iso

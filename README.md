@@ -5,3 +5,9 @@ UN/LOCODE
 
 This repository is an RDF view on the UN's LOCODE, the United Nations Code for Trade and Transport Locations,
 as published by UNECE, see https://unece.org/trade/uncefact/unlocode.
+
+
+Why?
+----
+
+UNECE does not provide a namespace for its code identifiers.

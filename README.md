@@ -11,3 +11,14 @@ Why?
 ----
 
 UNECE does not provide a namespace for its code identifiers.
+
+
+Where?
+------
+
+The [official github repository](https://github.com/ga-group/un-locode/) contains the
+published datasets as well as separately maintained alignment and enrichment files.
+
+For ease of access the latest versions of the datasets can be downloaded here:
+
+- [un-locode.ttl](/un-locode/un-locode.ttl)

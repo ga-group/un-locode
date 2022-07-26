@@ -7,6 +7,8 @@ all:
 
 csv = $(patsubst download/%.htm,tmp/%.csv,$(wildcard download/*.htm))
 ttl = $(patsubst download/%.htm,tmp/%.ttl,$(wildcard download/*.htm))
+## untar and cat CodeListPart*.csv to this file
+dmp = download/CodeListParts.csv
 
 csv: $(csv)
 ttl: $(ttl)
@@ -30,7 +32,12 @@ tmp/%.ttl: tmp/%.csv sql/mklocode.tarql
 	tarql -t sql/mklocode.tarql $< \
 	> $@.t && mv $@.t $@
 
-un-locode.ttl: un-locode-aux.ttl $(ttl)
+tmp/un-locode.ttl: sql/mklocode-csv.tarql $(dmp)
+	cat $(filter-out $<,$^) \
+	| tarql -H --stdin $< \
+	> $@
+
+un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl
 	cat $^ \
 	> $@.t && mv $@.t $@
 	$(MAKE) $@.canon

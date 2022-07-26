@@ -29,6 +29,7 @@ CONSTRUCT {
 		rdfs:label ?Name ;
 		rdfs:label ?enName ;
 		skos:note ?enRemarks ;
+		skos:notation ?LOCODE ;
 		tempo:validFrom	?new ;
 		tempo:validTill	?rem ;
 		dct:isReplacedBy ?rpl ;

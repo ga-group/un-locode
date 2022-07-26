@@ -1,0 +1,1574 @@
+@prefix cc1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix cc2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes-Adjunct/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fibo-fbc-fct-bc: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> .
+@prefix fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> .
+@prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix gn: <https://www.geonames.org/ontology#> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix un-loc: <http://data.ga-group.nl/un-locode/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+un-loc:BLGUS
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BLSBH ;
+	geo:lat	17.90 ;
+	geo:long	-62.85 ;
+	lcc-cr:isPartOf	cc1:BL ;
+	rdfs:label	"Gustavia"@en , "Gustavia" ;
+	skos:notation	"BLGUS" ;
+	skos:note	"use BLSBH"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRALQ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRALE ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Alegrete"@en , "Alegrete" ;
+	skos:notation	"BRALQ" ;
+	skos:note	"Use BR ALE"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRAMJ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRALA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MG ;
+	rdfs:label	"Almenara"@en , "Almenara" ;
+	skos:notation	"BRAMJ" ;
+	skos:note	"Use BR ALA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRAVB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRAVQ ;
+	geo:lat	-20.92 ;
+	geo:long	-41.18 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-ES ;
+	rdfs:label	"Atilio Vivacqua"@en , "Atílio Vivacqua" ;
+	skos:notation	"BRAVB" ;
+	skos:note	"Use BR AVQ"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRBGX
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRBAG ;
+	geo:lat	-31.33 ;
+	geo:long	-54.10 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Bage"@en , "Bagé" ;
+	skos:notation	"BRBGX" ;
+	skos:note	"Use BR BAG"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRBJB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRBJM ;
+	geo:lat	-8.33 ;
+	geo:long	-36.42 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PE ;
+	rdfs:label	"Belo Jardim"@en , "Belo Jardim" ;
+	skos:notation	"BRBJB" ;
+	skos:note	"Use BR BJM"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRCFC
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCDR ;
+	geo:lat	-26.77 ;
+	geo:long	-51.02 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SC ;
+	rdfs:label	"Cacador"@en , "Cacador" ;
+	skos:notation	"BRCFC" ;
+	skos:note	"Use BR CDR"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRCKO
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCPO ;
+	geo:lat	-23.13 ;
+	geo:long	-50.65 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PR ;
+	rdfs:label	"Cornelio Procopio"@en , "Cornélio Procópio" ;
+	skos:notation	"BRCKO" ;
+	skos:note	"Use BR CPO"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRCKS
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRPRS ;
+	geo:lat	-6.12 ;
+	geo:long	-50.00 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PA ;
+	rdfs:label	"Carajas Apt/Parauapebas"@en , "Carajás Apt/Parauapebas" ;
+	skos:notation	"BRCKS" ;
+	skos:note	"Use BR PRS"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRCLJ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCJL ;
+	geo:lat	-13.88 ;
+	geo:long	-59.13 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MT ;
+	rdfs:label	"Campos de Julio"@en , "Campos de Júlio" ;
+	skos:notation	"BRCLJ" ;
+	skos:note	"Use BR CJL"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRCPQ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCPS ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Campinas"@en , "Campinas" ;
+	skos:notation	"BRCPQ" ;
+	skos:note	"Use BR CPS"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRCRQ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCRL ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-BA ;
+	rdfs:label	"Caravelas"@en , "Caravelas" ;
+	skos:notation	"BRCRQ" ;
+	skos:note	"Use BR CRL"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRCXJ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCXL ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Caxias do Sul"@en , "Caxias do Sul" ;
+	skos:notation	"BRCXJ" ;
+	skos:note	"Use BR CXL"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRCZJ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCAJ ;
+	geo:lat	-6.90 ;
+	geo:long	-38.57 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PB ;
+	rdfs:label	"Cajazeiras"@en , "Cajazeiras" ;
+	skos:notation	"BRCZJ" ;
+	skos:note	"Use BR CAJ"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRDSU
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSCS ;
+	geo:lat	-29.72 ;
+	geo:long	-52.43 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Santa Cruz do Sul"@en , "Santa Cruz do Sul" ;
+	skos:notation	"BRDSU" ;
+	skos:note	"Use BR SCS"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BREDM
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-23.15 ;
+	geo:long	-45.78 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Eugenio de Melo"@en , "Eugenio de Melo" ;
+	skos:notation	"BREDM" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRFEC
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRFSA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-BA ;
+	rdfs:label	"Feira de Santana"@en , "Feira de Santana" ;
+	skos:notation	"BRFEC" ;
+	skos:note	"Use BR FSA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRFLB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRFLO ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PI ;
+	rdfs:label	"Floriano"@en , "Floriano" ;
+	skos:notation	"BRFLB" ;
+	skos:note	"Use BR FLO"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRGCV
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRGRA ;
+	geo:lat	-29.95 ;
+	geo:long	-50.98 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Gravatai"@en , "Gravataí" ;
+	skos:notation	"BRGCV" ;
+	skos:note	"Use BR GRA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRGEM
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SC ;
+	rdfs:label	"Guarda do Embau"@en , "Guarda do Embau" ;
+	skos:notation	"BRGEM" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRGPU
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RN ;
+	rdfs:label	"Genipabu"@en , "Genipabu" ;
+	skos:notation	"BRGPU" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRHAR
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRNHZ ;
+	geo:lat	-29.57 ;
+	geo:long	-50.90 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Nova Hartz"@en , "Nova Hartz" ;
+	skos:notation	"BRHAR" ;
+	skos:note	"Use BR NHZ"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRIJJ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRIAD ;
+	geo:lat	-10.98 ;
+	geo:long	-37.30 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SE ;
+	rdfs:label	"Itaporanga d'Ajuda"@en , "Itaporanga d'Ajuda" ;
+	skos:notation	"BRIJJ" ;
+	skos:note	"Use BR IAD"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRIJT
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-14.28 ;
+	geo:long	-39.85 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-BA ;
+	rdfs:label	"Itajiba"@en , "Itajibá" ;
+	skos:notation	"BRIJT" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRIMJ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PA ;
+	rdfs:label	"Ilha de Marajo"@en , "Ilha de Marajo" ;
+	skos:notation	"BRIMJ" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRITZ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRIIM ;
+	geo:lat	-21.02 ;
+	geo:long	-40.83 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-ES ;
+	rdfs:label	"Itapemirim"@en , "Itapemirim" ;
+	skos:notation	"BRITZ" ;
+	skos:note	"Use BR IIM"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRIVU
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Ibitiuva"@en , "Ibitiuva" ;
+	skos:notation	"BRIVU" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRIYT
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRIEU ;
+	geo:lat	-25.20 ;
+	geo:long	-49.37 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PR ;
+	rdfs:label	"Itaperucu"@en , "Itaperucu" ;
+	skos:notation	"BRIYT" ;
+	skos:note	"Use BR IEU"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRJBU
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Jurubatuba"@en , "Jurubatuba" ;
+	skos:notation	"BRJBU" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRJGQ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRJRE ;
+	geo:lat	-12.92 ;
+	geo:long	-39.17 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-BA ;
+	rdfs:label	"Jaguaripe"@en , "Jaguaripe" ;
+	skos:notation	"BRJGQ" ;
+	skos:note	"Use BR JRE"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRJTU
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRJTA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MG ;
+	rdfs:label	"Jacutinga"@en , "Jacutinga" ;
+	skos:notation	"BRJTU" ;
+	skos:note	"Use BR JTA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRLJR
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-ES ;
+	rdfs:label	"Laranjeiras Velha"@en , "Laranjeiras Velha" ;
+	skos:notation	"BRLJR" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRLOZ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRLOA ;
+	geo:lat	-23.07 ;
+	geo:long	-46.97 ;
+	lcc-cr:isPartOf	cc1:BR ;
+	rdfs:label	"Louveira"@en , "Louveira" ;
+	skos:notation	"BRLOZ" ;
+	skos:note	"Use BR LOA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRLVB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSLI ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Livramento"@en , "Livramento" ;
+	skos:notation	"BRLVB" ;
+	skos:note	"Use BR SLI"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRLZB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRLEA ;
+	geo:lat	-27.12 ;
+	geo:long	-51.47 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SC ;
+	rdfs:label	"Luzerna"@en , "Luzerna" ;
+	skos:notation	"BRLZB" ;
+	skos:note	"Use BR LEA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRMBK
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMUP ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MT ;
+	rdfs:label	"Matupa"@en , "Matupa" ;
+	skos:notation	"BRMBK" ;
+	skos:note	"Use BR MUP"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRMBZ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMAS ;
+	geo:lat	-3.40 ;
+	geo:long	-57.70 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-AM ;
+	rdfs:label	"Maues"@en , "Maués" ;
+	skos:notation	"BRMBZ" ;
+	skos:note	"Use BR MAS"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRMKM
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMPX ;
+	geo:lat	-21.25 ;
+	geo:long	-49.13 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Marapoama"@en , "Marapoama" ;
+	skos:notation	"BRMKM" ;
+	skos:note	"Use BR MPX"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRMQH
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMIC ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-GO ;
+	rdfs:label	"Minacu"@en , "Minacu" ;
+	skos:notation	"BRMQH" ;
+	skos:note	"Use BR MIC"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRMRZ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMUC ;
+	geo:lat	-9.32 ;
+	geo:long	-35.93 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-AL ;
+	rdfs:label	"Murici"@en , "Murici" ;
+	skos:notation	"BRMRZ" ;
+	skos:note	"Use BR MUC"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRMVF
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMOS ;
+	geo:lat	-5.18 ;
+	geo:long	-37.35 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RN ;
+	rdfs:label	"Mossoro"@en , "Mossoró" ;
+	skos:notation	"BRMVF" ;
+	skos:note	"Use BR MOS"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRMVG
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMUV ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-GO ;
+	rdfs:label	"Mundo Novo de Goias"@en , "Mundo Novo de Goias" ;
+	skos:notation	"BRMVG" ;
+	skos:note	"Use BR MUV"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRMVS
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMCR ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-BA ;
+	rdfs:label	"Mucuri"@en , "Mucuri" ;
+	skos:notation	"BRMVS" ;
+	skos:note	"Use BR MCR"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRNOK
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRNXA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MT ;
+	rdfs:label	"Nova Xavantina"@en , "Nova Xavantina" ;
+	skos:notation	"BRNOK" ;
+	skos:note	"Use BR NXA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRODI
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCOC ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-GO ;
+	rdfs:label	"Ocidental"@en , "Ocidental" ;
+	skos:notation	"BRODI" ;
+	skos:note	"Use BR COC"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BROPS
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSIN ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MT ;
+	rdfs:label	"Sinop"@en , "Sinop" ;
+	skos:notation	"BROPS" ;
+	skos:note	"Use BR SIN"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BROXO
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BROXI ;
+	geo:lat	-23.53 ;
+	geo:long	-41.43 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"OSX1 FPSO"@en , "OSX1 FPSO" ;
+	skos:notation	"BROXO" ;
+	skos:note	"Use  BR OXI"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BROYK
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BROIA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-AP ;
+	rdfs:label	"Oiapoque"@en , "Oiapoque" ;
+	skos:notation	"BROYK" ;
+	skos:note	"Use BR OIA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRP35
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-22.43 ;
+	geo:long	-40.07 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Petrobras 35 FPSO"@en , "Petrobrás 35 FPSO" ;
+	skos:notation	"BRP35" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRP3O
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRP3I ;
+	geo:lat	-22.12 ;
+	geo:long	-39.95 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Petrobras 31 FPSO"@en , "Petrobrás 31 FPSO" ;
+	skos:notation	"BRP3O" ;
+	skos:note	"Use BR P3I"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRP5Z
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRP5O ;
+	geo:lat	-22.08 ;
+	geo:long	-39.82 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Petrobras 50 FPSO"@en , "Petrobrás 50 FPSO" ;
+	skos:notation	"BRP5Z" ;
+	skos:note	"Use BR P5O"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRP7Z
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRP7O ;
+	geo:lat	-24.95 ;
+	geo:long	-42.47 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Petrobras 70 FPSO"@en , "Petrobrás 70 FPSO" ;
+	skos:notation	"BRP7Z" ;
+	skos:note	"Use BR P7O"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRPBB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRPRA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MS ;
+	rdfs:label	"Paranaiba"@en , "Paranaiba" ;
+	skos:notation	"BRPBB" ;
+	skos:note	"Use BR PRA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRPFB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRPFO ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Passo Fundo"@en , "Passo Fundo" ;
+	skos:notation	"BRPFB" ;
+	skos:note	"Use BR PFO"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQAB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRBRU ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SC ;
+	rdfs:label	"Brusque"@en , "Brusque" ;
+	skos:notation	"BRQAB" ;
+	skos:note	"Use BR BRU"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQBX
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSOB ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-CE ;
+	rdfs:label	"Sobral"@en , "Sobral" ;
+	skos:notation	"BRQBX" ;
+	skos:note	"Use BR SOB"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQCD
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCBM ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Campo Bom"@en , "Campo Bom" ;
+	skos:notation	"BRQCD" ;
+	skos:note	"Use BR CBM"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQCJ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRBOT ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Botucatu"@en , "Botucatu" ;
+	skos:notation	"BRQCJ" ;
+	skos:note	"Use BR BOT"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQCN
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCNL ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Canela"@en , "Canela" ;
+	skos:notation	"BRQCN" ;
+	skos:note	"Use BR CNL"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQCV
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRGUS ;
+	geo:lat	-23.48 ;
+	geo:long	-46.53 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Guarulhos"@en , "Guarulhos" ;
+	skos:notation	"BRQCV" ;
+	skos:note	"Use BR GUS"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQCX
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSCL ;
+	geo:lat	-23.60 ;
+	geo:long	-46.57 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Sao Caetano do Sul"@en , "Sao Caetano do Sul" ;
+	skos:notation	"BRQCX" ;
+	skos:note	"Use BR SCL"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQDL
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRGUI ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-ES ;
+	rdfs:label	"Guarapari"@en , "Guarapari" ;
+	skos:notation	"BRQDL" ;
+	skos:note	"Use BR GUI"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQGF
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMON ;
+	geo:lat	-29.67 ;
+	geo:long	-51.47 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Montenegro"@en , "Montenegro" ;
+	skos:notation	"BRQGF" ;
+	skos:note	"Use BR MON"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQHB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRPCA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Piracicaba"@en , "Piracicaba" ;
+	skos:notation	"BRQHB" ;
+	skos:note	"Use BR PCA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQHF
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSSC ;
+	geo:lat	-29.58 ;
+	geo:long	-51.38 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Sao Sebastiao do Cai"@en , "Sao Sebastiao do Caí" ;
+	skos:notation	"BRQHF" ;
+	skos:note	"Use BR SSC"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQHG
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSTL ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MG ;
+	rdfs:label	"Sete Lagoas"@en , "Sete Lagoas" ;
+	skos:notation	"BRQHG" ;
+	skos:note	"Use BR STL"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQHT
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRTER ;
+	geo:lat	-22.43 ;
+	geo:long	-42.98 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Teresopolis"@en , "Teresópolis" ;
+	skos:notation	"BRQHT" ;
+	skos:note	"Use BR TER"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQID
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRTCS ;
+	geo:lat	-21.70 ;
+	geo:long	-45.27 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MG ;
+	rdfs:label	"Tres Coracoes"@en , "Três Coraçoes" ;
+	skos:notation	"BRQID" ;
+	skos:note	"Use BR TCS"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQJO
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCJD ;
+	geo:lat	-22.73 ;
+	geo:long	-45.58 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Campos do Jordao"@en , "Campos do Jordao" ;
+	skos:notation	"BRQJO" ;
+	skos:note	"Use BR CJD"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQLB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRLAJ ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Lajeado"@en , "Lajeado" ;
+	skos:notation	"BRQLB" ;
+	skos:note	"Use BR LAJ"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQMI
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMCS ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Mogi das Cruzes"@en , "Mogi das Cruzes" ;
+	skos:notation	"BRQMI" ;
+	skos:note	"Use BR MCS"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQNS
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCAN ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Canoas"@en , "Canoas" ;
+	skos:notation	"BRQNS" ;
+	skos:note	"Use BR CAN"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQOC
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BROSA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Osasco"@en , "Osasco" ;
+	skos:notation	"BRQOC" ;
+	skos:note	"Use BR OSA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQPE
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRPES ;
+	geo:lat	-22.52 ;
+	geo:long	-43.18 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Petropolis"@en , "Petrópolis" ;
+	skos:notation	"BRQPE" ;
+	skos:note	"Use BR PES"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQRO
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PR ;
+	rdfs:label	"Quatro Rodas"@en , "Quatro Rodas" ;
+	skos:notation	"BRQRO" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQRP
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRGRO ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Gramado"@en , "Gramado" ;
+	skos:notation	"BRQRP" ;
+	skos:note	"Use BR GRO"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQRZ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRRES ;
+	geo:lat	-22.47 ;
+	geo:long	-44.45 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Resende"@en , "Resende" ;
+	skos:notation	"BRQRZ" ;
+	skos:note	"Use BR RES"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-Port , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQSB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSBC ;
+	geo:lat	-23.70 ;
+	geo:long	-46.55 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Sao Bernardo do Campo"@en , "Sao Bernardo do Campo" ;
+	skos:notation	"BRQSB" ;
+	skos:note	"Use BR SBC"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQSC
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSCO ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Sao Carlos"@en , "Sao Carlos" ;
+	skos:notation	"BRQSC" ;
+	skos:note	"Use BR SCO"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQSD
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSGO ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Sao Goncalo"@en , "Sao Goncalo" ;
+	skos:notation	"BRQSD" ;
+	skos:note	"Use BR SGO"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQSE
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-23.67 ;
+	geo:long	-46.52 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Santo Andre"@en , "Santo André" ;
+	skos:notation	"BRQSE" ;
+	skos:note	"UseBR SAE"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRQVR
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRVRA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Volta Redonda"@en , "Volta Redonda" ;
+	skos:notation	"BRQVR" ;
+	skos:note	"Use BR VRA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRROA
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRTCA ;
+	geo:lat	-29.53 ;
+	geo:long	-50.80 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Tres Coroas"@en , "Três Coroas" ;
+	skos:notation	"BRROA" ;
+	skos:note	"Use BR TCA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRSBJ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSMS ;
+	geo:lat	-18.72 ;
+	geo:long	-39.85 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-ES ;
+	rdfs:label	"Sao Mateus"@en , "São Mateus" ;
+	skos:notation	"BRSBJ" ;
+	skos:note	"Use BR SMS"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRSFV
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSES ;
+	geo:lat	-20.22 ;
+	geo:long	-50.93 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Santa Fe do Sul"@en , "Santa Fé do Sul" ;
+	skos:notation	"BRSFV" ;
+	skos:note	"Use BR SES"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRSNQ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSUO ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Santa Cruz do Rio Pardo"@en , "Santa Cruz do Rio Pardo" ;
+	skos:notation	"BRSNQ" ;
+	skos:note	"Use BR SUO"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRSQY
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSLR ;
+	geo:lat	-31.37 ;
+	geo:long	-51.97 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Sao Lourenco do Sul"@en , "Sao Lourenço do Sul" ;
+	skos:notation	"BRSQY" ;
+	skos:note	"Use BR SLR"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRTGQ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRTSE ;
+	geo:lat	-14.63 ;
+	geo:long	-57.48 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MT ;
+	rdfs:label	"Tangara da Serra"@en , "Tangará da Serra" ;
+	skos:notation	"BRTGQ" ;
+	skos:note	"Use BR TSE"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRTLZ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCTL ;
+	geo:lat	-18.17 ;
+	geo:long	-47.95 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-GO ;
+	rdfs:label	"Catalao"@en , "Catalao" ;
+	skos:notation	"BRTLZ" ;
+	skos:note	"Use BR CTL"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRTMT
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PA ;
+	rdfs:label	"Trombetas"@en , "Trombetas" ;
+	skos:notation	"BRTMT" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRTOW
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRTOL ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PR ;
+	rdfs:label	"Toledo"@en , "Toledo" ;
+	skos:notation	"BRTOW" ;
+	skos:note	"Use BR TOL"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRTRQ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRTAA ;
+	geo:lat	-8.17 ;
+	geo:long	-70.77 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-AC ;
+	rdfs:label	"Tarauaca"@en , "Tarauacá" ;
+	skos:notation	"BRTRQ" ;
+	skos:note	"Use BR TAA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRTSQ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRTOR ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Torres"@en , "Torres" ;
+	skos:notation	"BRTSQ" ;
+	skos:note	"Use BR TOR"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRTUZ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRTUA ;
+	geo:lat	-0.18 ;
+	geo:long	-50.05 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PA ;
+	rdfs:label	"Tucuma"@en , "Tucuma" ;
+	skos:notation	"BRTUZ" ;
+	skos:note	"Use BR TUA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRTVG
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRTRV ;
+	geo:lat	-25.05 ;
+	geo:long	-51.55 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PR ;
+	rdfs:label	"Turvo"@en , "Turvo" ;
+	skos:notation	"BRTVG" ;
+	skos:note	"Use BR TRV"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRTVU
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PA ;
+	rdfs:label	"Tucuruvi"@en , "Tucuruvi" ;
+	skos:notation	"BRTVU" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRUBQ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRUBA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MG ;
+	rdfs:label	"Uba"@en , "Uba" ;
+	skos:notation	"BRUBQ" ;
+	skos:note	"Use BR UBA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRURB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Urubupunga"@en , "Urubupunga" ;
+	skos:notation	"BRURB" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRUTB
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRUAA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-BA ;
+	rdfs:label	"Ubata"@en , "Ubata" ;
+	skos:notation	"BRUTB" ;
+	skos:note	"Use BR UAA"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRVIT
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRVIX ;
+	geo:lat	-20.32 ;
+	geo:long	-40.32 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-ES ;
+	rdfs:label	"Vitoria"@en , "Vitória" ;
+	skos:notation	"BRVIT" ;
+	skos:note	"Use BR VIX"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRVLP
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRVRI ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MT ;
+	rdfs:label	"Vila Rica"@en , "Vila Rica" ;
+	skos:notation	"BRVLP" ;
+	skos:note	"Use BR VRI"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRVMG
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRRVT ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MS ;
+	rdfs:label	"Rio Verde de Mato Grosso"@en , "Rio Verde de Mato Grosso" ;
+	skos:notation	"BRVMG" ;
+	skos:note	"Use BR RVT"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRVZC
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRVCU ;
+	geo:lat	-12.95 ;
+	geo:long	-38.60 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-BA ;
+	rdfs:label	"Vera Cruz"@en , "Vera Cruz" ;
+	skos:notation	"BRVZC" ;
+	skos:note	"Use BR VCU"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRZHO
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCRO ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Carazinho"@en , "Carazinho" ;
+	skos:notation	"BRZHO" ;
+	skos:note	"Use BR CRO"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRAEA
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRGPC ;
+	geo:lat	47.77 ;
+	geo:long	5.30 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-52 ;
+	rdfs:label	"Longeau"@en , "Longeau" ;
+	skos:notation	"FRAEA" ;
+	skos:note	"use FRGPC"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRFBG
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRHFL ;
+	geo:lat	47.87 ;
+	geo:long	2.23 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-45 ;
+	rdfs:label	"Chateauneuf-sur-Loire"@en , "Chateauneuf-sur-Loire" ;
+	skos:notation	"FRFBG" ;
+	skos:note	"Use FR HFL"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRIEG
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRRWY ;
+	geo:lat	47.82 ;
+	geo:long	-1.12 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-53 ;
+	rdfs:label	"Congrier"@en , "Congrier" ;
+	skos:notation	"FRIEG" ;
+	skos:note	"Use FR RWY"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRMP5
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRINE ;
+	geo:lat	45.55 ;
+	geo:long	4.60 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-42 ;
+	rdfs:label	"Saint-Martin-la-Plaine"@en , "Saint-Martin-la-Plaine" ;
+	skos:notation	"FRMP5" ;
+	skos:note	"use FRINE"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRN8E
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRNSE ;
+	geo:lat	47.43 ;
+	geo:long	-1.50 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-44 ;
+	rdfs:label	"Nort-sur-Erdre"@en , "Nort-sur-Erdre" ;
+	skos:notation	"FRN8E" ;
+	skos:note	"use FRNSE"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRRWW
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRRUE ;
+	geo:lat	48.88 ;
+	geo:long	2.20 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-92 ;
+	rdfs:label	"Rueil-Malmaison"@en , "Rueil-Malmaison" ;
+	skos:notation	"FRRWW" ;
+	skos:note	"use FRRUE"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRSFJ
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRSFJ ;
+	geo:lat	48.32 ;
+	geo:long	6.90 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-88 ;
+	rdfs:label	"Saint-Michel-sur-Meurthe"@en , "Saint-Michel-sur-Meurthe" ;
+	skos:notation	"FRSFJ" ;
+	skos:note	"use FRSFJ"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:GBKPS
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBKLR ;
+	geo:lat	55.20 ;
+	geo:long	-6.27 ;
+	lcc-cr:isPartOf	cc1:GB , cc2:GB-ANT ;
+	rdfs:label	"Killroot Power Station Jetty"@en , "Killroot Power Station Jetty" ;
+	skos:notation	"GBKPS" ;
+	skos:note	"use GBKLR"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:GBZBY
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBMFT ;
+	geo:lat	54.75 ;
+	geo:long	-6.60 ;
+	lcc-cr:isPartOf	cc1:GB ;
+	rdfs:label	"Magherfelt"@en , "Magherfelt" ;
+	skos:notation	"GBZBY" ;
+	skos:note	"Use GBMFT"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ITFAR
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITLPG ;
+	geo:lat	46.12 ;
+	geo:long	12.32 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-BL ;
+	rdfs:label	"Farra D'Alpago"@en , "Farra D'Alpago" ;
+	skos:notation	"ITFAR" ;
+	skos:note	"Use IT LPG"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ITPVP
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITLPG ;
+	geo:lat	46.17 ;
+	geo:long	12.35 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-BL ;
+	rdfs:label	"Pieve d'Alpago"@en , "Pieve d'Alpago" ;
+	skos:notation	"ITPVP" ;
+	skos:note	"Use IT LPG"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:QAMES
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:QAUMS ;
+	geo:lat	25.63 ;
+	geo:long	51.92 ;
+	lcc-cr:isPartOf	cc1:QA , cc2:QA-WA ;
+	rdfs:label	"Mesaieed"@en , "Mesaieed" ;
+	skos:notation	"QAMES" ;
+	skos:note	"Use QAUMS"@en ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:RUEKA
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:RUYEK ;
+	geo:lat	56.83 ;
+	geo:long	60.60 ;
+	lcc-cr:isPartOf	cc1:RU , cc2:RU-SVE ;
+	rdfs:label	"Ekaterinburg"@en , "Ekaterinburg" ;
+	skos:notation	"RUEKA" ;
+	skos:note	"Use RUYEK"@en ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-Multimodal , un-loc:func-PostalExchangeOffice , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:THKNO
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:TH ;
+	rdfs:label	"Koh Nok"@en , "Koh Nok" ;
+	skos:notation	"THKNO" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:THPCN
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	16.42 ;
+	geo:long	101.15 ;
+	lcc-cr:isPartOf	cc1:TH , cc2:TH-12 ;
+	rdfs:label	"Phetchabun"@en , "Phetchabun" ;
+	skos:notation	"THPCN" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:THRVT
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	10.52 ;
+	geo:long	100.28 ;
+	lcc-cr:isPartOf	cc1:TH ;
+	rdfs:label	"Rubicon Vantage FPSO"@en , "Rubicon Vantage FPSO" ;
+	skos:notation	"THRVT" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:THSTH
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	6.70 ;
+	geo:long	99.63 ;
+	lcc-cr:isPartOf	cc1:TH ;
+	rdfs:label	"Sathun"@en , "Sathun" ;
+	skos:notation	"THSTH" ;
+	tempo:validTill	"2021-12-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .

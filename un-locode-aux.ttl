@@ -13,15 +13,15 @@
 
 <http://data.ga-group.nl/un-locode/>
 	a	owl:Ontology ;
-	dct:abstract	"""This ontology tracks the UN/LOCODE Code List (currently 2021-1).""" ;
+	dct:abstract	"""This ontology tracks the UN/LOCODE Code List (currently 2022-1).""" ;
 	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
 	dct:format	"text/turtle"^^xsd:string ;
 	dct:issued	"2022-06-18T05:00:00Z"^^xsd:dateTime ;
 	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
-	dct:modified	"2022-06-18T12:43:00Z"^^xsd:dateTime ;
+	dct:modified	"2022-07-26T12:43:00Z"^^xsd:dateTime ;
 	dct:source	<https://unece.org/trade/cefact/unlocode-code-list-country-and-territory> ;
 	owl:imports	<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ;
-	owl:versionIRI	<http://data.ga-group.nl/20220601/un-locode/> ;
+	owl:versionIRI	<http://data.ga-group.nl/20220801/un-locode/> ;
 	rdfs:label	"UN Location Code" ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
 	sm:contributor	"GA Financial Solutions GmbH" ;

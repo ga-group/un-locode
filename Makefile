@@ -3,7 +3,7 @@ SHELL := /bin/zsh
 sparql := /home/freundt/usr/apache-jena/bin/sparql
 stardog := STARDOG_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
 
-all:
+all: un-locode.ttl
 
 csv = $(patsubst download/%.htm,tmp/%.csv,$(wildcard download/*.htm))
 ttl = $(patsubst download/%.htm,tmp/%.ttl,$(wildcard download/*.htm))
@@ -37,8 +37,26 @@ tmp/un-locode.ttl: sql/mklocode-csv.tarql $(dmp)
 	| tarql -H --stdin $< \
 	> $@
 
-un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl
-	cat $^ \
+tmp/un-locode-tempo.ttl:
+	ttl2ttl --sortable un-locode.ttl \
+	| grep -F tempo:validFrom \
+	> $@
+
+un-locode-hist.ttl: tmp/un-locode.ttl
+	echo '@prefix' \
+	> tmp/$@
+	ttl2ttl --sortable $< \
+	| grep -F tempo:validTill \
+	| cut -f1 \
+	>> tmp/$@
+	ttl2ttl --sortable $< \
+	| grep -Ff tmp/$@ \
+	>> $@
+	$(MAKE) $@.canon
+
+un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl un-locode-hist.ttl
+	$(MAKE) tmp/un-locode-tempo.ttl
+	cat $^ tmp/un-locode-tempo.ttl \
 	> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
 

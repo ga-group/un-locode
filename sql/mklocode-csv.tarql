@@ -37,7 +37,7 @@ CONSTRUCT {
 }
 WHERE {
 	BIND(NOW() AS ?now)
-	BIND("2021-12-13"^^xsd:date AS ?rdt)
+	BIND("2022-07-08"^^xsd:date AS ?rdt)
 	BIND(IF(?a = "+",?rdt,?nil) AS ?new)
 	BIND(IF(?a = "X",?rdt,?nil) AS ?rem)
 	BIND(CONCAT(?b,?c) AS ?LOCODE)
@@ -55,7 +55,7 @@ WHERE {
 		" $", ""), 'en') AS ?enName)
 	BIND(STRLANG(?l, 'en') AS ?enRemarks)
 	## snarf replacement from comment
-	BIND(IRI(CONCAT(STR(un-loc:), IF(REGEX(?l, "Use .. ..."), REPLACE(?l, "Use (..) (...)", "$1$2"), ?nil))) AS ?rpl)
+	BIND(IRI(CONCAT(STR(un-loc:), IF(REGEX(?l, "Use ", "i"), REPLACE(?l, "[Uu]se +([A-Z]{2}) ?([A-Z0-9]{3}).*", "$1$2"), ?nil))) AS ?rpl)
 
 	?funs apf:strSplit (?g "") .
 	VALUES (?funs ?func) {

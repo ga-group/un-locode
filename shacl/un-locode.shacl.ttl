@@ -29,6 +29,17 @@ un-loc:Location-shape a sh:NodeShape ;
 	sh:targetClass un-loc:Location ;
 	## tests
 	sh:property rdfs:label-property ;
+	sh:property owl:sameAs-property ;
+	sh:property skos:notation-property ;
+	sh:property tempo:efficaciousFrom-property ;
+	sh:property tempo:efficaciousTill-property ;
+	sh:property tempo:validFrom-property ;
+	sh:property tempo:validTill-property ;
+	.
+
+un-loc:aliased-shape a sh:NodeShape ;
+	sh:targetSubjectsOf owl:sameAs ;
+	sh:sparql un-loc:sameAs-solitude ;
 	.
 
 ## properties
@@ -37,4 +48,55 @@ rdfs:label-property a sh:PropertyShape ;
 	sh:minCount 1 ;
 	sh:type xsd:string ;
 	sh:uniqueLang true ;
+	.
+
+owl:sameAs-property a sh:PropertyShape ;
+	sh:path owl:sameAs ;
+	sh:maxCount 1 ;
+	sh:class un-loc:Location ;
+	.
+
+skos:notation-property a sh:PropertyShape ;
+	sh:path skos:notation ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:type xsd:string ;
+	sh:pattern "^[A-Z][A-Z][A-Z0-9]{3}$" ;
+	.
+
+tempo:efficaciousFrom-property a sh:PropertyShape ;
+	sh:path tempo:efficaciousFrom ;
+	sh:maxCount 1 ;
+	sh:type xsd:date ;
+	.
+
+tempo:efficaciousTill-property a sh:PropertyShape ;
+	sh:path tempo:efficaciousTill ;
+	sh:maxCount 1 ;
+	sh:type xsd:date ;
+	.
+
+tempo:validFrom-property a sh:PropertyShape ;
+	sh:path tempo:validFrom ;
+	sh:maxCount 1 ;
+	sh:type xsd:date ;
+	.
+
+tempo:validTill-property a sh:PropertyShape ;
+	sh:path tempo:validTill ;
+	sh:maxCount 1 ;
+	sh:type xsd:date ;
+	.
+
+un-loc:sameAs-solitude
+	sh:prefixes un-loc: ;
+	sh:message "owl:sameAs aliases should exist in solitude" ;
+	sh:select """
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT $this (?p AS ?value) WHERE {
+	$this ?p ?x .
+	FILTER(?p != owl:sameAs)
+}
+"""
 	.

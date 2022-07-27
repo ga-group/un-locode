@@ -3,12 +3,16 @@ SHELL := /bin/zsh
 sparql := /home/freundt/usr/apache-jena/bin/sparql
 stardog := STARDOG_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
 
+include .release
+
 all: un-locode.ttl
+check: check.un-locode check.un-locode-hist
+canon: un-locode.ttl.canon un-locode-hist.ttl.canon
 
 csv = $(patsubst download/%.htm,tmp/%.csv,$(wildcard download/*.htm))
 ttl = $(patsubst download/%.htm,tmp/%.ttl,$(wildcard download/*.htm))
 ## untar and cat CodeListPart*.csv to this file
-dmp = download/CodeListParts.csv
+dmp = download/release.csv
 
 csv: $(csv)
 ttl: $(ttl)
@@ -32,31 +36,58 @@ tmp/%.ttl: tmp/%.csv sql/mklocode.tarql
 	tarql -t sql/mklocode.tarql $< \
 	> $@.t && mv $@.t $@
 
-tmp/un-locode.ttl: sql/mklocode-csv.tarql $(dmp)
-	cat $(filter-out $<,$^) \
-	| tarql -H --stdin $< \
-	> $@
+tmp/un-locode.ttl: .release $(dmp)
+	scripts/canon.R $(filter-out $<,$^) \
+	| tarql -t --stdin --base '!$(REV),$(RDT)' sql/mklocode.tarql \
+	> $@.t && mv $@.t $@
 
-tmp/un-locode-tempo.ttl:
-	ttl2ttl --sortable un-locode.ttl \
+tmp/un-locode.seen: tmp/un-locode.ttl
+	## snarf old guys
+	-ttl2ttl --sortable un-locode.ttl \
+	| cut -f1 \
+	| sort -u \
+	> tmp/un-locode.prev
+	# snarf new guys
+	ttl2ttl --sortable $< \
+	| cut -f1 \
+	| sort -u \
+	> $@.t && mv $@.t $@
+
+tmp/un-locode-new.ttl: tmp/un-locode.seen
+	# see who's been added in this release
+	dtchanges tmp/un-locode.{prev,seen} 1 \
+	| scripts/bang-new.awk -v REV=$(REV) -v RDT=$(RDT) \
+	> $@.t && mv $@.t $@
+
+tmp/un-locode-tempo.ttl: sql/mklocode.tarql $(dmp)
+	-ttl2ttl --sortable un-locode.ttl \
 	| grep -F tempo:validFrom \
 	> $@
 
-un-locode-hist.ttl: tmp/un-locode.ttl
-	echo '@prefix' \
-	> tmp/$@
-	ttl2ttl --sortable $< \
-	| grep -F tempo:validTill \
-	| cut -f1 \
-	>> tmp/$@
-	ttl2ttl --sortable $< \
-	| grep -Ff tmp/$@ \
-	>> $@
+tmp/un-locode.kick: tmp/un-locode.seen
+	# see who's been deleted in this release
+	dtchanges tmp/un-locode.{prev,seen} 1 \
+	| scripts/grep-old.awk \
+	> $@.t && mv $@.t $@
+
+tmp/un-locode-hist.ttl: tmp/un-locode.kick tmp/un-locode.seen
+	# see who's been deleted in this release
+	dtchanges tmp/un-locode.{prev,seen} 1 \
+	| scripts/kick-old.awk -v REV=$(REV) -v RDT=$(RDT) \
+	> $@.t && mv $@.t $@
+	# copy the bobs from un-locode.ttl
+	ttl2ttl --sortable un-locode.ttl \
+	| grep -Ff $< \
+	| mawk -F '\t' '{$$1=$$1"_$(REV)"}1' \
+	> $@.t && cat $@.t >> $@
+
+un-locode-hist.ttl: tmp/un-locode-tempo.ttl tmp/un-locode-hist.ttl
+	cat tmp/un-locode-hist.ttl >> $@
+	touch $@
 	$(MAKE) $@.canon
 
-un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl un-locode-hist.ttl
-	$(MAKE) tmp/un-locode-tempo.ttl
-	cat $^ tmp/un-locode-tempo.ttl \
+un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl tmp/un-locode-new.ttl un-locode-hist.ttl tmp/un-locode-tempo.ttl
+	cat $^ \
 	> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
 

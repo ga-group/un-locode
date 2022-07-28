@@ -1,0 +1,101 @@
+@prefix cc1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix cc2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes-Adjunct/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fibo-fbc-fct-bc: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> .
+@prefix fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> .
+@prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix gn: <https://www.geonames.org/ontology#> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix un-loc: <http://data.ga-group.nl/un-locode/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+un-loc:AUCOB_1999-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:AU ;
+	rdfs:label	"Corio Bay"@en , "Corio Bay" ;
+	skos:notation	"AUCOB" ;
+	tempo:efficaciousFrom	"1995-11"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"1999-12"^^xsd:gYearMonth ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-AC , un-loc:stat-AI .
+
+un-loc:AUHAP_1999-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:AU ;
+	rdfs:label	"Happy Bay"@en , "Happy Bay" ;
+	skos:notation	"AUHAP" ;
+	skos:note	"Deleted IATA"@en ;
+	tempo:efficaciousFrom	"1982-03"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"1999-12"^^xsd:gYearMonth ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI , un-loc:stat-XX .
+
+un-loc:BRVDC_1999-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:BR ;
+	rdfs:label	"Vila de Conde"@en , "Vila de Conde" ;
+	skos:notation	"BRVDC" ;
+	tempo:efficaciousFrom	"1997-09"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"1999-12"^^xsd:gYearMonth ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-AI , un-loc:stat-RQ .
+
+un-loc:ISBUD_1998-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:IS ;
+	rdfs:label	"Budardalur"@en , "Budardalur" ;
+	skos:notation	"ISBUD" ;
+	tempo:efficaciousFrom	"1996-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"1998-12"^^xsd:gYearMonth ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-AC , un-loc:stat-AI .
+
+un-loc:KRCHU_2001-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:KR ;
+	rdfs:label	"Chungju"@en , "Chungju" ;
+	skos:notation	"KRCHU" ;
+	tempo:efficaciousFrom	"1999-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2001-03"^^xsd:gYearMonth ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-AI , un-loc:stat-RL .
+
+un-loc:MGIVA_1998-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:MG ;
+	rdfs:label	"Ambanja"@en , "Ambanja" ;
+	skos:notation	"MGIVA" ;
+	tempo:efficaciousFrom	"1996-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"1998-05"^^xsd:gYearMonth ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-Port , un-loc:func-PostalExchangeOffice ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:USSKY_1996-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:US ;
+	rdfs:label	"South Kearny"@en , "South Kearny" ;
+	skos:notation	"USSKY" ;
+	tempo:efficaciousFrom	"1993-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"1996-01"^^xsd:gYearMonth ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RQ .

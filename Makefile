@@ -44,6 +44,7 @@ tmp/un-locode.ttl: .release $(dmp)
 tmp/un-locode.seen: tmp/un-locode.ttl
 	## snarf old guys
 	-ttl2ttl --sortable un-locode.ttl \
+	| grep -vF 'owl:sameAs' \
 	| cut -f1 \
 	| sort -u \
 	> tmp/un-locode.prev

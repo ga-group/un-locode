@@ -60,9 +60,10 @@ tmp/un-locode-new.ttl: tmp/un-locode.seen
 	| scripts/bang-new.awk -v REV=$(REV) -v RDT=$(RDT) \
 	> $@.t && mv $@.t $@
 
-tmp/un-locode-tempo.ttl: sql/mklocode.tarql $(dmp)
+tmp/un-locode-tempo.ttl: .release $(dmp)
+	# rescue validFroms and efficaciousFroms
 	-ttl2ttl --sortable un-locode.ttl \
-	| grep -F tempo:validFrom \
+	| grep -F 'tempo:validFrom' \
 	> $@
 
 tmp/un-locode.kick: tmp/un-locode.seen

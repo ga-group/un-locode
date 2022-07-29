@@ -464,19 +464,6 @@ un-loc:EGEAH_2002-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ESCCU
-	owl:sameAs	un-loc:ESCCU_2002-1 .
-
-un-loc:ESCCU_2002-1
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	lcc-cr:isPartOf	cc1:ES ;
-	rdfs:label	"Castilleja De La Cuesta (Dupl.)"@en , "Castilleja De La Cuesta (Dupl.)" ;
-	skos:notation	"ESCCU" ;
-	tempo:efficaciousFrom	"1993-07"^^xsd:gYearMonth ;
-	tempo:validTill	"2002-04-04"^^xsd:date ;
-	un-loc:hasStatus	un-loc:stat-RQ .
-
 un-loc:ESPBS
 	owl:sameAs	un-loc:ESPBS_2002-2 .
 
@@ -627,6 +614,38 @@ un-loc:MGIVA_1998-1
 	tempo:efficaciousTill	"1998-05"^^xsd:gYearMonth ;
 	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-Port , un-loc:func-PostalExchangeOffice ;
 	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NLMLD
+	owl:sameAs	un-loc:NLMLD_2003-1 .
+
+un-loc:NLMLD_2003-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	51.20 ;
+	geo:long	3.43 ;
+	lcc-cr:isPartOf	cc1:NL ;
+	rdfs:label	"Maldegem"@en , "Maldegem" ;
+	skos:notation	"NLMLD" ;
+	skos:note	"See BE-MLG"@en ;
+	tempo:efficaciousFrom	"2002-07"^^xsd:gYearMonth ;
+	tempo:validTill	"2002-12-20"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:PHDAD
+	owl:sameAs	un-loc:PHDAD_2003-1 .
+
+un-loc:PHDAD_2003-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:PH ;
+	rdfs:label	"Dadiangas, Mindanao"@en , "Dadiangas, Mindanao" ;
+	skos:notation	"PHDAD" ;
+	skos:note	"See PH-GES, General Santos"@en ;
+	tempo:efficaciousFrom	"2002-07"^^xsd:gYearMonth ;
+	tempo:validTill	"2002-12-20"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:PLSIE
 	owl:sameAs	un-loc:PLSIE_2002-2 .
@@ -1592,21 +1611,6 @@ un-loc:USWKJ_2002-1
 	tempo:efficaciousFrom	"1986-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2002-04-04"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:USWTN
-	owl:sameAs	un-loc:USWTN_2002-1 .
-
-un-loc:USWTN_2002-1
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	lcc-cr:isPartOf	cc1:US ;
-	rdfs:label	"Wilmington"@en , "Wilmington" ;
-	skos:notation	"USWTN" ;
-	skos:note	"Not found"@en ;
-	tempo:efficaciousFrom	"1981-03"^^xsd:gYearMonth ;
-	tempo:validTill	"2002-04-04"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:USXMY

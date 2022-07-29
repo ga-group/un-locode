@@ -7,4 +7,7 @@
 		print "	."
 	}
 }
+/tempo:efficaciousFrom/ && / , / {
+	sub(/ ,.* ;/, " ;", $0)
+}
 1

@@ -61,9 +61,10 @@ tmp/un-locode-new.ttl: tmp/un-locode.seen
 	> $@.t && mv $@.t $@
 
 tmp/un-locode-tempo.ttl: .release $(dmp)
-	# rescue validFroms and efficaciousFroms
+	# rescue validFroms and efficaciousFroms of active nodes
 	-ttl2ttl --sortable un-locode.ttl \
-	| grep -F 'tempo:validFrom' \
+	| grep $$'^un-loc:.....\t' \
+	| grep -F $$'tempo:validFrom\ntempo:efficaciousFrom' \
 	> $@
 
 tmp/un-locode.kick: tmp/un-locode.seen
@@ -103,6 +104,10 @@ un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl tmp/un-locode-new.ttl un-loco
 	| tr '\001' '@' \
 	| ttl2ttl -B \
 	> $@ && mv $@ $<
+
+fixup.%: %.ttl
+	scripts/fixup-sameAs.awk $< \
+	> $@.t && mv $@.t $*.ttl
 
 check.%: %.ttl shacl/%.shacl.ttl
 	truncate -s 0 /tmp/$@.ttl

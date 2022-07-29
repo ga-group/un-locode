@@ -482,6 +482,24 @@ un-loc:CARBK_2004-1
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CASLJ
+	owl:sameAs	un-loc:CASLJ_2005-1 .
+
+un-loc:CASLJ_2005-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	45.25 ;
+	geo:long	-74.13 ;
+	lcc-cr:isPartOf	cc1:CA , cc2:CA-QC ;
+	rdfs:label	"Salaberry-de-Valleyfield"@en , "Salaberry-de-Valleyfield" ;
+	skos:notation	"CASLJ" ;
+	skos:note	"Duplicated entry. cf CA-VLF"@en ;
+	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2004-02-18"^^xsd:date ;
+	tempo:validTill	"2005-02-28"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CASTA
 	owl:sameAs	un-loc:CASTA_2004-1 .
 
@@ -599,6 +617,36 @@ un-loc:CHZTK_2004-1
 	tempo:validFrom	"2002-04-04"^^xsd:date ;
 	tempo:validTill	"2004-02-18"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CIBBE
+	owl:sameAs	un-loc:CIBBE_2005-1 .
+
+un-loc:CIBBE_2005-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:CI ;
+	rdfs:label	"Boubele"@en , "Boubele" ;
+	skos:notation	"CIBBE" ;
+	skos:note	"Not found"@en ;
+	tempo:efficaciousFrom	"1981-03"^^xsd:gYearMonth ;
+	tempo:validTill	"2005-02-28"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CIJAB
+	owl:sameAs	un-loc:CIJAB_2005-1 .
+
+un-loc:CIJAB_2005-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:CI ;
+	rdfs:label	"Jabou"@en , "Jabou" ;
+	skos:notation	"CIJAB" ;
+	skos:note	"Not found"@en ;
+	tempo:efficaciousFrom	"1981-03"^^xsd:gYearMonth ;
+	tempo:validTill	"2005-02-28"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNDXG
@@ -1023,6 +1071,23 @@ un-loc:DEINS_2002-2
 	skos:note	"Duplicate entry, cf ING"@en ;
 	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2002-07-29"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:DEKAI
+	owl:sameAs	un-loc:DEKAI_2005-1 .
+
+un-loc:DEKAI_2005-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	49.47 ;
+	geo:long	7.73 ;
+	lcc-cr:isPartOf	cc1:DE , cc2:DE-RP ;
+	rdfs:label	"Kaisersmuhle"@en , "Kaisersmühle" ;
+	skos:notation	"DEKAI" ;
+	skos:note	"Not in Germany"@en ;
+	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2005-02-28"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:DELHH
@@ -3704,21 +3769,6 @@ un-loc:JPIKS_2004-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:JPKOK
-	owl:sameAs	un-loc:JPKOK_2004-2 .
-
-un-loc:JPKOK_2004-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	lcc-cr:isPartOf	cc1:JP , cc2:JP-40 ;
-	rdfs:label	"Kokura/Kitakyushu"@en , "Kokura/Kitakyushu" ;
-	skos:notation	"JPKOK" ;
-	skos:note	"Not relevant"@en ;
-	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
-	tempo:validTill	"2004-07-27"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:JPKRO
 	owl:sameAs	un-loc:JPKRO_2004-2 .
 
@@ -3764,21 +3814,6 @@ un-loc:JPMNX_2004-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:JPNAN
-	owl:sameAs	un-loc:JPNAN_2004-2 .
-
-un-loc:JPNAN_2004-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	lcc-cr:isPartOf	cc1:JP , cc2:JP-35 ;
-	rdfs:label	"Nakanoseki"@en , "Nakanoseki" ;
-	skos:notation	"JPNAN" ;
-	skos:note	"Not found"@en ;
-	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
-	tempo:validTill	"2004-07-27"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:JPNMX
 	owl:sameAs	un-loc:JPNMX_2004-2 .
 
@@ -3789,21 +3824,6 @@ un-loc:JPNMX_2004-2
 	rdfs:label	"NagasakiMieShikimi"@en , "NagasakiMieShikimi" ;
 	skos:notation	"JPNMX" ;
 	skos:note	"Entry error"@en ;
-	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
-	tempo:validTill	"2004-07-27"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:JPTBT
-	owl:sameAs	un-loc:JPTBT_2004-2 .
-
-un-loc:JPTBT_2004-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	lcc-cr:isPartOf	cc1:JP , cc2:JP-40 ;
-	rdfs:label	"Tobata/Kitakyushu"@en , "Tobata/Kitakyushu" ;
-	skos:notation	"JPTBT" ;
-	skos:note	"Not relevant"@en ;
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -3864,21 +3884,6 @@ un-loc:JPTRM_2004-2
 	rdfs:label	"Tsurumi"@en , "Tsurumi" ;
 	skos:notation	"JPTRM" ;
 	skos:note	"Not found"@en ;
-	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
-	tempo:validTill	"2004-07-27"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:JPYWT
-	owl:sameAs	un-loc:JPYWT_2004-2 .
-
-un-loc:JPYWT_2004-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	lcc-cr:isPartOf	cc1:JP , cc2:JP-40 ;
-	rdfs:label	"Yawata/Kitakyushu"@en , "Yawata/Kitakyushu" ;
-	skos:notation	"JPYWT" ;
-	skos:note	"Not relevant"@en ;
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -3986,9 +3991,6 @@ un-loc:KWRAK_2004-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:KZAKX
-	owl:sameAs	un-loc:KZAKX_2004-1 .
-
 un-loc:KZAKX_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -4013,6 +4015,21 @@ un-loc:LBSDN_2004-2
 	skos:note	"cf LB SAY"@en ;
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:LKCST
+	owl:sameAs	un-loc:LKCST_2005-1 .
+
+un-loc:LKCST_2005-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:LK ;
+	rdfs:label	"SAGT Terminal/Colombo"@en , "SAGT Terminal/Colombo" ;
+	skos:notation	"LKCST" ;
+	skos:note	"Duplicated entry. cf LK SGT"@en ;
+	tempo:efficaciousFrom	"2001-06"^^xsd:gYearMonth ;
+	tempo:validTill	"2005-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -5728,9 +5745,6 @@ un-loc:USELX_2004-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:USEMW
-	owl:sameAs	un-loc:USEMW_2004-1 .
-
 un-loc:USEMW_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -5937,9 +5951,6 @@ un-loc:USFXT_2004-1
 	tempo:validTill	"2004-02-18"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:USGAE
-	owl:sameAs	un-loc:USGAE_2002-1 .
 
 un-loc:USGAE_2002-1
 	a	owl:Individual ;

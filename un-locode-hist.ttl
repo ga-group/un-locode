@@ -22,9 +22,6 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-un-loc:AUCOB
-	owl:sameAs	un-loc:AUCOB_2002-2 .
-
 un-loc:AUCOB_1999-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -35,18 +32,6 @@ un-loc:AUCOB_1999-2
 	tempo:efficaciousTill	"1999-12"^^xsd:gYearMonth ;
 	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-AC , un-loc:stat-AI .
-
-un-loc:AUCOB_2002-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	lcc-cr:isPartOf	cc1:AU , cc2:AU-VI ;
-	rdfs:label	"Coolibah"@en , "Coolibah" ;
-	skos:notation	"AUCOB" ;
-	skos:note	"COB duplicate code, cf CBA"@en ;
-	tempo:efficaciousFrom	"1999-12"^^xsd:gYearMonth ;
-	tempo:validTill	"2002-07-29"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-AI , un-loc:stat-XX .
 
 un-loc:AUHAP_1999-1
 	a	owl:Individual ;
@@ -103,9 +88,6 @@ un-loc:BEDZE_2002-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:BEEVE
-	owl:sameAs	un-loc:BEEVE_2002-1 .
-
 un-loc:BEEVE_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -132,9 +114,6 @@ un-loc:BEFLC_2002-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:BEGRI
-	owl:sameAs	un-loc:BEGRI_2002-1 .
-
 un-loc:BEGRI_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -146,9 +125,6 @@ un-loc:BEGRI_2002-1
 	tempo:validTill	"2002-04-04"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:BEHON
-	owl:sameAs	un-loc:BEHON_2002-1 .
 
 un-loc:BEHON_2002-1
 	a	owl:Individual ;
@@ -204,9 +180,6 @@ un-loc:BELYN_2002-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:BEMOO
-	owl:sameAs	un-loc:BEMOO_2002-1 .
-
 un-loc:BEMOO_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -217,9 +190,6 @@ un-loc:BEMOO_2002-1
 	tempo:efficaciousFrom	"1993-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2002-04-04"^^xsd:date ;
 	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:BEOHE
-	owl:sameAs	un-loc:BEOHE_2002-1 .
 
 un-loc:BEOHE_2002-1
 	a	owl:Individual ;
@@ -262,9 +232,6 @@ un-loc:BESAB_2002-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:BESCH
-	owl:sameAs	un-loc:BESCH_2002-1 .
-
 un-loc:BESCH_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -276,9 +243,6 @@ un-loc:BESCH_2002-1
 	tempo:validTill	"2002-04-04"^^xsd:date ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:BESTE
-	owl:sameAs	un-loc:BESTE_2002-1 .
-
 un-loc:BESTE_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -289,9 +253,6 @@ un-loc:BESTE_2002-1
 	tempo:efficaciousFrom	"1993-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2002-04-04"^^xsd:date ;
 	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:BEWEK
-	owl:sameAs	un-loc:BEWEK_2002-1 .
 
 un-loc:BEWEK_2002-1
 	a	owl:Individual ;
@@ -464,6 +425,24 @@ un-loc:EGEAH_2002-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:ESCCU
+	owl:sameAs	un-loc:ESCCU_2003-2 .
+
+un-loc:ESCCU_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	37.38 ;
+	geo:long	-6.05 ;
+	lcc-cr:isPartOf	cc1:ES ;
+	rdfs:label	"Castilleja de la Cuesta"@en , "Castilleja de la Cuesta" ;
+	skos:notation	"ESCCU" ;
+	skos:note	"@Fun@Sta@Sub@Coo"@en ;
+	tempo:efficaciousFrom	"1993-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-12-20"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
 un-loc:ESPBS
 	owl:sameAs	un-loc:ESPBS_2002-2 .
 
@@ -506,6 +485,40 @@ un-loc:FRMNL_2002-2
 	tempo:validTill	"2002-07-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:HMHEA
+	owl:sameAs	un-loc:HMHEA_2003-2 .
+
+un-loc:HMHEA_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-53.08 ;
+	geo:long	73.72 ;
+	lcc-cr:isPartOf	cc1:HM ;
+	rdfs:label	"Heard Island"@en , "Heard Island" ;
+	skos:notation	"HMHEA" ;
+	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-12-20"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:HMMCD
+	owl:sameAs	un-loc:HMMCD_2003-2 .
+
+un-loc:HMMCD_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-53.03 ;
+	geo:long	72.58 ;
+	lcc-cr:isPartOf	cc1:HM ;
+	rdfs:label	"McDonald Island"@en , "McDonald Island" ;
+	skos:notation	"HMMCD" ;
+	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-12-20"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-RL .
 
 un-loc:ISBUD_1998-2
 	a	owl:Individual ;
@@ -673,6 +686,20 @@ un-loc:SKHOS_2002-1
 	tempo:efficaciousTill	"2002-01"^^xsd:gYearMonth ;
 	un-loc:hasFunction	un-loc:func-BorderCrossing , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-AF , un-loc:stat-XX .
+
+un-loc:TPDIL
+	owl:sameAs	un-loc:TPDIL_2003-2 .
+
+un-loc:TPDIL_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:TP ;
+	rdfs:label	"Dili"@en , "Dili" ;
+	skos:notation	"TPDIL" ;
+	tempo:efficaciousFrom	"1981-03"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-QQ .
 
 un-loc:TRAOE
 	owl:sameAs	un-loc:TRAOE_2002-1 .
@@ -1627,3 +1654,543 @@ un-loc:USXMY_2002-1
 	tempo:validTill	"2002-04-04"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:YUARJ
+	owl:sameAs	un-loc:YUARJ_2003-2 .
+
+un-loc:YUARJ_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Arilje"@en , "Arilje" ;
+	skos:notation	"YUARJ" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUBAK
+	owl:sameAs	un-loc:YUBAK_2003-2 .
+
+un-loc:YUBAK_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Bakar"@en , "Bakar" ;
+	skos:notation	"YUBAK" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUBAR
+	owl:sameAs	un-loc:YUBAR_2003-2 .
+
+un-loc:YUBAR_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Bar"@en , "Bar" ;
+	skos:notation	"YUBAR" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-QQ .
+
+un-loc:YUBEG
+	owl:sameAs	un-loc:YUBEG_2003-2 .
+
+un-loc:YUBEG_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Belgrade (Beograd)"@en , "Belgrade (Beograd)" ;
+	skos:notation	"YUBEG" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-PostalExchangeOffice ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:YUBIJ
+	owl:sameAs	un-loc:YUBIJ_2003-2 .
+
+un-loc:YUBIJ_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Bijela"@en , "Bijela" ;
+	skos:notation	"YUBIJ" ;
+	tempo:efficaciousFrom	"1998-11"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:YUCBO
+	owl:sameAs	un-loc:YUCBO_2003-2 .
+
+un-loc:YUCBO_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	42.33 ;
+	geo:long	21.28 ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Camp Bondsteel"@en , "Camp Bondsteel" ;
+	skos:notation	"YUCBO" ;
+	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUCMI
+	owl:sameAs	un-loc:YUCMI_2003-2 .
+
+un-loc:YUCMI_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	42.47 ;
+	geo:long	21.47 ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Camp Montieth"@en , "Camp Montieth" ;
+	skos:notation	"YUCMI" ;
+	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUGRU
+	owl:sameAs	un-loc:YUGRU_2003-2 .
+
+un-loc:YUGRU_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	43.90 ;
+	geo:long	20.77 ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Gruža"@en , "Gruža" ;
+	skos:notation	"YUGRU" ;
+	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-12-20"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:YUHNO
+	owl:sameAs	un-loc:YUHNO_2003-2 .
+
+un-loc:YUHNO_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Hercegnovi"@en , "Hercegnovi" ;
+	skos:notation	"YUHNO" ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:YUINI
+	owl:sameAs	un-loc:YUINI_2003-2 .
+
+un-loc:YUINI_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Nis"@en , "Nis" ;
+	skos:notation	"YUINI" ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:YUIVG
+	owl:sameAs	un-loc:YUIVG_2003-2 .
+
+un-loc:YUIVG_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Ivangrad"@en , "Ivangrad" ;
+	skos:notation	"YUIVG" ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:YUKAY
+	owl:sameAs	un-loc:YUKAY_2003-2 .
+
+un-loc:YUKAY_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Kikinda"@en , "Kikinda" ;
+	skos:notation	"YUKAY" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUKGY
+	owl:sameAs	un-loc:YUKGY_2003-2 .
+
+un-loc:YUKGY_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Krang"@en , "Krang" ;
+	skos:notation	"YUKGY" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUKOT
+	owl:sameAs	un-loc:YUKOT_2003-2 .
+
+un-loc:YUKOT_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Kotor"@en , "Kotor" ;
+	skos:notation	"YUKOT" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-QQ .
+
+un-loc:YUKOV
+	owl:sameAs	un-loc:YUKOV_2003-2 .
+
+un-loc:YUKOV_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Koprivnica"@en , "Koprivnica" ;
+	skos:notation	"YUKOV" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUKRA
+	owl:sameAs	un-loc:YUKRA_2003-2 .
+
+un-loc:YUKRA_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	43.73 ;
+	geo:long	20.68 ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Kraljevo"@en , "Kraljevo" ;
+	skos:notation	"YUKRA" ;
+	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-12-20"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:YUNIK
+	owl:sameAs	un-loc:YUNIK_2003-2 .
+
+un-loc:YUNIK_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	42.77 ;
+	geo:long	18.93 ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Niksic"@en , "Niksic" ;
+	skos:notation	"YUNIK" ;
+	tempo:efficaciousFrom	"2002-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:YUNVJ
+	owl:sameAs	un-loc:YUNVJ_2003-2 .
+
+un-loc:YUNVJ_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Novo Mesto"@en , "Novo Mesto" ;
+	skos:notation	"YUNVJ" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUNVS
+	owl:sameAs	un-loc:YUNVS_2003-2 .
+
+un-loc:YUNVS_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Novi Sad"@en , "Novi Sad" ;
+	skos:notation	"YUNVS" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-QQ .
+
+un-loc:YUPCN
+	owl:sameAs	un-loc:YUPCN_2003-2 .
+
+un-loc:YUPCN_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	43.87 ;
+	geo:long	21.40 ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Parain"@en , "Parain" ;
+	skos:notation	"YUPCN" ;
+	tempo:efficaciousFrom	"2002-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:YUPPJ
+	owl:sameAs	un-loc:YUPPJ_2003-2 .
+
+un-loc:YUPPJ_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Prilepa"@en , "Prilepa" ;
+	skos:notation	"YUPPJ" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUPRN
+	owl:sameAs	un-loc:YUPRN_2003-2 .
+
+un-loc:YUPRN_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Pristina"@en , "Pristina" ;
+	skos:notation	"YUPRN" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:YUPRZ
+	owl:sameAs	un-loc:YUPRZ_2003-2 .
+
+un-loc:YUPRZ_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	42.20 ;
+	geo:long	20.75 ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Prizren"@en , "Prizren" ;
+	skos:notation	"YUPRZ" ;
+	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:YUPYJ
+	owl:sameAs	un-loc:YUPYJ_2003-2 .
+
+un-loc:YUPYJ_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Pancevo"@en , "Pancevo" ;
+	skos:notation	"YUPYJ" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUSMO
+	owl:sameAs	un-loc:YUSMO_2003-2 .
+
+un-loc:YUSMO_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	44.65 ;
+	geo:long	20.92 ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Smederevo"@en , "Smederevo" ;
+	skos:notation	"YUSMO" ;
+	tempo:efficaciousFrom	"2002-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:YUSTR
+	owl:sameAs	un-loc:YUSTR_2003-2 .
+
+un-loc:YUSTR_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Strumica"@en , "Strumica" ;
+	skos:notation	"YUSTR" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUTGD
+	owl:sameAs	un-loc:YUTGD_2003-2 .
+
+un-loc:YUTGD_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Podgorica"@en , "Podgorica" ;
+	skos:notation	"YUTGD" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:YUTIV
+	owl:sameAs	un-loc:YUTIV_2003-2 .
+
+un-loc:YUTIV_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Tivat"@en , "Tivat" ;
+	skos:notation	"YUTIV" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:YUTJH
+	owl:sameAs	un-loc:YUTJH_2003-2 .
+
+un-loc:YUTJH_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Tihaljina"@en , "Tihaljina" ;
+	skos:notation	"YUTJH" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUTZI
+	owl:sameAs	un-loc:YUTZI_2003-2 .
+
+un-loc:YUTZI_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Trzic"@en , "Trzic" ;
+	skos:notation	"YUTZI" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUUZC
+	owl:sameAs	un-loc:YUUZC_2003-2 .
+
+un-loc:YUUZC_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Uzice"@en , "Uzice" ;
+	skos:notation	"YUUZC" ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:YUVLA
+	owl:sameAs	un-loc:YUVLA_2003-2 .
+
+un-loc:YUVLA_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	42.95 ;
+	geo:long	22.12 ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Vlasotince"@en , "Vlasotince" ;
+	skos:notation	"YUVLA" ;
+	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:YUVLJ
+	owl:sameAs	un-loc:YUVLJ_2003-2 .
+
+un-loc:YUVLJ_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Valjevo"@en , "Valjevo" ;
+	skos:notation	"YUVLJ" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUVNJ
+	owl:sameAs	un-loc:YUVNJ_2003-2 .
+
+un-loc:YUVNJ_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Vinica"@en , "Vinica" ;
+	skos:notation	"YUVNJ" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:YUVRA
+	owl:sameAs	un-loc:YUVRA_2003-2 .
+
+un-loc:YUVRA_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Vranje"@en , "Vranje" ;
+	skos:notation	"YUVRA" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-QQ .
+
+un-loc:YUZBK
+	owl:sameAs	un-loc:YUZBK_2003-2 .
+
+un-loc:YUZBK_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Zabljak"@en , "Zabljak" ;
+	skos:notation	"YUZBK" ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:YUZEL
+	owl:sameAs	un-loc:YUZEL_2003-2 .
+
+un-loc:YUZEL_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Zelenika"@en , "Zelenika" ;
+	skos:notation	"YUZEL" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-QQ .
+
+un-loc:YUZZP
+	owl:sameAs	un-loc:YUZZP_2003-2 .
+
+un-loc:YUZZP_2003-2
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:YU ;
+	rdfs:label	"Pozarevac"@en , "Pozarevac" ;
+	skos:notation	"YUZZP" ;
+	tempo:validTill	"2003-08-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .

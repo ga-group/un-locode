@@ -105,6 +105,22 @@ un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl tmp/un-locode-new.ttl un-loco
 	| ttl2ttl -B \
 	> $@ && mv $@ $<
 
+decouple: .decouple
+	ttl2ttl --sortable un-locode.ttl \
+	| grep -Ff <(scripts/decouple.awk .decouple) \
+	> $@.t
+	scripts/tempoXsameAs.R --newpred tempo:efficaciousTill $@.t .decouple \
+	> $@.eftl && $(RM) $@.t
+	cat $@.eftl >> un-locode-hist.ttl
+	cat $@.eftl >> un-locode.ttl
+	$(RM) $@.eftl
+	ttl2ttl --sortable un-locode-hist.ttl \
+	| grep -vFf .decouple \
+	> $@.t && mv $@.t un-locode-hist.ttl
+	ttl2ttl --sortable un-locode.ttl \
+	| grep -vFf .decouple \
+	> $@.t && mv $@.t un-locode.ttl
+
 fixup.%: %.ttl
 	scripts/fixup-sameAs.awk $< \
 	> $@.t && mv $@.t $*.ttl

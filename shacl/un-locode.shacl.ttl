@@ -5,6 +5,7 @@
 @prefix fibo-fnd-dt-bd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/> .
 @prefix fibo-fnd-plc-loc: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/> .
 @prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix gleif: <https://rdf.gleif.org/L1/> .
 @prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
 @prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
@@ -30,6 +31,8 @@ un-loc:Location-shape a sh:NodeShape ;
 	## tests
 	sh:property rdfs:label-property ;
 	sh:property owl:sameAs-property ;
+	sh:property geo:lat-property ;
+	sh:property geo:long-property ;
 	sh:property skos:notation-property ;
 	sh:property tempo:efficaciousFrom-property ;
 	sh:property tempo:efficaciousTill-property ;
@@ -54,6 +57,18 @@ owl:sameAs-property a sh:PropertyShape ;
 	sh:path owl:sameAs ;
 	sh:maxCount 1 ;
 	sh:class un-loc:Location ;
+	.
+
+geo:lat-property a sh:PropertyShape ;
+	sh:path geo:lat ;
+	sh:maxCount 1 ;
+	sh:type xsd:decimal ;
+	.
+
+geo:long-property a sh:PropertyShape ;
+	sh:path geo:long ;
+	sh:maxCount 1 ;
+	sh:type xsd:decimal ;
 	.
 
 skos:notation-property a sh:PropertyShape ;

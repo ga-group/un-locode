@@ -2,6 +2,7 @@ SHELL := /bin/zsh
 
 sparql := /home/freundt/usr/apache-jena/bin/sparql
 stardog := STARDOG_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
+sdexec := $(stardog) query execute -g "http://data.ga-group.nl/un-locode/" -r -l -1 iso
 
 include .release
 
@@ -105,6 +106,10 @@ un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl tmp/un-locode-new.ttl un-loco
 	| ttl2ttl -B \
 	> $@ && mv $@ $<
 
+tmp/%.out: sql/%.sql
+	$(sdexec) --format CSV $< \
+	> $@.t && mv $@.t $@
+
 decouple: .decouple
 	ttl2ttl --sortable un-locode.ttl \
 	| grep -Ff <(scripts/decouple.awk .decouple) \
@@ -120,6 +125,13 @@ decouple: .decouple
 	ttl2ttl --sortable un-locode.ttl \
 	| grep -vFf .decouple \
 	> $@.t && mv $@.t un-locode.ttl
+
+replaced: tmp/remarks.out
+	scripts/snarf-replaced.R $< \
+	| tarql -t --stdin sql/replaced.tarql \
+	| tee -a un-locode.ttl \
+	>> un-locode-hist.ttl \
+	&& touch un-locode.ttl
 
 fixup.%: %.ttl
 	scripts/fixup-sameAs.awk $< \

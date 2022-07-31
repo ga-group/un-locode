@@ -28,6 +28,7 @@ un-loc:ANAUA
 un-loc:ANAUA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AWAUA ;
 	geo:lat	12.50 ;
 	geo:long	-70.00 ;
 	lcc-cr:isPartOf	cc1:AN ;
@@ -46,6 +47,7 @@ un-loc:ANBAR
 un-loc:ANBAR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AWBAR ;
 	lcc-cr:isPartOf	cc1:AN ;
 	rdfs:label	"Barcadera"@en , "Barcadera" ;
 	skos:notation	"ANBAR" ;
@@ -61,6 +63,7 @@ un-loc:ANBUS
 un-loc:ANBUS_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AWBUS ;
 	lcc-cr:isPartOf	cc1:AN ;
 	rdfs:label	"Bushiribana"@en , "Bushiribana" ;
 	skos:notation	"ANBUS" ;
@@ -76,6 +79,7 @@ un-loc:ANGUS
 un-loc:ANGUS_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GPGUS ;
 	lcc-cr:isPartOf	cc1:AN ;
 	rdfs:label	"Gustavia, St Bartelemy"@en , "Gustavia, St Bartelemy" ;
 	skos:notation	"ANGUS" ;
@@ -91,6 +95,7 @@ un-loc:ANMAR
 un-loc:ANMAR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GPMSB ;
 	lcc-cr:isPartOf	cc1:AN ;
 	rdfs:label	"Marigot"@en , "Marigot" ;
 	skos:notation	"ANMAR" ;
@@ -106,6 +111,7 @@ un-loc:AQTNB
 un-loc:AQTNB_2006-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AQMZU ;
 	lcc-cr:isPartOf	cc1:AQ ;
 	rdfs:label	"Terra Nova"@en , "Terra Nova" ;
 	skos:notation	"AQTNB" ;
@@ -154,6 +160,7 @@ un-loc:ATSTT
 un-loc:ATSTT_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ATSET ;
 	geo:lat	48.03 ;
 	geo:long	14.65 ;
 	lcc-cr:isPartOf	cc1:AT ;
@@ -224,6 +231,7 @@ un-loc:AULRN
 un-loc:AULRN_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AULUN ;
 	geo:lat	-33.92 ;
 	geo:long	150.90 ;
 	lcc-cr:isPartOf	cc1:AU , cc2:AU-NS ;
@@ -241,6 +249,7 @@ un-loc:AZMHL
 un-loc:AZMHL_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:RUMVX ;
 	lcc-cr:isPartOf	cc1:AZ ;
 	rdfs:label	"Makhachkala"@en , "Makhachkala" ;
 	skos:notation	"AZMHL" ;
@@ -270,6 +279,7 @@ un-loc:BEBIS
 un-loc:BEBIS_2002-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:LUBSN ;
 	lcc-cr:isPartOf	cc1:BE , cc2:BE-WLX ;
 	rdfs:label	"Bissen"@en , "Bissen" ;
 	skos:notation	"BEBIS" ;
@@ -334,6 +344,7 @@ un-loc:BEGRI_2002-1
 un-loc:BEHON_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRHOS ;
 	lcc-cr:isPartOf	cc1:BE ;
 	rdfs:label	"Hondschoote"@en , "Hondschoote" ;
 	skos:notation	"BEHON" ;
@@ -466,6 +477,7 @@ un-loc:BESCH_2002-1
 un-loc:BESTE_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRSTV ;
 	lcc-cr:isPartOf	cc1:BE ;
 	rdfs:label	"Steenvoorde"@en , "Steenvoorde" ;
 	skos:notation	"BESTE" ;
@@ -507,6 +519,7 @@ un-loc:BGSTR
 un-loc:BGSTR_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CSSTZ ;
 	geo:lat	42.80 ;
 	geo:long	22.43 ;
 	lcc-cr:isPartOf	cc1:BG ;
@@ -574,6 +587,7 @@ un-loc:BYPOK_2007
 un-loc:CABAA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CABRS ;
 	lcc-cr:isPartOf	cc1:CA , cc2:CA-NS ;
 	rdfs:label	"Baar's Corner"@en , "Baar's Corner" ;
 	skos:notation	"CABAA" ;
@@ -622,6 +636,7 @@ un-loc:CADSN
 un-loc:CADSN_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CADLS ;
 	geo:lat	45.37 ;
 	geo:long	-73.53 ;
 	lcc-cr:isPartOf	cc1:CA , cc2:CA-QC ;
@@ -640,6 +655,7 @@ un-loc:CAFBB
 un-loc:CAFBB_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CAIQL ;
 	geo:lat	63.73 ;
 	geo:long	-68.50 ;
 	lcc-cr:isPartOf	cc1:CA , cc2:CA-NT ;
@@ -767,6 +783,7 @@ un-loc:CASLJ
 un-loc:CASLJ_2005-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CAVLF ;
 	geo:lat	45.25 ;
 	geo:long	-74.13 ;
 	lcc-cr:isPartOf	cc1:CA , cc2:CA-QC ;
@@ -782,6 +799,7 @@ un-loc:CASLJ_2005-1
 un-loc:CASTA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CASPB ;
 	lcc-cr:isPartOf	cc1:CA , cc2:CA-QC ;
 	rdfs:label	"St Abbotsford"@en , "St Abbotsford" ;
 	skos:notation	"CASTA" ;
@@ -812,6 +830,7 @@ un-loc:CAYBU
 un-loc:CAYBU_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CABUS ;
 	geo:lat	48.70 ;
 	geo:long	-53.80 ;
 	lcc-cr:isPartOf	cc1:CA , cc2:CA-NF ;
@@ -830,6 +849,7 @@ un-loc:CAYPG
 un-loc:CAYPG_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CAPLP ;
 	geo:lat	49.97 ;
 	geo:long	-98.30 ;
 	lcc-cr:isPartOf	cc1:CA , cc2:CA-MB ;
@@ -896,6 +916,7 @@ un-loc:CHZKV
 un-loc:CHZKV_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CHWZK ;
 	geo:lat	47.32 ;
 	geo:long	8.78 ;
 	lcc-cr:isPartOf	cc1:CH , cc2:CH-ZH ;
@@ -914,6 +935,7 @@ un-loc:CHZTK
 un-loc:CHZTK_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CHTHU ;
 	geo:lat	46.75 ;
 	geo:long	7.62 ;
 	lcc-cr:isPartOf	cc1:CH , cc2:CH-BE ;
@@ -976,6 +998,7 @@ un-loc:CLLVS
 un-loc:CLLVS_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CLVNT ;
 	lcc-cr:isPartOf	cc1:CL , cc2:CL-VS ;
 	rdfs:label	"Las Ventanos"@en , "Las Ventanos" ;
 	skos:notation	"CLLVS" ;
@@ -991,6 +1014,7 @@ un-loc:CNDXG
 un-loc:CNDXG_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNDLC ;
 	lcc-cr:isPartOf	cc1:CN , cc2:CN-21 ;
 	rdfs:label	"Dalianxingang"@en , "Dalianxingang" ;
 	skos:notation	"CNDXG" ;
@@ -1070,6 +1094,7 @@ un-loc:CSBAK
 un-loc:CSBAK_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:HRBAK ;
 	lcc-cr:isPartOf	cc1:CS ;
 	rdfs:label	"Bakar"@en , "Bakar" ;
 	skos:notation	"CSBAK" ;
@@ -1559,6 +1584,7 @@ un-loc:CSKGY
 un-loc:CSKGY_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SIKRJ ;
 	lcc-cr:isPartOf	cc1:CS ;
 	rdfs:label	"Krang"@en , "Krang" ;
 	skos:notation	"CSKGY" ;
@@ -1641,6 +1667,7 @@ un-loc:CSKOV
 un-loc:CSKOV_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:HRKOV ;
 	lcc-cr:isPartOf	cc1:CS ;
 	rdfs:label	"Koprivnica"@en , "Koprivnica" ;
 	skos:notation	"CSKOV" ;
@@ -1955,6 +1982,7 @@ un-loc:CSNVJ
 un-loc:CSNVJ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SINMO ;
 	lcc-cr:isPartOf	cc1:CS ;
 	rdfs:label	"Novo Mesto"@en , "Novo Mesto" ;
 	skos:notation	"CSNVJ" ;
@@ -2101,6 +2129,7 @@ un-loc:CSPPJ
 un-loc:CSPPJ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:MKPLP ;
 	lcc-cr:isPartOf	cc1:CS ;
 	rdfs:label	"Prilepa"@en , "Prilepa" ;
 	skos:notation	"CSPPJ" ;
@@ -2410,6 +2439,7 @@ un-loc:CSSTR
 un-loc:CSSTR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:MKSTM ;
 	lcc-cr:isPartOf	cc1:CS ;
 	rdfs:label	"Strumica"@en , "Strumica" ;
 	skos:notation	"CSSTR" ;
@@ -2490,6 +2520,7 @@ un-loc:CSTJH
 un-loc:CSTJH_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BATIH ;
 	lcc-cr:isPartOf	cc1:CS ;
 	rdfs:label	"Tihaljina"@en , "Tihaljina" ;
 	skos:notation	"CSTJH" ;
@@ -2522,6 +2553,7 @@ un-loc:CSTZI
 un-loc:CSTZI_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SITZI ;
 	lcc-cr:isPartOf	cc1:CS ;
 	rdfs:label	"Trzic"@en , "Trzic" ;
 	skos:notation	"CSTZI" ;
@@ -2858,6 +2890,7 @@ un-loc:CVPGR
 un-loc:CVPGR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CVMIN ;
 	lcc-cr:isPartOf	cc1:CV ;
 	rdfs:label	"Porto Grande"@en , "Porto Grande" ;
 	skos:notation	"CVPGR" ;
@@ -2924,6 +2957,7 @@ un-loc:CYMOI_2007
 un-loc:DEAMR_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DESDD ;
 	geo:lat	54.65 ;
 	geo:long	8.35 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-SH ;
@@ -2942,6 +2976,7 @@ un-loc:DEBBM
 un-loc:DEBBM_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEBIE ;
 	geo:lat	49.77 ;
 	geo:long	8.47 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-HE ;
@@ -2957,6 +2992,7 @@ un-loc:DEBBM_2004-2
 un-loc:DEBEU_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEBUQ ;
 	geo:lat	51.55 ;
 	geo:long	8.57 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-NW ;
@@ -2987,6 +3023,7 @@ un-loc:DEBSL
 un-loc:DEBSL_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEBAE ;
 	geo:lat	52.17 ;
 	geo:long	10.73 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-ST ;
@@ -3004,6 +3041,7 @@ un-loc:DEBST
 un-loc:DEBST_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEBRL ;
 	geo:lat	52.67 ;
 	geo:long	8.98 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-NI ;
@@ -3021,6 +3059,7 @@ un-loc:DEBXM
 un-loc:DEBXM_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DERBA ;
 	geo:lat	50.43 ;
 	geo:long	7.70 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-RP ;
@@ -3054,6 +3093,7 @@ un-loc:DEDHH
 un-loc:DEDHH_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEDRE ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-HE ;
 	rdfs:label	"Dreieichenhain"@en , "Dreieichenhain" ;
 	skos:notation	"DEDHH" ;
@@ -3069,6 +3109,7 @@ un-loc:DEDHO
 un-loc:DEDHO_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEDTH ;
 	geo:lat	49.40 ;
 	geo:long	10.68 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-BY ;
@@ -3117,6 +3158,7 @@ un-loc:DEEWS
 un-loc:DEEWS_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEEWH ;
 	geo:lat	53.52 ;
 	geo:long	8.25 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-NI ;
@@ -3134,6 +3176,7 @@ un-loc:DEFEH
 un-loc:DEFEH_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEBSK ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-SH ;
 	rdfs:label	"Fehmarn"@en , "Fehmarn" ;
 	skos:notation	"DEFEH" ;
@@ -3163,6 +3206,7 @@ un-loc:DEFKN_2004-2
 un-loc:DEGLB_2002-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CHGTG ;
 	lcc-cr:isPartOf	cc1:DE ;
 	rdfs:label	"Glattbrugg"@en , "Glattbrugg" ;
 	skos:notation	"DEGLB" ;
@@ -3253,6 +3297,7 @@ un-loc:DELUU
 un-loc:DELUU_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DELNU ;
 	geo:lat	53.37 ;
 	geo:long	10.57 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-SH ;
@@ -3287,6 +3332,7 @@ un-loc:DEMEU
 un-loc:DEMEU_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEBMH ;
 	geo:lat	49.40 ;
 	geo:long	7.42 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-RP ;
@@ -3321,6 +3367,7 @@ un-loc:DEMRT
 un-loc:DEMRT_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEOMH ;
 	geo:lat	53.42 ;
 	geo:long	10.38 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-NI ;
@@ -3369,6 +3416,7 @@ un-loc:DEPIE
 un-loc:DEPIE_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEPBG ;
 	geo:lat	47.80 ;
 	geo:long	11.07 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-BY ;
@@ -3387,6 +3435,7 @@ un-loc:DEREZ
 un-loc:DEREZ_2002-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DERRZ ;
 	geo:lat	50.15 ;
 	geo:long	11.02 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-BY ;
@@ -3420,6 +3469,7 @@ un-loc:DERNL
 un-loc:DERNL_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DERAL ;
 	geo:lat	48.68 ;
 	geo:long	10.92 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-BY ;
@@ -3479,6 +3529,7 @@ un-loc:DESTZ_2007
 un-loc:DESWN_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEVIS ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-BW ;
 	rdfs:label	"Schwenningen"@en , "Schwenningen" ;
 	skos:notation	"DESWN" ;
@@ -3495,6 +3546,7 @@ un-loc:DEULR
 un-loc:DEULR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEUSA ;
 	geo:lat	51.67 ;
 	geo:long	9.65 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-NI ;
@@ -3542,6 +3594,7 @@ un-loc:DEWCH_2002-1
 un-loc:DEWNG_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEWGN ;
 	geo:lat	47.68 ;
 	geo:long	9.83 ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-BW ;
@@ -3561,6 +3614,7 @@ un-loc:DEWUF
 un-loc:DEWUF_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DENWF ;
 	lcc-cr:isPartOf	cc1:DE , cc2:DE-HE ;
 	rdfs:label	"Walluf"@en , "Walluf" ;
 	skos:notation	"DEWUF" ;
@@ -3588,6 +3642,7 @@ un-loc:DKNYK
 un-loc:DKNYK_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DKNYF ;
 	geo:lat	54.77 ;
 	geo:long	11.88 ;
 	lcc-cr:isPartOf	cc1:DK ;
@@ -3652,6 +3707,7 @@ un-loc:DOCIU
 un-loc:DOCIU_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOSDQ ;
 	lcc-cr:isPartOf	cc1:DO ;
 	rdfs:label	"Ciudad Trujillo"@en , "Ciudad Trujillo" ;
 	skos:notation	"DOCIU" ;
@@ -3736,6 +3792,7 @@ un-loc:EEKUN
 un-loc:EEKUN_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:EEKND ;
 	geo:lat	59.50 ;
 	geo:long	26.53 ;
 	lcc-cr:isPartOf	cc1:EE , cc2:EE-59 ;
@@ -3771,6 +3828,7 @@ un-loc:EELOK
 un-loc:EELOK_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:EELSA ;
 	geo:lat	59.58 ;
 	geo:long	25.72 ;
 	lcc-cr:isPartOf	cc1:EE , cc2:EE-37 ;
@@ -3788,6 +3846,7 @@ un-loc:EEMID
 un-loc:EEMID_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:EEMDR ;
 	geo:lat	59.50 ;
 	geo:long	24.82 ;
 	lcc-cr:isPartOf	cc1:EE , cc2:EE-37 ;
@@ -3806,6 +3865,7 @@ un-loc:EEMUU
 un-loc:EEMUU_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:EEMUG ;
 	geo:lat	59.48 ;
 	geo:long	24.93 ;
 	lcc-cr:isPartOf	cc1:EE , cc2:EE-37 ;
@@ -3823,6 +3883,7 @@ un-loc:EEROH
 un-loc:EEROH_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:EERHK ;
 	geo:lat	58.82 ;
 	geo:long	23.43 ;
 	lcc-cr:isPartOf	cc1:EE , cc2:EE-57 ;
@@ -3840,6 +3901,7 @@ un-loc:EEROO
 un-loc:EEROO_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:EERMS ;
 	geo:lat	58.22 ;
 	geo:long	22.50 ;
 	lcc-cr:isPartOf	cc1:EE , cc2:EE-74 ;
@@ -3899,6 +3961,7 @@ un-loc:EGKOS
 un-loc:EGKOS_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:EGAQU ;
 	lcc-cr:isPartOf	cc1:EG ;
 	rdfs:label	"Kosseir"@en , "Kosseir" ;
 	skos:notation	"EGKOS" ;
@@ -3914,6 +3977,7 @@ un-loc:ERMIT
 un-loc:ERMIT_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ERMSW ;
 	geo:lat	15.60 ;
 	geo:long	39.45 ;
 	lcc-cr:isPartOf	cc1:ER ;
@@ -3960,6 +4024,7 @@ un-loc:ESFER
 un-loc:ESFER_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESFRO ;
 	lcc-cr:isPartOf	cc1:ES ;
 	rdfs:label	"El Ferrol"@en , "El Ferrol" ;
 	skos:notation	"ESFER" ;
@@ -3975,6 +4040,7 @@ un-loc:ESGJN
 un-loc:ESGJN_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESGRO ;
 	lcc-cr:isPartOf	cc1:ES ;
 	rdfs:label	"Girona"@en , "Girona" ;
 	skos:notation	"ESGJN" ;
@@ -4016,6 +4082,7 @@ un-loc:ESOTT
 un-loc:ESOTT_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESONT ;
 	geo:lat	38.82 ;
 	geo:long	-0.60 ;
 	lcc-cr:isPartOf	cc1:ES ;
@@ -4048,6 +4115,7 @@ un-loc:ESSAF
 un-loc:ESSAF_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESSFR ;
 	geo:lat	41.75 ;
 	geo:long	1.85 ;
 	lcc-cr:isPartOf	cc1:ES ;
@@ -4104,6 +4172,7 @@ un-loc:ESVIT_2007
 un-loc:ESVVP_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESVDE ;
 	lcc-cr:isPartOf	cc1:ES ;
 	rdfs:label	"Vilovi Del Penedes"@en , "Vilovi Del Penedes" ;
 	skos:notation	"ESVVP" ;
@@ -4119,6 +4188,7 @@ un-loc:ETASM
 un-loc:ETASM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ERASM ;
 	geo:lat	15.33 ;
 	geo:long	38.92 ;
 	lcc-cr:isPartOf	cc1:ET ;
@@ -4137,6 +4207,7 @@ un-loc:ETMSW
 un-loc:ETMSW_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ERMSW ;
 	geo:lat	15.60 ;
 	geo:long	39.43 ;
 	lcc-cr:isPartOf	cc1:ET ;
@@ -4180,6 +4251,7 @@ un-loc:FOFUG_2007
 un-loc:FRBRL_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRBRI ;
 	lcc-cr:isPartOf	cc1:FR ;
 	rdfs:label	"Brignals"@en , "Brignals" ;
 	skos:notation	"FRBRL" ;
@@ -4208,6 +4280,7 @@ un-loc:FRCTG_2007
 un-loc:FREIN_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRENI ;
 	geo:lat	47.87 ;
 	geo:long	7.35 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-68 ;
@@ -4255,6 +4328,7 @@ un-loc:FRGBR_2004-2
 un-loc:FRGRN_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRNDG ;
 	lcc-cr:isPartOf	cc1:FR ;
 	rdfs:label	"Gravenchon"@en , "Gravenchon" ;
 	skos:notation	"FRGRN" ;
@@ -4271,6 +4345,7 @@ un-loc:FRISB
 un-loc:FRISB_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRISE ;
 	geo:lat	50.62 ;
 	geo:long	2.45 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-64 ;
@@ -4345,6 +4420,7 @@ un-loc:FROFG
 un-loc:FROFG_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITOEO ;
 	lcc-cr:isPartOf	cc1:FR ;
 	rdfs:label	"Offanengo"@en , "Offanengo" ;
 	skos:notation	"FROFG" ;
@@ -4357,6 +4433,7 @@ un-loc:FROFG_2004-2
 un-loc:FRPQV_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRPTQ ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-76 ;
 	rdfs:label	"Le Petit Queville"@en , "Le Petit Queville" ;
 	skos:notation	"FRPQV" ;
@@ -4373,6 +4450,7 @@ un-loc:FRPRO
 un-loc:FRPRO_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRDDF ;
 	geo:lat	47.38 ;
 	geo:long	6.77 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-25 ;
@@ -4387,6 +4465,7 @@ un-loc:FRPRO_2004-2
 un-loc:FRRME_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRRTM ;
 	geo:lat	47.90 ;
 	geo:long	6.67 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-88 ;
@@ -4416,6 +4495,7 @@ un-loc:FRSGS_2004-2
 un-loc:FRSPU_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRURC ;
 	geo:lat	46.30 ;
 	geo:long	3.28 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-03 ;
@@ -4465,6 +4545,7 @@ un-loc:FRWEN
 un-loc:FRWEN_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRVLV ;
 	geo:lat	50.47 ;
 	geo:long	2.87 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-62 ;
@@ -4481,6 +4562,7 @@ un-loc:FRXUO
 un-loc:FRXUO_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FROUS ;
 	geo:lat	48.90 ;
 	geo:long	2.33 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-75 ;
@@ -4513,6 +4595,7 @@ un-loc:GBAYH
 un-loc:GBAYH_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBAYE ;
 	geo:lat	52.78 ;
 	geo:long	1.25 ;
 	lcc-cr:isPartOf	cc1:GB , cc2:GB-KEN ;
@@ -4586,6 +4669,7 @@ un-loc:GBBQM
 un-loc:GBBQM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBBMS ;
 	geo:lat	55.20 ;
 	geo:long	-6.52 ;
 	lcc-cr:isPartOf	cc1:GB , cc2:GB-ANT ;
@@ -4646,6 +4730,7 @@ un-loc:GBCLV
 un-loc:GBCLV_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBCOA ;
 	lcc-cr:isPartOf	cc1:GB ;
 	rdfs:label	"Coleville"@en , "Coleville" ;
 	skos:notation	"GBCLV" ;
@@ -4688,6 +4773,7 @@ un-loc:GBDKF
 un-loc:GBDKF_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBDXF ;
 	lcc-cr:isPartOf	cc1:GB ;
 	rdfs:label	"Ducksford"@en , "Ducksford" ;
 	skos:notation	"GBDKF" ;
@@ -4702,6 +4788,7 @@ un-loc:GBDXM
 un-loc:GBDXM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBDUY ;
 	geo:lat	54.55 ;
 	geo:long	-6.02 ;
 	lcc-cr:isPartOf	cc1:GB , cc2:GB-ARM ;
@@ -4717,6 +4804,7 @@ un-loc:GBDXM_2004-1
 un-loc:GBGAS_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBGMT ;
 	geo:lat	53.27 ;
 	geo:long	-0.93 ;
 	lcc-cr:isPartOf	cc1:GB , cc2:GB-NTT ;
@@ -4793,6 +4881,7 @@ un-loc:GBHXE
 un-loc:GBHXE_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBHYW ;
 	geo:lat	53.58 ;
 	geo:long	-2.22 ;
 	lcc-cr:isPartOf	cc1:GB , cc2:GB-SYK ;
@@ -4825,6 +4914,7 @@ un-loc:GBHYI
 un-loc:GBHYI_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBNHA ;
 	lcc-cr:isPartOf	cc1:GB , cc2:GB-HAM ;
 	rdfs:label	"Hayling Island"@en , "Hayling Island" ;
 	skos:notation	"GBHYI" ;
@@ -4943,6 +5033,7 @@ un-loc:GBLHO_2007
 un-loc:GBLIH_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBLGH ;
 	lcc-cr:isPartOf	cc1:GB , cc2:GB-MSY ;
 	rdfs:label	"Leigh"@en , "Leigh" ;
 	skos:notation	"GBLIH" ;
@@ -4956,6 +5047,7 @@ un-loc:GBLIH_2004-2
 un-loc:GBLOA_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBLNH ;
 	lcc-cr:isPartOf	cc1:GB ;
 	rdfs:label	"Loadhead"@en , "Loadhead" ;
 	skos:notation	"GBLOA" ;
@@ -5014,6 +5106,7 @@ un-loc:GBNWM
 un-loc:GBNWM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBNMA ;
 	lcc-cr:isPartOf	cc1:GB , cc2:GB-GTL ;
 	rdfs:label	"New Malden"@en , "New Malden" ;
 	skos:notation	"GBNWM" ;
@@ -5057,6 +5150,7 @@ un-loc:GBPWK
 un-loc:GBPWK_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBPIK ;
 	geo:lat	55.48 ;
 	geo:long	-4.62 ;
 	lcc-cr:isPartOf	cc1:GB ;
@@ -5122,6 +5216,7 @@ un-loc:GBSDF
 un-loc:GBSDF_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBSNF ;
 	lcc-cr:isPartOf	cc1:GB ;
 	rdfs:label	"Sundycroft"@en , "Sundycroft" ;
 	skos:notation	"GBSDF" ;
@@ -5235,6 +5330,7 @@ un-loc:GBTYN_2004-2
 un-loc:GBWHL_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBHTTP ;
 	lcc-cr:isPartOf	cc1:GB , cc2:GB-CLV ;
 	rdfs:label	"West Hartlepool"@en , "West Hartlepool" ;
 	skos:notation	"GBWHL" ;
@@ -5251,6 +5347,7 @@ un-loc:GBWLG
 un-loc:GBWLG_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBWAO ;
 	lcc-cr:isPartOf	cc1:GB , cc2:GB-GTL ;
 	rdfs:label	"Wellington"@en , "Wellington" ;
 	skos:notation	"GBWLG" ;
@@ -5284,6 +5381,7 @@ un-loc:GRAEN
 un-loc:GRAEN_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GRAIY ;
 	lcc-cr:isPartOf	cc1:GR ;
 	rdfs:label	"Aegion"@en , "Aegion" ;
 	skos:notation	"GRAEN" ;
@@ -5330,6 +5428,7 @@ un-loc:GREEU
 un-loc:GREEU_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GRELE ;
 	lcc-cr:isPartOf	cc1:GR ;
 	rdfs:label	"Eleusis"@en , "Eleusis" ;
 	skos:notation	"GREEU" ;
@@ -5345,6 +5444,7 @@ un-loc:GRKAB
 un-loc:GRKAB_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GRKVA ;
 	lcc-cr:isPartOf	cc1:GR ;
 	rdfs:label	"Kabalia"@en , "Kabalia" ;
 	skos:notation	"GRKAB" ;
@@ -5360,6 +5460,7 @@ un-loc:GRNPL
 un-loc:GRNPL_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GRNAF ;
 	lcc-cr:isPartOf	cc1:GR ;
 	rdfs:label	"Nauplia"@en , "Nauplia" ;
 	skos:notation	"GRNPL" ;
@@ -5375,6 +5476,7 @@ un-loc:GRPIL
 un-loc:GRPIL_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GRPYL ;
 	lcc-cr:isPartOf	cc1:GR ;
 	rdfs:label	"Pilos"@en , "Pilos" ;
 	skos:notation	"GRPIL" ;
@@ -5390,6 +5492,7 @@ un-loc:GRTHE
 un-loc:GRTHE_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GRTVA ;
 	lcc-cr:isPartOf	cc1:GR ;
 	rdfs:label	"Theben"@en , "Theben" ;
 	skos:notation	"GRTHE" ;
@@ -5404,6 +5507,7 @@ un-loc:GRZNT
 un-loc:GRZNT_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GRZTH ;
 	lcc-cr:isPartOf	cc1:GR ;
 	rdfs:label	"Zante"@en , "Zante" ;
 	skos:notation	"GRZNT" ;
@@ -5419,6 +5523,7 @@ un-loc:HRRIJ
 un-loc:HRRIJ_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:HRRJK ;
 	geo:lat	45.33 ;
 	geo:long	14.55 ;
 	lcc-cr:isPartOf	cc1:HR ;
@@ -5469,6 +5574,7 @@ un-loc:IDBYQ
 un-loc:IDBYQ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IDPLM ;
 	lcc-cr:isPartOf	cc1:ID ;
 	rdfs:label	"Bunyu, Pulau"@en , "Bunyu, Pulau" ;
 	skos:notation	"IDBYQ" ;
@@ -5484,6 +5590,7 @@ un-loc:IDDIL
 un-loc:IDDIL_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:TLDIL ;
 	lcc-cr:isPartOf	cc1:ID ;
 	rdfs:label	"Dili"@en , "Dili" ;
 	skos:notation	"IDDIL" ;
@@ -5499,6 +5606,7 @@ un-loc:IDHLA
 un-loc:IDHLA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IDDJJ ;
 	lcc-cr:isPartOf	cc1:ID ;
 	rdfs:label	"Sukarnapura (Western Irian)"@en , "Sukarnapura (Western Irian)" ;
 	skos:notation	"IDHLA" ;
@@ -5514,6 +5622,7 @@ un-loc:IDLKS
 un-loc:IDLKS_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IDLSW ;
 	lcc-cr:isPartOf	cc1:ID ;
 	rdfs:label	"Lhokseumawe, St"@en , "Lhokseumawe, St" ;
 	skos:notation	"IDLKS" ;
@@ -5529,6 +5638,7 @@ un-loc:IDPAK
 un-loc:IDPAK_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IDPKU ;
 	lcc-cr:isPartOf	cc1:ID ;
 	rdfs:label	"Pakan Baru"@en , "Pakan Baru" ;
 	skos:notation	"IDPAK" ;
@@ -5543,6 +5653,7 @@ un-loc:IDPLS
 un-loc:IDPLS_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IDPLM ;
 	lcc-cr:isPartOf	cc1:ID ;
 	rdfs:label	"Palembang (Sungei)"@en , "Palembang (Sungei)" ;
 	skos:notation	"IDPLS" ;
@@ -5557,6 +5668,7 @@ un-loc:IDTHB
 un-loc:IDTHB_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IDCBN ;
 	lcc-cr:isPartOf	cc1:ID ;
 	rdfs:label	"Tjeribon, Java"@en , "Tjeribon, Java" ;
 	skos:notation	"IDTHB" ;
@@ -5572,6 +5684,7 @@ un-loc:IDTJI
 un-loc:IDTJI_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IDCXP ;
 	lcc-cr:isPartOf	cc1:ID ;
 	rdfs:label	"Tjilatjap, Java"@en , "Tjilatjap, Java" ;
 	skos:notation	"IDTJI" ;
@@ -5587,6 +5700,7 @@ un-loc:IDTUB
 un-loc:IDTUB_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IDTAN ;
 	lcc-cr:isPartOf	cc1:ID ;
 	rdfs:label	"Tandjung Uban"@en , "Tandjung Uban" ;
 	skos:notation	"IDTUB" ;
@@ -5601,6 +5715,7 @@ un-loc:IENWT
 un-loc:IENWT_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBNTA ;
 	lcc-cr:isPartOf	cc1:IE ;
 	rdfs:label	"Newtonabbey"@en , "Newtonabbey" ;
 	skos:notation	"IENWT" ;
@@ -5616,6 +5731,7 @@ un-loc:IESTR
 un-loc:IESTR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBSTB ;
 	lcc-cr:isPartOf	cc1:IE ;
 	rdfs:label	"Strabane"@en , "Strabane" ;
 	skos:notation	"IESTR" ;
@@ -5631,6 +5747,7 @@ un-loc:ILJFA
 un-loc:ILJFA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ILTLV ;
 	lcc-cr:isPartOf	cc1:IL ;
 	rdfs:label	"Jaffa"@en , "Jaffa" ;
 	skos:notation	"ILJFA" ;
@@ -5646,6 +5763,7 @@ un-loc:INCUM
 un-loc:INCUM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:INMDV ;
 	geo:lat	22.83 ;
 	geo:long	69.37 ;
 	lcc-cr:isPartOf	cc1:IN ;
@@ -5677,6 +5795,7 @@ un-loc:INMBC
 un-loc:INMBC_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:INMOR ;
 	geo:lat	28.83 ;
 	geo:long	78.78 ;
 	lcc-cr:isPartOf	cc1:IN , cc2:IN-UP ;
@@ -5695,6 +5814,7 @@ un-loc:IQMAW
 un-loc:IQMAW_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IQOSM ;
 	geo:lat	36.33 ;
 	geo:long	43.12 ;
 	lcc-cr:isPartOf	cc1:IQ ;
@@ -5712,6 +5832,7 @@ un-loc:IRBPR
 un-loc:IRBPR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IRBKM ;
 	geo:lat	30.43 ;
 	geo:long	49.10 ;
 	lcc-cr:isPartOf	cc1:IR ;
@@ -5772,6 +5893,7 @@ un-loc:IRPMA
 un-loc:IRPMA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:IRMRX ;
 	geo:lat	30.53 ;
 	geo:long	49.15 ;
 	lcc-cr:isPartOf	cc1:IR ;
@@ -5828,6 +5950,7 @@ un-loc:ITAQU
 un-loc:ITAQU_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITARQ ;
 	geo:lat	44.68 ;
 	geo:long	8.88 ;
 	lcc-cr:isPartOf	cc1:IT ;
@@ -5845,6 +5968,7 @@ un-loc:ITBGY
 un-loc:ITBGY_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITOAS ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Orio Al Serio"@en , "Orio Al Serio" ;
 	skos:notation	"ITBGY" ;
@@ -5953,6 +6077,7 @@ un-loc:ITCHS
 un-loc:ITCHS_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CHCHI ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Chiasso"@en , "Chiasso" ;
 	skos:notation	"ITCHS" ;
@@ -5989,6 +6114,7 @@ un-loc:ITCOA_2004-2
 un-loc:ITCRC_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITCXO ;
 	geo:lat	45.18 ;
 	geo:long	8.10 ;
 	lcc-cr:isPartOf	cc1:IT ;
@@ -6040,6 +6166,7 @@ un-loc:ITCSA_2004-2
 un-loc:ITCTE_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITCVI ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Corte Tegge"@en , "Corte Tegge" ;
 	skos:notation	"ITCTE" ;
@@ -6082,6 +6209,7 @@ un-loc:ITCTU_2007
 un-loc:ITCVO_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITCVB ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Crevalcore"@en , "Crevalcore" ;
 	skos:notation	"ITCVO" ;
@@ -6183,6 +6311,7 @@ un-loc:ITGDM
 un-loc:ITGDM_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITCGM ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Grugnole di Mornago"@en , "Grugnole di Mornago" ;
 	skos:notation	"ITGDM" ;
@@ -6198,6 +6327,7 @@ un-loc:ITIDO
 un-loc:ITIDO_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITISO ;
 	geo:lat	44.08 ;
 	geo:long	10.03 ;
 	lcc-cr:isPartOf	cc1:IT ;
@@ -6216,6 +6346,7 @@ un-loc:ITLAT
 un-loc:ITLAT_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITTRN ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"La Turino"@en , "La Turino" ;
 	skos:notation	"ITLAT" ;
@@ -6256,6 +6387,7 @@ un-loc:ITLGZ
 un-loc:ITLGZ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITLUG ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Lugo di Grezzana"@en , "Lugo di Grezzana" ;
 	skos:notation	"ITLGZ" ;
@@ -6268,6 +6400,7 @@ un-loc:ITLGZ_2004-1
 un-loc:ITMAA_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITPMA ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Marghera"@en , "Marghera" ;
 	skos:notation	"ITMAA" ;
@@ -6295,6 +6428,7 @@ un-loc:ITMAU
 un-loc:ITMAU_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITMRA ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Marsaiu"@en , "Marsaiu" ;
 	skos:notation	"ITMAU" ;
@@ -6319,6 +6453,7 @@ un-loc:ITMGN_2004-2
 un-loc:ITMIN_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITMNG ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Mignagola"@en , "Mignagola" ;
 	skos:notation	"ITMIN" ;
@@ -6374,6 +6509,7 @@ un-loc:ITPAT_2004-2
 un-loc:ITPCC_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITPNT ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Pontecchio"@en , "Pontecchio" ;
 	skos:notation	"ITPCC" ;
@@ -6428,6 +6564,7 @@ un-loc:ITPRC_2004-2
 un-loc:ITPRI_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITPRL ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Priolo"@en , "Priolo" ;
 	skos:notation	"ITPRI" ;
@@ -6443,6 +6580,7 @@ un-loc:ITQGD
 un-loc:ITQGD_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITCSU ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Santa Croce Sull'Arno"@en , "Santa Croce Sull'Arno" ;
 	skos:notation	"ITQGD" ;
@@ -6498,6 +6636,7 @@ un-loc:ITSAC
 un-loc:ITSAC_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITSTN ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"San Arcangelo di Romagna"@en , "San Arcangelo di Romagna" ;
 	skos:notation	"ITSAC" ;
@@ -6536,6 +6675,7 @@ un-loc:ITSEL_2004-2
 un-loc:ITSGD_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITSGG ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"San Giorgio di Nogaro"@en , "San Giorgio di Nogaro" ;
 	skos:notation	"ITSGD" ;
@@ -6562,6 +6702,7 @@ un-loc:ITSMA_2004-2
 un-loc:ITSOA_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITSOL ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Solofra Avellino"@en , "Solofra Avellino" ;
 	skos:notation	"ITSOA" ;
@@ -6643,6 +6784,7 @@ un-loc:ITTRM_2004-2
 un-loc:ITTSA_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITTRO ;
 	lcc-cr:isPartOf	cc1:IT ;
 	rdfs:label	"Trissano (Vicenza)"@en , "Trissano (Vicenza)" ;
 	skos:notation	"ITTSA" ;
@@ -6814,6 +6956,7 @@ un-loc:JMGGT
 un-loc:JMGGT_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:KYGEC ;
 	lcc-cr:isPartOf	cc1:JM ;
 	rdfs:label	"Georgetown"@en , "Georgetown" ;
 	skos:notation	"JMGGT" ;
@@ -6888,6 +7031,7 @@ un-loc:JPIKS
 un-loc:JPIKS_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:JPIKK ;
 	lcc-cr:isPartOf	cc1:JP , cc2:JP-42 ;
 	rdfs:label	"Ikitsukishima"@en , "Ikitsukishima" ;
 	skos:notation	"JPIKS" ;
@@ -6963,6 +7107,7 @@ un-loc:JPTKX
 un-loc:JPTKX_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:JPKOM ;
 	lcc-cr:isPartOf	cc1:JP ;
 	rdfs:label	"TokushimaKomatsushima?"@en , "TokushimaKomatsushima?" ;
 	skos:notation	"JPTKX" ;
@@ -6978,6 +7123,7 @@ un-loc:JPTRE
 un-loc:JPTRE_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:JPTRE ;
 	lcc-cr:isPartOf	cc1:JP ;
 	rdfs:label	"Toride"@en , "Toride" ;
 	skos:notation	"JPTRE" ;
@@ -7023,6 +7169,7 @@ un-loc:KHSHV
 un-loc:KHSHV_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:KHKOS ;
 	geo:lat	10.63 ;
 	geo:long	103.50 ;
 	lcc-cr:isPartOf	cc1:KH ;
@@ -7041,6 +7188,7 @@ un-loc:KMDZA
 un-loc:KMDZA_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:YTDZA ;
 	lcc-cr:isPartOf	cc1:KM ;
 	rdfs:label	"Dzaoudzi"@en , "Dzaoudzi" ;
 	skos:notation	"KMDZA" ;
@@ -7056,6 +7204,7 @@ un-loc:KMMMO
 un-loc:KMMMO_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:YTMAM ;
 	lcc-cr:isPartOf	cc1:KM ;
 	rdfs:label	"Mamoutsou"@en , "Mamoutsou" ;
 	skos:notation	"KMMMO" ;
@@ -7082,6 +7231,7 @@ un-loc:KRCUN
 un-loc:KRCUN_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:KRCHO ;
 	lcc-cr:isPartOf	cc1:KR ;
 	rdfs:label	"Ch' onan"@en , "Ch' onan" ;
 	skos:notation	"KRCUN" ;
@@ -7098,6 +7248,7 @@ un-loc:KRINC
 un-loc:KRINC_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:KRICH ;
 	lcc-cr:isPartOf	cc1:KR ;
 	rdfs:label	"Inchon"@en , "Inchon" ;
 	skos:notation	"KRINC" ;
@@ -7144,6 +7295,7 @@ un-loc:KRKIM
 un-loc:KRKIM_2006-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:KRGMP ;
 	geo:lat	37.62 ;
 	geo:long	126.70 ;
 	lcc-cr:isPartOf	cc1:KR ;
@@ -7240,6 +7392,7 @@ un-loc:KWJUA
 un-loc:KWJUA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SAJUT ;
 	lcc-cr:isPartOf	cc1:KW ;
 	rdfs:label	"Juaymah"@en , "Juaymah" ;
 	skos:notation	"KWJUA" ;
@@ -7255,6 +7408,7 @@ un-loc:KWRAK
 un-loc:KWRAK_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SARAR ;
 	lcc-cr:isPartOf	cc1:KW ;
 	rdfs:label	"Ras Al-Khafji"@en , "Ras Al-Khafji" ;
 	skos:notation	"KWRAK" ;
@@ -7267,6 +7421,7 @@ un-loc:KWRAK_2004-1
 un-loc:KZAKX_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:RUABS ;
 	lcc-cr:isPartOf	cc1:KZ ;
 	rdfs:label	"Akhtubinsk"@en , "Akhtubinsk" ;
 	skos:notation	"KZAKX" ;
@@ -7283,6 +7438,7 @@ un-loc:LBSDN
 un-loc:LBSDN_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:LBSAY ;
 	lcc-cr:isPartOf	cc1:LB ;
 	rdfs:label	"Sidon"@en , "Sidon" ;
 	skos:notation	"LBSDN" ;
@@ -7298,6 +7454,7 @@ un-loc:LKCST
 un-loc:LKCST_2005-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:LKSGT ;
 	lcc-cr:isPartOf	cc1:LK ;
 	rdfs:label	"SAGT Terminal/Colombo"@en , "SAGT Terminal/Colombo" ;
 	skos:notation	"LKCST" ;
@@ -7313,6 +7470,7 @@ un-loc:LTHLJ
 un-loc:LTHLJ_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:LTSQQ ;
 	lcc-cr:isPartOf	cc1:LT ;
 	rdfs:label	"Shauliaj"@en , "Shauliaj" ;
 	skos:notation	"LTHLJ" ;
@@ -7328,6 +7486,7 @@ un-loc:LTLIE
 un-loc:LTLIE_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:LVLPX ;
 	lcc-cr:isPartOf	cc1:LT ;
 	rdfs:label	"Liepaja"@en , "Liepaja" ;
 	skos:notation	"LTLIE" ;
@@ -7343,6 +7502,7 @@ un-loc:LTMMO
 un-loc:LTMMO_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:RUMMC ;
 	lcc-cr:isPartOf	cc1:LT ;
 	rdfs:label	"Mamonova"@en , "Mamonova" ;
 	skos:notation	"LTMMO" ;
@@ -7374,6 +7534,7 @@ un-loc:MAMAZ
 un-loc:MAMAZ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:MAELJ ;
 	lcc-cr:isPartOf	cc1:MA ;
 	rdfs:label	"Mazagan"@en , "Mazagan" ;
 	skos:notation	"MAMAZ" ;
@@ -7389,6 +7550,7 @@ un-loc:MAMOG
 un-loc:MAMOG_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:MAESS ;
 	lcc-cr:isPartOf	cc1:MA ;
 	rdfs:label	"Mogador"@en , "Mogador" ;
 	skos:notation	"MAMOG" ;
@@ -7404,6 +7566,7 @@ un-loc:MDBEE
 un-loc:MDBEE_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:MDBEL ;
 	geo:lat	47.75 ;
 	geo:long	27.92 ;
 	lcc-cr:isPartOf	cc1:MD ;
@@ -7433,6 +7596,7 @@ un-loc:MGMWD
 un-loc:MGMWD_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:KMMUT ;
 	lcc-cr:isPartOf	cc1:MG ;
 	rdfs:label	"Mutsamudo"@en , "Mutsamudo" ;
 	skos:notation	"MGMWD" ;
@@ -7448,6 +7612,7 @@ un-loc:MKVLS
 un-loc:MKVLS_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:MKTTV ;
 	lcc-cr:isPartOf	cc1:MK ;
 	rdfs:label	"Veles"@en , "Veles" ;
 	skos:notation	"MKVLS" ;
@@ -7962,6 +8127,7 @@ un-loc:NGMOT
 un-loc:NGMOT_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CMMOU ;
 	lcc-cr:isPartOf	cc1:NG ;
 	rdfs:label	"Moudi Terminal"@en , "Moudi Terminal" ;
 	skos:notation	"NGMOT" ;
@@ -7992,6 +8158,7 @@ un-loc:NLMLD
 un-loc:NLMLD_2003-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BEMLG ;
 	geo:lat	51.20 ;
 	geo:long	3.43 ;
 	lcc-cr:isPartOf	cc1:NL ;
@@ -8056,6 +8223,7 @@ un-loc:PHDAD
 un-loc:PHDAD_2003-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:PHGES ;
 	lcc-cr:isPartOf	cc1:PH ;
 	rdfs:label	"Dadiangas, Mindanao"@en , "Dadiangas, Mindanao" ;
 	skos:notation	"PHDAD" ;
@@ -8129,6 +8297,7 @@ un-loc:PLPAO
 un-loc:PLPAO_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:PLPAL ;
 	geo:lat	50.97 ;
 	geo:long	21.13 ;
 	lcc-cr:isPartOf	cc1:PL ;
@@ -8147,6 +8316,7 @@ un-loc:PLSIE
 un-loc:PLSIE_2002-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:PLSDC ;
 	lcc-cr:isPartOf	cc1:PL ;
 	rdfs:label	"Siedice"@en , "Siedice" ;
 	skos:notation	"PLSIE" ;
@@ -8162,6 +8332,7 @@ un-loc:PLZYC
 un-loc:PLZYC_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:PLGIZ ;
 	lcc-cr:isPartOf	cc1:PL ;
 	rdfs:label	"Gizycio"@en , "Gizycio" ;
 	skos:notation	"PLZYC" ;
@@ -8177,6 +8348,7 @@ un-loc:PRALB
 un-loc:PRALB_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:PRAIB ;
 	lcc-cr:isPartOf	cc1:PR ;
 	rdfs:label	"Albonito"@en , "Albonito" ;
 	skos:notation	"PRALB" ;
@@ -8220,6 +8392,7 @@ un-loc:PTARB
 un-loc:PTARB_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:PTABR ;
 	geo:lat	40.12 ;
 	geo:long	-8.72 ;
 	lcc-cr:isPartOf	cc1:PT , cc2:PT-06 ;
@@ -8237,6 +8410,7 @@ un-loc:PTAVA
 un-loc:PTAVA_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:PTALB ;
 	geo:lat	40.68 ;
 	geo:long	-8.47 ;
 	lcc-cr:isPartOf	cc1:PT ;
@@ -8254,6 +8428,7 @@ un-loc:PTCMB
 un-loc:PTCMB_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:PTCBP ;
 	geo:lat	40.20 ;
 	geo:long	-8.42 ;
 	lcc-cr:isPartOf	cc1:PT ;
@@ -8286,6 +8461,7 @@ un-loc:PTPUE
 un-loc:PTPUE_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESPUS ;
 	lcc-cr:isPartOf	cc1:PT ;
 	rdfs:label	"Puerto Real"@en , "Puerto Real" ;
 	skos:notation	"PTPUE" ;
@@ -8314,6 +8490,7 @@ un-loc:QAMES
 un-loc:QAMES_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:QAUMS ;
 	geo:lat	24.97 ;
 	geo:long	51.55 ;
 	lcc-cr:isPartOf	cc1:QA ;
@@ -8332,6 +8509,7 @@ un-loc:RUKLD
 un-loc:RUKLD_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:RUTVR ;
 	lcc-cr:isPartOf	cc1:RU ;
 	rdfs:label	"Kalinin"@en , "Kalinin" ;
 	skos:notation	"RUKLD" ;
@@ -8347,6 +8525,7 @@ un-loc:RUSVX
 un-loc:RUSVX_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:RUYEK ;
 	lcc-cr:isPartOf	cc1:RU ;
 	rdfs:label	"Ekaterinburg"@en , "Ekaterinburg" ;
 	skos:notation	"RUSVX" ;
@@ -8362,6 +8541,7 @@ un-loc:SAAAK
 un-loc:SAAAK_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AEABU ;
 	lcc-cr:isPartOf	cc1:SA ;
 	rdfs:label	"Abu Al Khoosh"@en , "Abu Al Khoosh" ;
 	skos:notation	"SAAAK" ;
@@ -8377,6 +8557,7 @@ un-loc:SADAS
 un-loc:SADAS_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AEDAS ;
 	lcc-cr:isPartOf	cc1:SA ;
 	rdfs:label	"Das Island"@en , "Das Island" ;
 	skos:notation	"SADAS" ;
@@ -8392,6 +8573,7 @@ un-loc:SADMN
 un-loc:SADMN_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SADMM ;
 	geo:lat	26.42 ;
 	geo:long	50.10 ;
 	lcc-cr:isPartOf	cc1:SA ;
@@ -8409,6 +8591,7 @@ un-loc:SAHDY
 un-loc:SAHDY_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:YEHOD ;
 	lcc-cr:isPartOf	cc1:SA ;
 	rdfs:label	"Al Hudaydah (Hodeida)"@en , "Al Hudaydah (Hodeida)" ;
 	skos:notation	"SAHDY" ;
@@ -8424,6 +8607,7 @@ un-loc:SAIEB
 un-loc:SAIEB_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SAYNB ;
 	lcc-cr:isPartOf	cc1:SA ;
 	rdfs:label	"Ienbo"@en , "Ienbo" ;
 	skos:notation	"SAIEB" ;
@@ -8464,6 +8648,7 @@ un-loc:SKTRN
 un-loc:SKTRN_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SKTNA ;
 	geo:lat	48.37 ;
 	geo:long	17.60 ;
 	lcc-cr:isPartOf	cc1:SK ;
@@ -8481,6 +8666,7 @@ un-loc:STBOZ
 un-loc:STBOZ_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GWBOL ;
 	lcc-cr:isPartOf	cc1:ST ;
 	rdfs:label	"Bolama"@en , "Bolama" ;
 	skos:notation	"STBOZ" ;
@@ -8496,6 +8682,7 @@ un-loc:STBSO
 un-loc:STBSO_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GWOXB ;
 	lcc-cr:isPartOf	cc1:ST ;
 	rdfs:label	"Bissao"@en , "Bissao" ;
 	skos:notation	"STBSO" ;
@@ -8511,6 +8698,7 @@ un-loc:SVBAN
 un-loc:SVBAN_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOBAN ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Bani"@en , "Bani" ;
 	skos:notation	"SVBAN" ;
@@ -8526,6 +8714,7 @@ un-loc:SVBAR
 un-loc:SVBAR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOBRX ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Barahona"@en , "Barahona" ;
 	skos:notation	"SVBAR" ;
@@ -8541,6 +8730,7 @@ un-loc:SVBCH
 un-loc:SVBCH_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOBCC ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Boca Chica"@en , "Boca Chica" ;
 	skos:notation	"SVBCH" ;
@@ -8556,6 +8746,7 @@ un-loc:SVCJO
 un-loc:SVCJO_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOCBJ ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Cabo Jojo"@en , "Cabo Jojo" ;
 	skos:notation	"SVCJO" ;
@@ -8571,6 +8762,7 @@ un-loc:SVHAI
 un-loc:SVHAI_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOHAI ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Haina"@en , "Haina" ;
 	skos:notation	"SVHAI" ;
@@ -8586,6 +8778,7 @@ un-loc:SVLRO
 un-loc:SVLRO_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOLRM ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"La Romana"@en , "La Romana" ;
 	skos:notation	"SVLRO" ;
@@ -8601,6 +8794,7 @@ un-loc:SVMAN
 un-loc:SVMAN_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOMAN ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Manzanillo"@en , "Manzanillo" ;
 	skos:notation	"SVMAN" ;
@@ -8616,6 +8810,7 @@ un-loc:SVPAL
 un-loc:SVPAL_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOPAL ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Palenque"@en , "Palenque" ;
 	skos:notation	"SVPAL" ;
@@ -8631,6 +8826,7 @@ un-loc:SVPVA
 un-loc:SVPVA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOPVA ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Puerto Viejo De Azua"@en , "Puerto Viejo De Azua" ;
 	skos:notation	"SVPVA" ;
@@ -8646,6 +8842,7 @@ un-loc:SVSAB
 un-loc:SVSAB_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOSNX ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Sabana"@en , "Sabana" ;
 	skos:notation	"SVSAB" ;
@@ -8661,6 +8858,7 @@ un-loc:SVSCH
 un-loc:SVSCH_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOSNZ ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Sanchez"@en , "Sanchez" ;
 	skos:notation	"SVSCH" ;
@@ -8676,6 +8874,7 @@ un-loc:SVSCI
 un-loc:SVSCI_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GTSTC ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Santo Tomas De Castilla"@en , "Santo Tomas De Castilla" ;
 	skos:notation	"SVSCI" ;
@@ -8691,6 +8890,7 @@ un-loc:SVSDO
 un-loc:SVSDO_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOSDQ ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Santo Domingo"@en , "Santo Domingo" ;
 	skos:notation	"SVSDO" ;
@@ -8706,6 +8906,7 @@ un-loc:SVSFM
 un-loc:SVSFM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOSFN ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"Si Francisco Macoros"@en , "Si Francisco Macoros" ;
 	skos:notation	"SVSFM" ;
@@ -8721,6 +8922,7 @@ un-loc:SVSPM
 un-loc:SVSPM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DOSPM ;
 	lcc-cr:isPartOf	cc1:SV ;
 	rdfs:label	"San Pedro De Marcoris"@en , "San Pedro De Marcoris" ;
 	skos:notation	"SVSPM" ;
@@ -8736,6 +8938,7 @@ un-loc:THLAC
 un-loc:THLAC_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:THLCH ;
 	geo:lat	13.08 ;
 	geo:long	100.88 ;
 	lcc-cr:isPartOf	cc1:TH ;
@@ -8752,6 +8955,7 @@ un-loc:THSIN
 un-loc:THSIN_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:THSHZ ;
 	lcc-cr:isPartOf	cc1:TH ;
 	rdfs:label	"Singora"@en , "Singora" ;
 	skos:notation	"THSIN" ;
@@ -8767,6 +8971,7 @@ un-loc:TNZAR
 un-loc:TNZAR_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:TNJAR ;
 	geo:lat	33.50 ;
 	geo:long	11.10 ;
 	lcc-cr:isPartOf	cc1:TN ;
@@ -8870,6 +9075,7 @@ un-loc:UAAAR
 un-loc:UAAAR_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:UACWC ;
 	geo:lat	48.30 ;
 	geo:long	25.93 ;
 	lcc-cr:isPartOf	cc1:UA ;
@@ -8996,6 +9202,7 @@ un-loc:USAGG_2004-1
 un-loc:USAGR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USXBB ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-IL ;
 	rdfs:label	"Agro"@en , "Agro" ;
 	skos:notation	"USAGR" ;
@@ -9051,6 +9258,7 @@ un-loc:USALC_2002-1
 un-loc:USAPR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USAAI ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-GA ;
 	rdfs:label	"Apharetta"@en , "Apharetta" ;
 	skos:notation	"USAPR" ;
@@ -9077,6 +9285,7 @@ un-loc:USAPW_2004-1
 un-loc:USARQ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USARO ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-OH ;
 	rdfs:label	"Archibald"@en , "Archibald" ;
 	skos:notation	"USARQ" ;
@@ -9090,6 +9299,7 @@ un-loc:USARQ_2004-1
 un-loc:USAVA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USAVZ ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CT ;
 	rdfs:label	"Avant"@en , "Avant" ;
 	skos:notation	"USAVA" ;
@@ -9103,6 +9313,7 @@ un-loc:USAVA_2004-1
 un-loc:USAZM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USRCU ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CA ;
 	rdfs:label	"Altaloma"@en , "Altaloma" ;
 	skos:notation	"USAZM" ;
@@ -9129,6 +9340,7 @@ un-loc:USBBA_2004-1
 un-loc:USBFH_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USBDH ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MS ;
 	rdfs:label	"Bedford Heights"@en , "Bedford Heights" ;
 	skos:notation	"USBFH" ;
@@ -9157,6 +9369,7 @@ un-loc:USBFW_2004-1
 un-loc:USBFY_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USBHK ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-OH ;
 	rdfs:label	"Buffton"@en , "Buffton" ;
 	skos:notation	"USBFY" ;
@@ -9183,6 +9396,7 @@ un-loc:USBIM_2004-1
 un-loc:USBKP_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USBPO ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-OH ;
 	rdfs:label	"Brook Park"@en , "Brook Park" ;
 	skos:notation	"USBKP" ;
@@ -9313,6 +9527,7 @@ un-loc:USCAI_2002-1
 un-loc:USCCC_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCCJ ;
 	lcc-cr:isPartOf	cc1:US ;
 	rdfs:label	"Cape Charles City"@en , "Cape Charles City" ;
 	skos:notation	"USCCC" ;
@@ -9326,6 +9541,7 @@ un-loc:USCCC_2002-1
 un-loc:USCCF_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCRC ;
 	geo:lat	34.00 ;
 	geo:long	-118.15 ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CA ;
@@ -9366,6 +9582,7 @@ un-loc:USCEH_2004-1
 un-loc:USCFJ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCFJ ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MS ;
 	rdfs:label	"Centralia"@en , "Centralia" ;
 	skos:notation	"USCFJ" ;
@@ -9405,6 +9622,7 @@ un-loc:USCGY_2004-1
 un-loc:USCKZ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USUAU ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-TN ;
 	rdfs:label	"Cookville"@en , "Cookville" ;
 	skos:notation	"USCKZ" ;
@@ -9418,6 +9636,7 @@ un-loc:USCKZ_2004-1
 un-loc:USCLH_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCAY ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-IL ;
 	rdfs:label	"Calumet"@en , "Calumet" ;
 	skos:notation	"USCLH" ;
@@ -9444,6 +9663,7 @@ un-loc:USCNW_2002-1
 un-loc:USCOJ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCRX ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MS ;
 	rdfs:label	"Copinth"@en , "Copinth" ;
 	skos:notation	"USCOJ" ;
@@ -9457,6 +9677,7 @@ un-loc:USCOJ_2004-1
 un-loc:USCPX_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCHM ;
 	lcc-cr:isPartOf	cc1:US ;
 	rdfs:label	"Champlain-Rouses Pt."@en , "Champlain-Rouses Pt." ;
 	skos:notation	"USCPX" ;
@@ -9482,6 +9703,7 @@ un-loc:USCQL_2004-1
 un-loc:USCUA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USRCU ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CA ;
 	rdfs:label	"Cucamonga"@en , "Cucamonga" ;
 	skos:notation	"USCUA" ;
@@ -9537,6 +9759,7 @@ un-loc:USCZJ
 un-loc:USCZJ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCRS ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-TX ;
 	rdfs:label	"Corsica"@en , "Corsica" ;
 	skos:notation	"USCZJ" ;
@@ -9577,6 +9800,7 @@ un-loc:USDLC_2002-1
 un-loc:USDLW_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USDWH ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MA ;
 	rdfs:label	"Dilworth"@en , "Dilworth" ;
 	skos:notation	"USDLW" ;
@@ -9590,6 +9814,7 @@ un-loc:USDLW_2004-1
 un-loc:USDNV_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USDVI ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-IL ;
 	rdfs:label	"Danville"@en , "Danville" ;
 	skos:notation	"USDNV" ;
@@ -9629,6 +9854,7 @@ un-loc:USDTO_2002-1
 un-loc:USDVA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCEK ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CA ;
 	rdfs:label	"Dairy Valley"@en , "Dairy Valley" ;
 	skos:notation	"USDVA" ;
@@ -9657,6 +9883,7 @@ un-loc:USDVZ_2004-1
 un-loc:USDWE_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USDEL ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MD ;
 	rdfs:label	"Delaware"@en , "Delaware" ;
 	skos:notation	"USDWE" ;
@@ -9688,6 +9915,7 @@ un-loc:USECY
 un-loc:USECY_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USEVC ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"Ever City"@en , "Ever City" ;
 	skos:notation	"USECY" ;
@@ -9703,6 +9931,7 @@ un-loc:USEFS
 un-loc:USEFS_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USRCU ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CA ;
 	rdfs:label	"Etiwanda"@en , "Etiwanda" ;
 	skos:notation	"USEFS" ;
@@ -9715,6 +9944,7 @@ un-loc:USEFS_2004-1
 un-loc:USEIO_2005-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USLWW ;
 	geo:lat	40.58 ;
 	geo:long	-77.57 ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
@@ -9759,6 +9989,7 @@ un-loc:USELX_2004-1
 un-loc:USEMW_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USEMD ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CA ;
 	rdfs:label	"El Modena"@en , "El Modena" ;
 	skos:notation	"USEMW" ;
@@ -9818,6 +10049,7 @@ un-loc:USEVS_2004-1
 un-loc:USEWO_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USWPC ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CT ;
 	rdfs:label	"East Windsor"@en , "East Windsor" ;
 	skos:notation	"USEWO" ;
@@ -9887,6 +10119,7 @@ un-loc:USFLC
 un-loc:USFLC_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USFTN ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NC ;
 	rdfs:label	"Franklington"@en , "Franklington" ;
 	skos:notation	"USFLC" ;
@@ -9899,6 +10132,7 @@ un-loc:USFLC_2004-1
 un-loc:USFRB_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USFDB ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-VA ;
 	rdfs:label	"Fredericsburg"@en , "Fredericsburg" ;
 	skos:notation	"USFRB" ;
@@ -9915,6 +10149,7 @@ un-loc:USFRC
 un-loc:USFRC_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USFAR ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NC ;
 	rdfs:label	"Fargo"@en , "Fargo" ;
 	skos:notation	"USFRC" ;
@@ -9927,6 +10162,7 @@ un-loc:USFRC_2004-1
 un-loc:USFRE_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USLCA ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CA ;
 	rdfs:label	"Flintridge"@en , "Flintridge" ;
 	skos:notation	"USFRE" ;
@@ -9956,6 +10192,7 @@ un-loc:USFRS_2007
 un-loc:USFSV_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USFHV ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-VA ;
 	rdfs:label	"Fisherville"@en , "Fisherville" ;
 	skos:notation	"USFSV" ;
@@ -9972,6 +10209,7 @@ un-loc:USFTA
 un-loc:USFTA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USFSM ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-AK ;
 	rdfs:label	"Fort Smith"@en , "Fort Smith" ;
 	skos:notation	"USFTA" ;
@@ -10015,6 +10253,7 @@ un-loc:USGCX
 un-loc:USGCX_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USGZI ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MO ;
 	rdfs:label	"Granite City"@en , "Granite City" ;
 	skos:notation	"USGCX" ;
@@ -10030,6 +10269,7 @@ un-loc:USGDX
 un-loc:USGDX_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USGDY ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"Garnder"@en , "Garnder" ;
 	skos:notation	"USGDX" ;
@@ -10058,6 +10298,7 @@ un-loc:USGGY
 un-loc:USGGY_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USGYR ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-AR ;
 	rdfs:label	"Goodyear"@en , "Goodyear" ;
 	skos:notation	"USGGY" ;
@@ -10153,6 +10394,7 @@ un-loc:USGVN_2004-1
 un-loc:USHAD_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USHAL ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-FL ;
 	rdfs:label	"Hallendale"@en , "Hallendale" ;
 	skos:notation	"USHAD" ;
@@ -10180,6 +10422,7 @@ un-loc:USHAT_2007
 un-loc:USHBU_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USHMQ ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"Hanburg"@en , "Hanburg" ;
 	skos:notation	"USHBU" ;
@@ -10226,6 +10469,7 @@ un-loc:USHDH
 un-loc:USHDH_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USHNL ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-HI ;
 	rdfs:label	"Oahu, Honolulu"@en , "Oahu, Honolulu" ;
 	skos:notation	"USHDH" ;
@@ -10251,6 +10495,7 @@ un-loc:USHHG_2004-1
 un-loc:USHHN_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USHRH ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NY ;
 	rdfs:label	"Horse Head"@en , "Horse Head" ;
 	skos:notation	"USHHN" ;
@@ -10280,6 +10525,7 @@ un-loc:USHHZ
 un-loc:USHHZ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USHZH ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-GA ;
 	rdfs:label	"Hazelhurst"@en , "Hazelhurst" ;
 	skos:notation	"USHHZ" ;
@@ -10335,6 +10581,7 @@ un-loc:USHOI
 un-loc:USHOI_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USHOM ;
 	lcc-cr:isPartOf	cc1:US ;
 	rdfs:label	"Homer"@en , "Homer" ;
 	skos:notation	"USHOI" ;
@@ -10363,6 +10610,7 @@ un-loc:USHOW_2004-1
 un-loc:USHPE_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USHPL ;
 	lcc-cr:isPartOf	cc1:US ;
 	rdfs:label	"Hopeville"@en , "Hopeville" ;
 	skos:notation	"USHPE" ;
@@ -10389,6 +10637,7 @@ un-loc:USHPP_2004-1
 un-loc:USHSW_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USHSV ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CA ;
 	rdfs:label	"Huntsville"@en , "Huntsville" ;
 	skos:notation	"USHSW" ;
@@ -10420,6 +10669,7 @@ un-loc:USIAQ
 un-loc:USIAQ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USOJC ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-KS ;
 	rdfs:label	"Industrial Airport"@en , "Industrial Airport" ;
 	skos:notation	"USIAQ" ;
@@ -10448,6 +10698,7 @@ un-loc:USJNR
 un-loc:USJNR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USJTE ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-LA ;
 	rdfs:label	"Jeannette"@en , "Jeannette" ;
 	skos:notation	"USJNR" ;
@@ -10493,6 +10744,7 @@ un-loc:USJOV
 un-loc:USJOV_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USJVL ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-WI ;
 	rdfs:label	"Jonesville"@en , "Jonesville" ;
 	skos:notation	"USJOV" ;
@@ -10508,6 +10760,7 @@ un-loc:USKAA
 un-loc:USKAA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USKVA ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-WV ;
 	rdfs:label	"Kanova"@en , "Kanova" ;
 	skos:notation	"USKAA" ;
@@ -10535,6 +10788,7 @@ un-loc:USKAS_2002-1
 un-loc:USKER_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USXHE ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NJ ;
 	rdfs:label	"Kearney"@en , "Kearney" ;
 	skos:notation	"USKER" ;
@@ -10551,6 +10805,7 @@ un-loc:USKIT
 un-loc:USKIT_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USISO ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NC ;
 	rdfs:label	"Kingston"@en , "Kingston" ;
 	skos:notation	"USKIT" ;
@@ -10581,6 +10836,7 @@ un-loc:USKOA
 un-loc:USKOA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USKHH ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-HI ;
 	rdfs:label	"Kona"@en , "Kona" ;
 	skos:notation	"USKOA" ;
@@ -10607,6 +10863,7 @@ un-loc:USKSN_2007
 un-loc:USLAZ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USLDW ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MD ;
 	rdfs:label	"Landsdowne"@en , "Landsdowne" ;
 	skos:notation	"USLAZ" ;
@@ -10636,6 +10893,7 @@ un-loc:USLEV
 un-loc:USLEV_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USUAI ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-TN ;
 	rdfs:label	"Clevland"@en , "Clevland" ;
 	skos:notation	"USLEV" ;
@@ -10648,6 +10906,7 @@ un-loc:USLEV_2004-1
 un-loc:USLEY_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USUQG ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NY ;
 	rdfs:label	"Lenoy"@en , "Lenoy" ;
 	skos:notation	"USLEY" ;
@@ -10677,6 +10936,7 @@ un-loc:USLGZ
 un-loc:USLGZ_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USBOS ;
 	lcc-cr:isPartOf	cc1:US ;
 	rdfs:label	"Logan Airport"@en , "Logan Airport" ;
 	skos:notation	"USLGZ" ;
@@ -10702,6 +10962,7 @@ un-loc:USLII_2004-1
 un-loc:USLMX_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USLAR ;
 	geo:lat	41.30 ;
 	geo:long	-105.58 ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-WY ;
@@ -10736,6 +10997,7 @@ un-loc:USLRN
 un-loc:USLRN_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USLOR ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MI ;
 	rdfs:label	"Lorain"@en , "Lorain" ;
 	skos:notation	"USLRN" ;
@@ -10767,6 +11029,7 @@ un-loc:USLTP
 un-loc:USLTP_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USLTI ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"Litiz"@en , "Litiz" ;
 	skos:notation	"USLTP" ;
@@ -10779,6 +11042,7 @@ un-loc:USLTP_2004-1
 un-loc:USLTY_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USLTM ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NY ;
 	rdfs:label	"Lathan"@en , "Lathan" ;
 	skos:notation	"USLTY" ;
@@ -10795,6 +11059,7 @@ un-loc:USLVC
 un-loc:USLVC_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USPLV ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-TX ;
 	rdfs:label	"Lavaca"@en , "Lavaca" ;
 	skos:notation	"USLVC" ;
@@ -10820,6 +11085,7 @@ un-loc:USLWE_2002-1
 un-loc:USLWQ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USLFN ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NC ;
 	rdfs:label	"Lewisberg"@en , "Lewisberg" ;
 	skos:notation	"USLWQ" ;
@@ -10833,6 +11099,7 @@ un-loc:USLWQ_2004-1
 un-loc:USMBO_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USMXG ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MA ;
 	rdfs:label	"Marlboro"@en , "Marlboro" ;
 	skos:notation	"USMBO" ;
@@ -10846,6 +11113,7 @@ un-loc:USMBO_2004-1
 un-loc:USMDM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USNEE ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MA ;
 	rdfs:label	"Meedham"@en , "Meedham" ;
 	skos:notation	"USMDM" ;
@@ -10872,6 +11140,7 @@ un-loc:USMDZ_2004-1
 un-loc:USMFS_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USMFC ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MA ;
 	rdfs:label	"Menford"@en , "Menford" ;
 	skos:notation	"USMFS" ;
@@ -10924,6 +11193,7 @@ un-loc:USMKN_2004-1
 un-loc:USMLL_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USFTL ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-AK ;
 	rdfs:label	"Marshall"@en , "Marshall" ;
 	skos:notation	"USMLL" ;
@@ -10937,6 +11207,7 @@ un-loc:USMLL_2004-1
 un-loc:USMPC_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USMUP ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-IN ;
 	rdfs:label	"Mt Prospect"@en , "Mt Prospect" ;
 	skos:notation	"USMPC" ;
@@ -10963,6 +11234,7 @@ un-loc:USMPN_2002-1
 un-loc:USMRA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USMAT ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-AL ;
 	rdfs:label	"Mart"@en , "Mart" ;
 	skos:notation	"USMRA" ;
@@ -11041,6 +11313,7 @@ un-loc:USMUR_2004-1
 un-loc:USMVF_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USMIV ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NJ ;
 	rdfs:label	"Milville"@en , "Milville" ;
 	skos:notation	"USMVF" ;
@@ -11066,6 +11339,7 @@ un-loc:USMVS_2002-1
 un-loc:USMWE_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USMWL ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-TN ;
 	rdfs:label	"Mineral Wells"@en , "Mineral Wells" ;
 	skos:notation	"USMWE" ;
@@ -11105,6 +11379,7 @@ un-loc:USMYT_2004-1
 un-loc:USNBR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USNTG ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MA ;
 	rdfs:label	"North Bridge"@en , "North Bridge" ;
 	skos:notation	"USNBR" ;
@@ -11118,6 +11393,7 @@ un-loc:USNBR_2004-1
 un-loc:USNCC_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCUM ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CT ;
 	rdfs:label	"North Canaan"@en , "North Canaan" ;
 	skos:notation	"USNCC" ;
@@ -11258,6 +11534,7 @@ un-loc:USOAB_2007
 un-loc:USOBO_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USSLC ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CA ;
 	rdfs:label	"Obispo"@en , "Obispo" ;
 	skos:notation	"USOBO" ;
@@ -11381,6 +11658,7 @@ un-loc:USPMP
 un-loc:USPMP_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USPPM ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-FL ;
 	rdfs:label	"Pampano Beach"@en , "Pampano Beach" ;
 	skos:notation	"USPMP" ;
@@ -11393,6 +11671,7 @@ un-loc:USPMP_2004-1
 un-loc:USPNG_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USORB ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CT ;
 	rdfs:label	"Pt Orange"@en , "Pt Orange" ;
 	skos:notation	"USPNG" ;
@@ -11419,6 +11698,7 @@ un-loc:USPQE_2004-1
 un-loc:USPQO_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USPEQ ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-TX ;
 	rdfs:label	"Pecos"@en , "Pecos" ;
 	skos:notation	"USPQO" ;
@@ -11432,6 +11712,7 @@ un-loc:USPQO_2004-1
 un-loc:USPRN_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USVYS ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-IL ;
 	rdfs:label	"Perun"@en , "Perun" ;
 	skos:notation	"USPRN" ;
@@ -11445,6 +11726,7 @@ un-loc:USPRN_2004-1
 un-loc:USPSU_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USPPS ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NJ ;
 	rdfs:label	"Pensauken"@en , "Pensauken" ;
 	skos:notation	"USPSU" ;
@@ -11489,6 +11771,7 @@ un-loc:USPUO
 un-loc:USPUO_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USSCC ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-AK ;
 	rdfs:label	"Prudhoe"@en , "Prudhoe" ;
 	skos:notation	"USPUO" ;
@@ -11535,6 +11818,7 @@ un-loc:USPXJ
 un-loc:USPXJ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USPSJ ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-FL ;
 	rdfs:label	"Pt Saint Joe"@en , "Pt Saint Joe" ;
 	skos:notation	"USPXJ" ;
@@ -11573,6 +11857,7 @@ un-loc:USRAD_2004-1
 un-loc:USRCS_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USRAP ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-SC ;
 	rdfs:label	"Rapid City"@en , "Rapid City" ;
 	skos:notation	"USRCS" ;
@@ -11589,6 +11874,7 @@ un-loc:USRGW
 un-loc:USRGW_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USRGL ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NC ;
 	rdfs:label	"Riegal Wood"@en , "Riegal Wood" ;
 	skos:notation	"USRGW" ;
@@ -11618,6 +11904,7 @@ un-loc:USRKM
 un-loc:USRKM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USRKK ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NY ;
 	rdfs:label	"Ronkonkoms"@en , "Ronkonkoms" ;
 	skos:notation	"USRKM" ;
@@ -11630,6 +11917,7 @@ un-loc:USRKM_2004-1
 un-loc:USRMT_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USRWI ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NC ;
 	rdfs:label	"Rocky Mountains"@en , "Rocky Mountains" ;
 	skos:notation	"USRMT" ;
@@ -11725,6 +12013,7 @@ un-loc:USSGJ_2002-1
 un-loc:USSGN_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USXLL ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"Sagentown"@en , "Sagentown" ;
 	skos:notation	"USSGN" ;
@@ -11805,6 +12094,7 @@ un-loc:USSJH_2002-1
 un-loc:USSJI_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USSCX ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-IA ;
 	rdfs:label	"Shaller"@en , "Shaller" ;
 	skos:notation	"USSJI" ;
@@ -11833,6 +12123,7 @@ un-loc:USSJS_2004-1
 un-loc:USSJX_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USPSJ ;
 	geo:lat	29.80 ;
 	geo:long	-85.30 ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-FL ;
@@ -11899,6 +12190,7 @@ un-loc:USSML_2002-1
 un-loc:USSNC_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USSCD ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NC ;
 	rdfs:label	"Scottland Neck"@en , "Scottland Neck" ;
 	skos:notation	"USSNC" ;
@@ -11939,6 +12231,7 @@ un-loc:USSPV_2007
 un-loc:USSQG_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USSBI ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-OH ;
 	rdfs:label	"Shelbyville"@en , "Shelbyville" ;
 	skos:notation	"USSQG" ;
@@ -12019,6 +12312,7 @@ un-loc:USSWP_2004-1
 un-loc:USSWR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USUZO ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-RI ;
 	rdfs:label	"South Warwick"@en , "South Warwick" ;
 	skos:notation	"USSWR" ;
@@ -12060,6 +12354,7 @@ un-loc:USSZQ
 un-loc:USSZQ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USSQY ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-GA ;
 	rdfs:label	"Sneedville"@en , "Sneedville" ;
 	skos:notation	"USSZQ" ;
@@ -12100,6 +12395,7 @@ un-loc:USTJF_2004-1
 un-loc:USTRE_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USTOX ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"Tremount"@en , "Tremount" ;
 	skos:notation	"USTRE" ;
@@ -12128,6 +12424,7 @@ un-loc:USTTG
 un-loc:USTTG_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USTTE ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-GA ;
 	rdfs:label	"Tote"@en , "Tote" ;
 	skos:notation	"USTTG" ;
@@ -12140,6 +12437,7 @@ un-loc:USTTG_2004-1
 un-loc:USTUA_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USTSC ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-AL ;
 	rdfs:label	"Tuscolumbia"@en , "Tuscolumbia" ;
 	skos:notation	"USTUA" ;
@@ -12183,6 +12481,7 @@ un-loc:USUBX
 un-loc:USUBX_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USBMV ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-AL ;
 	rdfs:label	"Bessemer City"@en , "Bessemer City" ;
 	skos:notation	"USUBX" ;
@@ -12198,6 +12497,7 @@ un-loc:USUFM
 un-loc:USUFM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCQE ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NJ ;
 	rdfs:label	"Crandburry"@en , "Crandburry" ;
 	skos:notation	"USUFM" ;
@@ -12213,6 +12513,7 @@ un-loc:USUFZ
 un-loc:USUFZ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USFMJ ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NJ ;
 	rdfs:label	"Faringdale"@en , "Faringdale" ;
 	skos:notation	"USUFZ" ;
@@ -12228,6 +12529,7 @@ un-loc:USUJC
 un-loc:USUJC_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USFSK ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-KS ;
 	rdfs:label	"Foert Scott"@en , "Foert Scott" ;
 	skos:notation	"USUJC" ;
@@ -12243,6 +12545,7 @@ un-loc:USUJE
 un-loc:USUJE_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USFSM ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-AK ;
 	rdfs:label	"Fort Smith"@en , "Fort Smith" ;
 	skos:notation	"USUJE" ;
@@ -12258,6 +12561,7 @@ un-loc:USUJU
 un-loc:USUJU_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USHVY ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"Huntington Valley"@en , "Huntington Valley" ;
 	skos:notation	"USUJU" ;
@@ -12288,6 +12592,7 @@ un-loc:USUQD
 un-loc:USUQD_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USLDT ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NJ ;
 	rdfs:label	"Lynhurst"@en , "Lynhurst" ;
 	skos:notation	"USUQD" ;
@@ -12303,6 +12608,7 @@ un-loc:USUQP
 un-loc:USUQP_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USMMF ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-WI ;
 	rdfs:label	"Menomonie Fall"@en , "Menomonie Fall" ;
 	skos:notation	"USUQP" ;
@@ -12318,6 +12624,7 @@ un-loc:USUXC
 un-loc:USUXC_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USXJH ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"Mountsville"@en , "Mountsville" ;
 	skos:notation	"USUXC" ;
@@ -12333,6 +12640,7 @@ un-loc:USUXF
 un-loc:USUXF_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USMTE ;
 	geo:lat	29.98 ;
 	geo:long	-90.15 ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-LA ;
@@ -12347,6 +12655,7 @@ un-loc:USUXF_2004-1
 un-loc:USUXM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USNEF ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"New Kings Town"@en , "New Kings Town" ;
 	skos:notation	"USUXM" ;
@@ -12378,6 +12687,7 @@ un-loc:USUYC
 un-loc:USUYC_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USPAT ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NJ ;
 	rdfs:label	"Patterson"@en , "Patterson" ;
 	skos:notation	"USUYC" ;
@@ -12408,6 +12718,7 @@ un-loc:USUYM
 un-loc:USUYM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USXML ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-TN ;
 	rdfs:label	"Soddy City"@en , "Soddy City" ;
 	skos:notation	"USUYM" ;
@@ -12423,6 +12734,7 @@ un-loc:USUYT
 un-loc:USUYT_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USSVQ ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MS ;
 	rdfs:label	"South Haven"@en , "South Haven" ;
 	skos:notation	"USUYT" ;
@@ -12438,6 +12750,7 @@ un-loc:USVEC
 un-loc:USVEC_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USSAM ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-CA ;
 	rdfs:label	"Valencia"@en , "Valencia" ;
 	skos:notation	"USVEC" ;
@@ -12476,6 +12789,7 @@ un-loc:USWBD_2004-1
 un-loc:USWBO_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USWNB ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NC ;
 	rdfs:label	"Winnsboro"@en , "Winnsboro" ;
 	skos:notation	"USWBO" ;
@@ -12489,6 +12803,7 @@ un-loc:USWBO_2004-1
 un-loc:USWBZ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USFWB ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-FL ;
 	rdfs:label	"Walton Beach"@en , "Walton Beach" ;
 	skos:notation	"USWBZ" ;
@@ -12505,6 +12820,7 @@ un-loc:USWCM
 un-loc:USWCM_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USWMV ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-MA ;
 	rdfs:label	"Warcham"@en , "Warcham" ;
 	skos:notation	"USWCM" ;
@@ -12533,6 +12849,7 @@ un-loc:USWDL
 un-loc:USWDL_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USWDD ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-IL ;
 	rdfs:label	"Woodale"@en , "Woodale" ;
 	skos:notation	"USWDL" ;
@@ -12601,6 +12918,7 @@ un-loc:USWKJ_2002-1
 un-loc:USWLH_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USWAW ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-WI ;
 	rdfs:label	"Waldworth"@en , "Waldworth" ;
 	skos:notation	"USWLH" ;
@@ -12627,6 +12945,7 @@ un-loc:USWLL_2004-1
 un-loc:USWOD_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USUZI ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NJ ;
 	rdfs:label	"Woodridge"@en , "Woodridge" ;
 	skos:notation	"USWOD" ;
@@ -12643,6 +12962,7 @@ un-loc:USWYY
 un-loc:USWYY_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USXWY ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NY ;
 	rdfs:label	"Wyandancot"@en , "Wyandancot" ;
 	skos:notation	"USWYY" ;
@@ -12688,6 +13008,7 @@ un-loc:USXCI
 un-loc:USXCI_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USBHZ ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-OH ;
 	rdfs:label	"Berkholz"@en , "Berkholz" ;
 	skos:notation	"USXCI" ;
@@ -12703,6 +13024,7 @@ un-loc:USXCK
 un-loc:USXCK_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USBKT ;
 	geo:lat	37.07 ;
 	geo:long	-77.98 ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-VA ;
@@ -12735,6 +13057,7 @@ un-loc:USXED
 un-loc:USXED_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCND ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-NY ;
 	rdfs:label	"Canaudigua"@en , "Canaudigua" ;
 	skos:notation	"USXED" ;
@@ -12747,6 +13070,7 @@ un-loc:USXED_2004-1
 un-loc:USXEH_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USCLC ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-TX ;
 	rdfs:label	"Cirarlake"@en , "Cirarlake" ;
 	skos:notation	"USXEH" ;
@@ -12806,6 +13130,7 @@ un-loc:USXIV
 un-loc:USXIV_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USMMM ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-WI ;
 	rdfs:label	"Monomnie"@en , "Monomnie" ;
 	skos:notation	"USXIV" ;
@@ -12821,6 +13146,7 @@ un-loc:USXIZ
 un-loc:USXIZ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USMMM ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-WI ;
 	rdfs:label	"Menonmone"@en , "Menonmone" ;
 	skos:notation	"USXIZ" ;
@@ -12836,6 +13162,7 @@ un-loc:USXJT
 un-loc:USXJT_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USNEF ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"New Kingstown"@en , "New Kingstown" ;
 	skos:notation	"USXJT" ;
@@ -12881,6 +13208,7 @@ un-loc:USXNQ
 un-loc:USXNQ_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USWNG ;
 	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
 	rdfs:label	"Windcap"@en , "Windcap" ;
 	skos:notation	"USXNQ" ;

@@ -113,7 +113,7 @@ decouple: .decouple
 	$(RM) $@.eftl
 	ttl2ttl --sortable un-locode-hist.ttl \
 	| grep -vFf .decouple \
-	| sed -f <(mawk scripts/redirreplc.awk .decouple) \
+	| sed -f <(scripts/redirreplc.awk .decouple) \
 	> $@.t && mv $@.t un-locode-hist.ttl
 	ttl2ttl --sortable un-locode.ttl \
 	| grep -vFf .decouple \

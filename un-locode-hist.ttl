@@ -151,9 +151,6 @@ un-loc:ATVOR_2007
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-RQ .
 
-un-loc:ATWLR
-	owl:sameAs	un-loc:ATWLR_2007 .
-
 un-loc:ATWLR_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -163,6 +160,7 @@ un-loc:ATWLR_2007
 	rdfs:label	"Wolfurt"@en , "Wolfurt" ;
 	skos:notation	"ATWLR" ;
 	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2011-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2008-03-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-RL .
@@ -460,6 +458,22 @@ un-loc:BEWEK_2002-1
 	skos:note	"Not found"@en ;
 	tempo:efficaciousFrom	"1993-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2002-04-04"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BGMIC
+	owl:sameAs	un-loc:BGMIC_2011-1 .
+
+un-loc:BGMIC_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BGTRV ;
+	lcc-cr:isPartOf	cc1:BG ;
+	rdfs:label	"Michurin"@en , "Michurin" ;
+	skos:notation	"BGMIC" ;
+	skos:note	"cf BGTRV"@en ;
+	tempo:efficaciousFrom	"1995-06"^^xsd:gYearMonth ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:BGROU
@@ -3122,6 +3136,40 @@ un-loc:CZSVC_2010-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:DE99B
+	owl:sameAs	un-loc:DE99B_2011-1 .
+
+un-loc:DE99B_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	51.77 ;
+	geo:long	13.70 ;
+	lcc-cr:isPartOf	cc1:DE , cc2:DE-BR ;
+	rdfs:label	"Bornsdorf"@en , "Bornsdorf" ;
+	skos:notation	"DE99B" ;
+	tempo:efficaciousFrom	"2010-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-12-18"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:DE9B9
+	owl:sameAs	un-loc:DE9B9_2011-1 .
+
+un-loc:DE9B9_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	50.88 ;
+	geo:long	11.80 ;
+	lcc-cr:isPartOf	cc1:DE , cc2:DE-TH ;
+	rdfs:label	"Bollberg"@en , "Bollberg" ;
+	skos:notation	"DE9B9" ;
+	tempo:efficaciousFrom	"2010-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-12-18"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
 un-loc:DEAMR_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -3137,6 +3185,23 @@ un-loc:DEAMR_2004-2
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:DEB99
+	owl:sameAs	un-loc:DEB99_2011-1 .
+
+un-loc:DEB99_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	50.22 ;
+	geo:long	6.32 ;
+	lcc-cr:isPartOf	cc1:DE , cc2:DE-RP ;
+	rdfs:label	"Brandscheid/Eifel"@en , "Brandscheid/Eifel" ;
+	skos:notation	"DEB99" ;
+	tempo:efficaciousFrom	"2010-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-12-18"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RQ .
 
 un-loc:DEBBM_2004-2
 	a	owl:Individual ;
@@ -3681,9 +3746,6 @@ un-loc:DEPRS_2009-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:DEREZ
-	owl:sameAs	un-loc:DEREZ_2002-2 .
-
 un-loc:DEREZ_2002-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -3695,6 +3757,7 @@ un-loc:DEREZ_2002-2
 	skos:notation	"DEREZ" ;
 	skos:note	"Duplicated record, see DE-RRZ"@en ;
 	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2011-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2002-07-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
@@ -3762,9 +3825,6 @@ un-loc:DERUC_2010-1
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:DESKR
-	owl:sameAs	un-loc:DESKR_2010-1 .
-
 un-loc:DESKR_2010-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -3776,6 +3836,7 @@ un-loc:DESKR_2010-1
 	skos:notation	"DESKR" ;
 	skos:note	"cf DESLK"@en ;
 	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2011-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2010-10-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
@@ -5065,9 +5126,6 @@ un-loc:FORUN_2010-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRAAC
-	owl:sameAs	un-loc:FRAAC_2010-2 .
-
 un-loc:FRAAC_2010-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -5079,6 +5137,7 @@ un-loc:FRAAC_2010-2
 	skos:notation	"FRAAC" ;
 	skos:note	"cf FRAHP"@en ;
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2011-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2010-12-18"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -8266,21 +8325,6 @@ un-loc:IRBPR_2004-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:IRCYT
-	owl:sameAs	un-loc:IRCYT_2004-2 .
-
-un-loc:IRCYT_2004-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	lcc-cr:isPartOf	cc1:IR ;
-	rdfs:label	"Cyrus Terminal"@en , "Cyrus Terminal" ;
-	skos:notation	"IRCYT" ;
-	skos:note	"Not found"@en ;
-	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
-	tempo:validTill	"2004-07-27"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:IRHTP
 	owl:sameAs	un-loc:IRHTP_2004-2 .
 
@@ -8353,6 +8397,23 @@ un-loc:ISBUD_1998-2
 	tempo:efficaciousTill	"1998-12"^^xsd:gYearMonth ;
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-AC , un-loc:stat-AI .
+
+un-loc:IT949
+	owl:sameAs	un-loc:IT949_2011-1 .
+
+un-loc:IT949_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	42.37 ;
+	geo:long	14.12 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-PE ;
+	rdfs:label	"Villanova"@en , "Villanova" ;
+	skos:notation	"IT949" ;
+	tempo:efficaciousFrom	"2010-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-12-18"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-RQ .
 
 un-loc:ITADO_2004-2
 	a	owl:Individual ;
@@ -8720,9 +8781,6 @@ un-loc:ITFIR_2007
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-RL .
 
-un-loc:ITFRN
-	owl:sameAs	un-loc:ITFRN_2007 .
-
 un-loc:ITFRN_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -8730,6 +8788,7 @@ un-loc:ITFRN_2007
 	rdfs:label	"Fiorano Modenese"@en , "Fiorano Modenese" ;
 	skos:notation	"ITFRN" ;
 	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2011-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2008-03-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-RQ .
@@ -9645,6 +9704,150 @@ un-loc:JMGGT_2004-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:JPAIC
+	owl:sameAs	un-loc:JPAIC_2011-1 .
+
+un-loc:JPAIC_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	35.17 ;
+	geo:long	136.90 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-23 ;
+	rdfs:label	"Aichi-Ken"@en , "Aichi-Ken" ;
+	skos:notation	"JPAIC" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPAKY
+	owl:sameAs	un-loc:JPAKY_2011-1 .
+
+un-loc:JPAKY_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	39.72 ;
+	geo:long	140.10 ;
+	lcc-cr:isPartOf	cc1:JP ;
+	rdfs:label	"Akita-Ken"@en , "Akita-Ken" ;
+	skos:notation	"JPAKY" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPAMO
+	owl:sameAs	un-loc:JPAMO_2011-1 .
+
+un-loc:JPAMO_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	40.82 ;
+	geo:long	140.73 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-02 ;
+	rdfs:label	"Aomori-Ken"@en , "Aomori-Ken" ;
+	skos:notation	"JPAMO" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPCBA
+	owl:sameAs	un-loc:JPCBA_2011-1 .
+
+un-loc:JPCBA_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	35.60 ;
+	geo:long	140.12 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-12 ;
+	rdfs:label	"Chiba-Ken"@en , "Chiba-Ken" ;
+	skos:notation	"JPCBA" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPEHM
+	owl:sameAs	un-loc:JPEHM_2011-1 .
+
+un-loc:JPEHM_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	33.83 ;
+	geo:long	132.75 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-38 ;
+	rdfs:label	"Ehime-Ken"@en , "Ehime-Ken" ;
+	skos:notation	"JPEHM" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPFOK
+	owl:sameAs	un-loc:JPFOK_2011-1 .
+
+un-loc:JPFOK_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	33.60 ;
+	geo:long	130.42 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-40 ;
+	rdfs:label	"Fukuoka-Ken"@en , "Fukuoka-Ken" ;
+	skos:notation	"JPFOK" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPFQI
+	owl:sameAs	un-loc:JPFQI_2011-1 .
+
+un-loc:JPFQI_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	36.05 ;
+	geo:long	136.22 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-18 ;
+	rdfs:label	"Fukui-Ken"@en , "Fukui-Ken" ;
+	skos:notation	"JPFQI" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPFSM
+	owl:sameAs	un-loc:JPFSM_2011-1 .
+
+un-loc:JPFSM_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	37.75 ;
+	geo:long	140.47 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-07 ;
+	rdfs:label	"Fukushima-Ken"@en , "Fukushima-Ken" ;
+	skos:notation	"JPFSM" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:JPFUS
 	owl:sameAs	un-loc:JPFUS_2004-2 .
 
@@ -9658,6 +9861,96 @@ un-loc:JPFUS_2004-2
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPGFU
+	owl:sameAs	un-loc:JPGFU_2011-1 .
+
+un-loc:JPGFU_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	35.38 ;
+	geo:long	136.72 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-21 ;
+	rdfs:label	"Gifu-Ken"@en , "Gifu-Ken" ;
+	skos:notation	"JPGFU" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPGNM
+	owl:sameAs	un-loc:JPGNM_2011-1 .
+
+un-loc:JPGNM_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	36.38 ;
+	geo:long	139.05 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-10 ;
+	rdfs:label	"Gunma-Ken"@en , "Gunma-Ken" ;
+	skos:notation	"JPGNM" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPHOK
+	owl:sameAs	un-loc:JPHOK_2011-1 .
+
+un-loc:JPHOK_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	43.05 ;
+	geo:long	141.33 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-01 ;
+	rdfs:label	"Hokkaido"@en , "Hokkaido" ;
+	skos:notation	"JPHOK" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-10-29"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPHRC
+	owl:sameAs	un-loc:JPHRC_2011-1 .
+
+un-loc:JPHRC_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	34.38 ;
+	geo:long	132.45 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-34 ;
+	rdfs:label	"Hiroshima-Ken"@en , "Hiroshima-Ken" ;
+	skos:notation	"JPHRC" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPHYO
+	owl:sameAs	un-loc:JPHYO_2011-1 .
+
+un-loc:JPHYO_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	34.68 ;
+	geo:long	135.17 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-28 ;
+	rdfs:label	"Hyogo-Ken"@en , "Hyogo-Ken" ;
+	skos:notation	"JPHYO" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:JPIAG
@@ -9675,6 +9968,24 @@ un-loc:JPIAG_2002-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:JPIBA
+	owl:sameAs	un-loc:JPIBA_2011-1 .
+
+un-loc:JPIBA_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	36.33 ;
+	geo:long	140.43 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-08 ;
+	rdfs:label	"Ibaraki-Ken"@en , "Ibaraki-Ken" ;
+	skos:notation	"JPIBA" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:JPIKS
 	owl:sameAs	un-loc:JPIKS_2004-2 .
 
@@ -9689,6 +10000,24 @@ un-loc:JPIKS_2004-2
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPISQ
+	owl:sameAs	un-loc:JPISQ_2011-1 .
+
+un-loc:JPISQ_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	36.55 ;
+	geo:long	136.65 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-17 ;
+	rdfs:label	"Ishikawa-Ken"@en , "Ishikawa-Ken" ;
+	skos:notation	"JPISQ" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:JPISS
@@ -9723,6 +10052,133 @@ un-loc:JPISW_2010-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:JPIWE
+	owl:sameAs	un-loc:JPIWE_2011-1 .
+
+un-loc:JPIWE_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	39.70 ;
+	geo:long	141.15 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-03 ;
+	rdfs:label	"Iwate-Ken"@en , "Iwate-Ken" ;
+	skos:notation	"JPIWE" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPKG2
+	owl:sameAs	un-loc:JPKG2_2011-1 .
+
+un-loc:JPKG2_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:JPKGN ;
+	geo:lat	35.68 ;
+	geo:long	139.50 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-13 ;
+	rdfs:label	"Koganei"@en , "Koganei" ;
+	skos:notation	"JPKG2" ;
+	skos:note	"cf JPKGN"@en ;
+	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-10-29"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPKGK
+	owl:sameAs	un-loc:JPKGK_2011-1 .
+
+un-loc:JPKGK_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	31.60 ;
+	geo:long	130.55 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-46 ;
+	rdfs:label	"Kagoshima-Ken"@en , "Kagoshima-Ken" ;
+	skos:notation	"JPKGK" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPKGX
+	owl:sameAs	un-loc:JPKGX_2011-1 .
+
+un-loc:JPKGX_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	34.33 ;
+	geo:long	134.03 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-37 ;
+	rdfs:label	"Kagawa-Ken"@en , "Kagawa-Ken" ;
+	skos:notation	"JPKGX" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPKMZ
+	owl:sameAs	un-loc:JPKMZ_2011-1 .
+
+un-loc:JPKMZ_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	32.78 ;
+	geo:long	130.73 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-43 ;
+	rdfs:label	"Kumamoto-Ken"@en , "Kumamoto-Ken" ;
+	skos:notation	"JPKMZ" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPKNW
+	owl:sameAs	un-loc:JPKNW_2011-1 .
+
+un-loc:JPKNW_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	35.43 ;
+	geo:long	139.63 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-14 ;
+	rdfs:label	"Kanagawa-Ken"@en , "Kanagawa-Ken" ;
+	skos:notation	"JPKNW" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPKOC
+	owl:sameAs	un-loc:JPKOC_2011-1 .
+
+un-loc:JPKOC_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	33.55 ;
+	geo:long	133.52 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-39 ;
+	rdfs:label	"Kochi-Ken"@en , "Kochi-Ken" ;
+	skos:notation	"JPKOC" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:JPKRO
 	owl:sameAs	un-loc:JPKRO_2004-2 .
 
@@ -9736,6 +10192,42 @@ un-loc:JPKRO_2004-2
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPMGI
+	owl:sameAs	un-loc:JPMGI_2011-1 .
+
+un-loc:JPMGI_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	38.27 ;
+	geo:long	140.87 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-04 ;
+	rdfs:label	"Miyagi-Ken"@en , "Miyagi-Ken" ;
+	skos:notation	"JPMGI" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPMIE
+	owl:sameAs	un-loc:JPMIE_2011-1 .
+
+un-loc:JPMIE_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	34.72 ;
+	geo:long	136.50 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-24 ;
+	rdfs:label	"Mie-Ken"@en , "Mie-Ken" ;
+	skos:notation	"JPMIE" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:JPMNX
@@ -9753,6 +10245,45 @@ un-loc:JPMNX_2004-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:JPMYZ
+	owl:sameAs	un-loc:JPMYZ_2011-1 .
+
+un-loc:JPMYZ_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	31.90 ;
+	geo:long	131.43 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-45 ;
+	rdfs:label	"Miyazaki-Ken"@en , "Miyazaki-Ken" ;
+	skos:notation	"JPMYZ" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPNGA
+	owl:sameAs	un-loc:JPNGA_2011-1 .
+
+un-loc:JPNGA_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	36.65 ;
+	geo:long	138.17 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-20 ;
+	rdfs:label	"Nagano-Ken"@en , "Nagano-Ken" ;
+	skos:notation	"JPNGA" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPNGY
+	owl:sameAs	un-loc:JPNGY_2011-1 .
+
 un-loc:JPNGY_2009-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -9763,6 +10294,39 @@ un-loc:JPNGY_2009-1
 	tempo:efficaciousTill	"2009-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2009-09-23"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPNGY_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	32.73 ;
+	geo:long	129.87 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-42 ;
+	rdfs:label	"Nagasaki-Ken"@en , "Nagasaki-Ken" ;
+	skos:notation	"JPNGY" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPNIG
+	owl:sameAs	un-loc:JPNIG_2011-1 .
+
+un-loc:JPNIG_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	37.90 ;
+	geo:long	139.02 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-15 ;
+	rdfs:label	"Niigata-Ken"@en , "Niigata-Ken" ;
+	skos:notation	"JPNIG" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:JPNMX
@@ -9780,6 +10344,187 @@ un-loc:JPNMX_2004-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:JPNRA
+	owl:sameAs	un-loc:JPNRA_2011-1 .
+
+un-loc:JPNRA_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	34.68 ;
+	geo:long	135.82 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-29 ;
+	rdfs:label	"Nara-Ken"@en , "Nara-Ken" ;
+	skos:notation	"JPNRA" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPOQA
+	owl:sameAs	un-loc:JPOQA_2011-1 .
+
+un-loc:JPOQA_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	34.65 ;
+	geo:long	133.93 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-33 ;
+	rdfs:label	"Okayama-Ken"@en , "Okayama-Ken" ;
+	skos:notation	"JPOQA" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPOQN
+	owl:sameAs	un-loc:JPOQN_2011-1 .
+
+un-loc:JPOQN_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	26.33 ;
+	geo:long	127.80 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-47 ;
+	rdfs:label	"Okinawa-Ken"@en , "Okinawa-Ken" ;
+	skos:notation	"JPOQN" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPOYT
+	owl:sameAs	un-loc:JPOYT_2011-1 .
+
+un-loc:JPOYT_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	33.23 ;
+	geo:long	131.60 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-44 ;
+	rdfs:label	"Oita-Ken"@en , "Oita-Ken" ;
+	skos:notation	"JPOYT" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPSAY
+	owl:sameAs	un-loc:JPSAY_2011-1 .
+
+un-loc:JPSAY_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	35.85 ;
+	geo:long	139.63 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-11 ;
+	rdfs:label	"Saitama-Ken"@en , "Saitama-Ken" ;
+	skos:notation	"JPSAY" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPSGB
+	owl:sameAs	un-loc:JPSGB_2011-1 .
+
+un-loc:JPSGB_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	35.00 ;
+	geo:long	135.87 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-25 ;
+	rdfs:label	"Shiga-Ken"@en , "Shiga-Ken" ;
+	skos:notation	"JPSGB" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPSGG
+	owl:sameAs	un-loc:JPSGG_2011-1 .
+
+un-loc:JPSGG_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	33.23 ;
+	geo:long	130.28 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-41 ;
+	rdfs:label	"Saga-Ken"@en , "Saga-Ken" ;
+	skos:notation	"JPSGG" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPSMX
+	owl:sameAs	un-loc:JPSMX_2011-1 .
+
+un-loc:JPSMX_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	35.47 ;
+	geo:long	133.05 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-32 ;
+	rdfs:label	"Shimane-Ken"@en , "Shimane-Ken" ;
+	skos:notation	"JPSMX" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPSZO
+	owl:sameAs	un-loc:JPSZO_2011-1 .
+
+un-loc:JPSZO_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	34.97 ;
+	geo:long	138.37 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-22 ;
+	rdfs:label	"Shizuoka-Ken"@en , "Shizuoka-Ken" ;
+	skos:notation	"JPSZO" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPTA2
+	owl:sameAs	un-loc:JPTA2_2011-1 .
+
+un-loc:JPTA2_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:JPTTN ;
+	geo:lat	34.87 ;
+	geo:long	134.55 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-28 ;
+	rdfs:label	"Tatsuno"@en , "Tatsuno" ;
+	skos:notation	"JPTA2" ;
+	skos:note	"cf JPTTN"@en ;
+	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-10-29"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:JPTKX_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -9792,6 +10537,42 @@ un-loc:JPTKX_2002-1
 	tempo:efficaciousTill	"2009-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2002-04-04"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPTOC
+	owl:sameAs	un-loc:JPTOC_2011-1 .
+
+un-loc:JPTOC_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	36.55 ;
+	geo:long	139.88 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-09 ;
+	rdfs:label	"Tochigi-Ken"@en , "Tochigi-Ken" ;
+	skos:notation	"JPTOC" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPTQC
+	owl:sameAs	un-loc:JPTQC_2011-1 .
+
+un-loc:JPTQC_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	34.05 ;
+	geo:long	134.55 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-36 ;
+	rdfs:label	"Tokushima-Ken"@en , "Tokushima-Ken" ;
+	skos:notation	"JPTQC" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:JPTRE
@@ -9821,6 +10602,114 @@ un-loc:JPTRI_2004-2
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPTTR
+	owl:sameAs	un-loc:JPTTR_2011-1 .
+
+un-loc:JPTTR_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	35.50 ;
+	geo:long	134.23 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-31 ;
+	rdfs:label	"Tottori-Ken"@en , "Tottori-Ken" ;
+	skos:notation	"JPTTR" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPTYM
+	owl:sameAs	un-loc:JPTYM_2011-1 .
+
+un-loc:JPTYM_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	36.68 ;
+	geo:long	137.02 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-16 ;
+	rdfs:label	"Toyama-Ken"@en , "Toyama-Ken" ;
+	skos:notation	"JPTYM" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPWKY
+	owl:sameAs	un-loc:JPWKY_2011-1 .
+
+un-loc:JPWKY_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	34.22 ;
+	geo:long	135.17 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-30 ;
+	rdfs:label	"Wakayama-Ken"@en , "Wakayama-Ken" ;
+	skos:notation	"JPWKY" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPYGT
+	owl:sameAs	un-loc:JPYGT_2011-1 .
+
+un-loc:JPYGT_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	38.23 ;
+	geo:long	140.35 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-06 ;
+	rdfs:label	"Yamagata-Ken"@en , "Yamagata-Ken" ;
+	skos:notation	"JPYGT" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPYGU
+	owl:sameAs	un-loc:JPYGU_2011-1 .
+
+un-loc:JPYGU_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	34.18 ;
+	geo:long	131.47 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-35 ;
+	rdfs:label	"Yamaguchi-Ken"@en , "Yamaguchi-Ken" ;
+	skos:notation	"JPYGU" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPYMS
+	owl:sameAs	un-loc:JPYMS_2011-1 .
+
+un-loc:JPYMS_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	35.65 ;
+	geo:long	138.57 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-19 ;
+	rdfs:label	"Yamanashi-Ken"@en , "Yamanashi-Ken" ;
+	skos:notation	"JPYMS" ;
+	skos:note	"JP prefecture"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:KHSHV
@@ -10925,23 +11814,6 @@ un-loc:PRCOM_2007
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-RL .
 
-un-loc:PSRMH
-	owl:sameAs	un-loc:PSRMH_2010-1 .
-
-un-loc:PSRMH_2010-1
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	31.90 ;
-	geo:long	35.20 ;
-	lcc-cr:isPartOf	cc1:PS ;
-	rdfs:label	"Ramallah (Ram Allah)"@en , "Ramallah (Rām Allāh)" ;
-	skos:notation	"PSRMH" ;
-	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
-	tempo:validFrom	"2010-02-08"^^xsd:date ;
-	tempo:validTill	"2010-10-29"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-PostalExchangeOffice , un-loc:func-RoadTerminal ;
-	un-loc:hasStatus	un-loc:stat-RL .
-
 un-loc:PTARB
 	owl:sameAs	un-loc:PTARB_2004-2 .
 
@@ -11713,6 +12585,22 @@ un-loc:SVSPM_2004-1
 	tempo:validTill	"2004-02-18"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:TFPFR
+	owl:sameAs	un-loc:TFPFR_2011-1 .
+
+un-loc:TFPFR_2011-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:long	70.22 ;
+	lcc-cr:isPartOf	cc1:TF ;
+	rdfs:label	"Port-aux-Francais"@en , "Port-aux-Français" ;
+	skos:notation	"TFPFR" ;
+	tempo:efficaciousFrom	"2006-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
 
 un-loc:THKKN
 	owl:sameAs	un-loc:THKKN_2010-2 .

@@ -34,6 +34,7 @@ un-loc:Location-shape a sh:NodeShape ;
 	sh:property geo:lat-property ;
 	sh:property geo:long-property ;
 	sh:property dct:isReplacedBy-property ;
+	sh:property rdfs:seeAlso-property ;
 	sh:property skos:notation-property ;
 	sh:property tempo:efficaciousFrom-property ;
 	sh:property tempo:efficaciousTill-property ;
@@ -78,6 +79,12 @@ geo:long-property a sh:PropertyShape ;
 
 dct:isReplacedBy-property a sh:PropertyShape ;
 	sh:path dct:isReplacedBy ;
+	sh:maxCount 1 ;
+	sh:class un-loc:Location ;
+	.
+
+rdfs:seeAlso-property a sh:PropertyShape ;
+	sh:path rdfs:seeAlso ;
 	sh:maxCount 1 ;
 	sh:class un-loc:Location ;
 	.

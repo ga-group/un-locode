@@ -33,6 +33,7 @@ un-loc:Location-shape a sh:NodeShape ;
 	sh:property owl:sameAs-property ;
 	sh:property geo:lat-property ;
 	sh:property geo:long-property ;
+	sh:property dct:isReplaceBy-property ;
 	sh:property skos:notation-property ;
 	sh:property tempo:efficaciousFrom-property ;
 	sh:property tempo:efficaciousTill-property ;
@@ -73,6 +74,12 @@ geo:long-property a sh:PropertyShape ;
 	sh:minExclusive -180 ;
 	sh:maxInclusive 180 ;
 	sh:type xsd:decimal ;
+	.
+
+dct:isReplaceBy-property a sh:PropertyShape ;
+	sh:path dct:isReplacedBy ;
+	sh:maxCount 1 ;
+	sh:class un-loc:Location ;
 	.
 
 skos:notation-property a sh:PropertyShape ;

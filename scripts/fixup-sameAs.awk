@@ -10,4 +10,7 @@
 /tempo:efficaciousFrom/ && / , / {
 	sub(/ ,.* ;/, " ;", $0)
 }
+/dct:isReplacedBy/ && / , / {
+	sub(/un-loc:[A-Z]\{2\}[A-Z0-9]\{3\} , /, "", $0)
+}
 1

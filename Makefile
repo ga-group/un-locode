@@ -8,10 +8,16 @@ include .release
 
 all: un-locode.ttl
 check: check.un-locode check.un-locode-hist
-canon: un-locode.ttl.canon un-locode-hist.ttl.canon
+canon: un-locode-hist.ttl.canon un-locode.ttl.canon
+fixup: fixup.un-locode-hist fixup.un-locode
 
 ## untar and cat CodeListPart*.csv to this file
 dmp = download/release.csv
+
+## use make all fixup check
+## fix issues, then
+## make decouple canon check
+## make replaced canon fixup
 
 tmp/remarks.out: un-locode.ttl
 
@@ -121,7 +127,9 @@ replaced: tmp/remarks.out
 	&& touch un-locode.ttl
 
 fixup.%: %.ttl
-	scripts/fixup-sameAs.awk $< \
+	cat $< \
+	| scripts/fixup-sameAs.awk \
+	| scripts/fixup-replaced.awk \
 	> $@.t && mv $@.t $*.ttl
 
 check.%: %.ttl shacl/%.shacl.ttl

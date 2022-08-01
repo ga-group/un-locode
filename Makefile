@@ -10,24 +10,10 @@ all: un-locode.ttl
 check: check.un-locode check.un-locode-hist
 canon: un-locode.ttl.canon un-locode-hist.ttl.canon
 
-csv = $(patsubst download/%.htm,tmp/%.csv,$(wildcard download/*.htm))
-ttl = $(patsubst download/%.htm,tmp/%.ttl,$(wildcard download/*.htm))
 ## untar and cat CodeListPart*.csv to this file
 dmp = download/release.csv
 
-csv: $(csv)
-ttl: $(ttl)
-
-.SOMETIMES.PHONY: download/directory
-download/directory:
-	curl -kL https://unece.org/trade/cefact/unlocode-code-list-country-and-territory \
-	| grep -F '<td' \
-	| grep -o 'http[^"]*/..\.htm' \
-	> $@
-
-download: download/directory
-	mawk -F'/' '$$0="curl -kL -o $@/"$$NF" \""$$0"\""' $< \
-	| $(SHELL)
+tmp/remarks.out: un-locode.ttl
 
 tmp/%.csv: download/%.htm scripts/rdtbl.xsl
 	xsltproc --html scripts/rdtbl.xsl $< \

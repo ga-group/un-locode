@@ -62,12 +62,16 @@ owl:sameAs-property a sh:PropertyShape ;
 geo:lat-property a sh:PropertyShape ;
 	sh:path geo:lat ;
 	sh:maxCount 1 ;
+	sh:minInclusive -90 ;
+	sh:maxInclusive 90 ;
 	sh:type xsd:decimal ;
 	.
 
 geo:long-property a sh:PropertyShape ;
 	sh:path geo:long ;
 	sh:maxCount 1 ;
+	sh:minExclusive -180 ;
+	sh:maxInclusive 180 ;
 	sh:type xsd:decimal ;
 	.
 

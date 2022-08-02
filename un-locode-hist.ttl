@@ -1040,6 +1040,25 @@ un-loc:AUWLY_2011-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:AUYQD
+	owl:sameAs	un-loc:AUYQD_2015-1 .
+
+un-loc:AUYQD_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AUYDN ;
+	geo:lat	-26.57 ;
+	geo:long	152.97 ;
+	lcc-cr:isPartOf	cc1:AU , cc2:AU-QLD ;
+	rdfs:label	"Yandina"@en , "Yandina" ;
+	skos:notation	"AUYQD" ;
+	skos:note	"Use AU YDN"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:AZMHL
 	owl:sameAs	un-loc:AZMHL_2004-1 .
 
@@ -1767,6 +1786,23 @@ un-loc:BRCPR_2011-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BREMB
+	owl:sameAs	un-loc:BREMB_2015-1 .
+
+un-loc:BREMB_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-23.63 ;
+	geo:long	-46.83 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Embu"@en , "Embu" ;
+	skos:notation	"BREMB" ;
+	tempo:efficaciousFrom	"2006-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2008-03-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:BRQGI
@@ -2926,6 +2962,25 @@ un-loc:CMVCC_2009-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNAYN
+	owl:sameAs	un-loc:CNAYN_2015-1 .
+
+un-loc:CNAYN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNAYS ;
+	geo:lat	36.10 ;
+	geo:long	114.35 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-41 ;
+	rdfs:label	"Anyang"@en , "Anyang" ;
+	skos:notation	"CNAYN" ;
+	skos:note	"Use CNAYS"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNBAD
 	owl:sameAs	un-loc:CNBAD_2014-2 .
 
@@ -2995,6 +3050,22 @@ un-loc:CNBAV_2014-2
 	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNBAY
+	owl:sameAs	un-loc:CNBAY_2015-1 .
+
+un-loc:CNBAY_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNBYQ ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-21 ;
+	rdfs:label	"Bayuquan"@en , "Bayuquan" ;
+	skos:notation	"CNBAY" ;
+	skos:note	"Use CNBYQ"@en ;
+	tempo:efficaciousFrom	"1997-09"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNBCN
 	owl:sameAs	un-loc:CNBCN_2014-2 .
 
@@ -3012,6 +3083,43 @@ un-loc:CNBCN_2014-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNBEN
+	owl:sameAs	un-loc:CNBEN_2015-1 .
+
+un-loc:CNBEN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNBXS ;
+	geo:lat	41.28 ;
+	geo:long	123.75 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-21 ;
+	rdfs:label	"Benxi"@en , "Benxi" ;
+	skos:notation	"CNBEN" ;
+	skos:note	"Use CNBXS"@en ;
+	tempo:efficaciousFrom	"2006-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2006-06-09"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNBFU
+	owl:sameAs	un-loc:CNBFU_2015-1 .
+
+un-loc:CNBFU_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNBBU ;
+	geo:lat	32.93 ;
+	geo:long	117.35 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-34 ;
+	rdfs:label	"Bengbu"@en , "Bengbu" ;
+	skos:notation	"CNBFU" ;
+	skos:note	"Use CNBBU"@en ;
+	tempo:efficaciousFrom	"2014-07"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNBHP
 	owl:sameAs	un-loc:CNBHP_2014-2 .
 
@@ -3026,6 +3134,40 @@ un-loc:CNBHP_2014-2
 	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNBIT
+	owl:sameAs	un-loc:CNBIT_2015-1 .
+
+un-loc:CNBIT_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNSXB ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Beitan"@en , "Beitan" ;
+	skos:notation	"CNBIT" ;
+	skos:note	"Use CNSXB"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNBOE
+	owl:sameAs	un-loc:CNBOE_2015-1 .
+
+un-loc:CNBOE_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNDBX ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Bohe"@en , "Bohe" ;
+	skos:notation	"CNBOE" ;
+	skos:note	"Use CNDBX"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -3200,6 +3342,40 @@ un-loc:CNDAI_2014-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNDCD
+	owl:sameAs	un-loc:CNDCD_2015-1 .
+
+un-loc:CNDCD_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	28.45 ;
+	geo:long	121.87 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Dachendao"@en , "Dachendao" ;
+	skos:notation	"CNDCD" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNDDU
+	owl:sameAs	un-loc:CNDDU_2015-1 .
+
+un-loc:CNDDU_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	23.57 ;
+	geo:long	112.70 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Didou"@en , "Didou" ;
+	skos:notation	"CNDDU" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNDFE
 	owl:sameAs	un-loc:CNDFE_2014-2 .
 
@@ -3217,6 +3393,21 @@ un-loc:CNDFE_2014-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNDGM
+	owl:sameAs	un-loc:CNDGM_2015-1 .
+
+un-loc:CNDGM_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Dongguan Apt"@en , "Dongguan Apt" ;
+	skos:notation	"CNDGM" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNDGY
@@ -3290,6 +3481,76 @@ un-loc:CNDOG_2014-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNDOO
+	owl:sameAs	un-loc:CNDOO_2015-1 .
+
+un-loc:CNDOO_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNDJK ;
+	geo:lat	33.63 ;
+	geo:long	108.63 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-61 ;
+	rdfs:label	"Dongjiangkou"@en , "Dongjiangkou" ;
+	skos:notation	"CNDOO" ;
+	skos:note	"Use CNDJK"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNDPN
+	owl:sameAs	un-loc:CNDPN_2015-1 .
+
+un-loc:CNDPN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNDGP ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Dongping"@en , "Dongping" ;
+	skos:notation	"CNDPN" ;
+	skos:note	"Use CNDGP"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNDSG
+	owl:sameAs	un-loc:CNDSG_2015-1 .
+
+un-loc:CNDSG_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	30.23 ;
+	geo:long	122.20 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Daishangaoting"@en , "Daishangaoting" ;
+	skos:notation	"CNDSG" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNDTU
+	owl:sameAs	un-loc:CNDTU_2015-1 .
+
+un-loc:CNDTU_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	27.82 ;
+	geo:long	121.15 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Dongtou"@en , "Dongtou" ;
+	skos:notation	"CNDTU" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNDXG
 	owl:sameAs	un-loc:CNDXG_2014-2 .
 
@@ -3319,6 +3580,38 @@ un-loc:CNDXG_2014-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNDXI
+	owl:sameAs	un-loc:CNDXI_2015-1 .
+
+un-loc:CNDXI_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNDAX ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Daxie"@en , "Daxie" ;
+	skos:notation	"CNDXI" ;
+	skos:note	"Use CNDAX"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNERK
+	owl:sameAs	un-loc:CNERK_2015-1 .
+
+un-loc:CNERK_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-15 ;
+	rdfs:label	"Erka"@en , "Erka" ;
+	skos:notation	"CNERK" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNFCE
@@ -3403,6 +3696,25 @@ un-loc:CNFXP_2014-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNFYA
+	owl:sameAs	un-loc:CNFYA_2015-1 .
+
+un-loc:CNFYA_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNFYS ;
+	geo:lat	32.90 ;
+	geo:long	115.82 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-34 ;
+	rdfs:label	"Fuyang"@en , "Fuyang" ;
+	skos:notation	"CNFYA" ;
+	skos:note	"Use CNFYS"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNFZP
 	owl:sameAs	un-loc:CNFZP_2014-2 .
 
@@ -3418,6 +3730,25 @@ un-loc:CNFZP_2014-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNGAS
+	owl:sameAs	un-loc:CNGAS_2015-1 .
+
+un-loc:CNGAS_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNGSH ;
+	geo:lat	23.28 ;
+	geo:long	115.67 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Gaosha"@en , "Gaosha" ;
+	skos:notation	"CNGAS" ;
+	skos:note	"Use CNGSH"@en ;
+	tempo:efficaciousFrom	"2004-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2004-07-27"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNGAZ
@@ -3436,6 +3767,25 @@ un-loc:CNGAZ_2014-2
 	tempo:efficaciousFrom	"2007-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2008-03-20"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNGGY
+	owl:sameAs	un-loc:CNGGY_2015-1 .
+
+un-loc:CNGGY_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNTSG ;
+	geo:lat	22.45 ;
+	geo:long	112.75 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Gongyi"@en , "Gongyi" ;
+	skos:notation	"CNGGY" ;
+	skos:note	"Use CNTSG"@en ;
+	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -3510,6 +3860,23 @@ un-loc:CNGZP_2014-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNHAA
+	owl:sameAs	un-loc:CNHAA_2015-1 .
+
+un-loc:CNHAA_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNXWH ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Haian"@en , "Haian" ;
+	skos:notation	"CNHAA" ;
+	skos:note	"Use CNXWH"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNHAF
 	owl:sameAs	un-loc:CNHAF_2014-2 .
 
@@ -3540,6 +3907,42 @@ un-loc:CNHAI_2014-2
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNHAP
+	owl:sameAs	un-loc:CNHAP_2015-1 .
+
+un-loc:CNHAP_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNWCH ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Huangpo"@en , "Huangpo" ;
+	skos:notation	"CNHAP" ;
+	skos:note	"Use CNWCH"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNHDX
+	owl:sameAs	un-loc:CNHDX_2015-1 .
+
+un-loc:CNHDX_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNHDS ;
+	geo:lat	36.60 ;
+	geo:long	114.47 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-13 ;
+	rdfs:label	"Handan"@en , "Handan" ;
+	skos:notation	"CNHDX" ;
+	skos:note	"Use CNHDS"@en ;
+	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNHEZ
 	owl:sameAs	un-loc:CNHEZ_2010-1 .
 
@@ -3555,6 +3958,25 @@ un-loc:CNHEZ_2010-1
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2010-10-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNHHA
+	owl:sameAs	un-loc:CNHHA_2015-1 .
+
+un-loc:CNHHA_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNHUH ;
+	geo:lat	38.37 ;
+	geo:long	117.35 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-13 ;
+	rdfs:label	"Huanghua"@en , "Huanghua" ;
+	skos:notation	"CNHHA" ;
+	skos:note	"Use CNHUH"@en ;
+	tempo:efficaciousFrom	"2006-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2006-06-09"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNHKP
@@ -3589,6 +4011,71 @@ un-loc:CNHLO_2014-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNHLY
+	owl:sameAs	un-loc:CNHLY_2015-1 .
+
+un-loc:CNHLY_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-15 ;
+	rdfs:label	"Hulieyetu"@en , "Hulieyetu" ;
+	skos:notation	"CNHLY" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNHME
+	owl:sameAs	un-loc:CNHME_2015-1 .
+
+un-loc:CNHME_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	31.88 ;
+	geo:long	121.15 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Haimen"@en , "Haimen" ;
+	skos:notation	"CNHME" ;
+	tempo:efficaciousFrom	"1995-06"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNHMP
+	owl:sameAs	un-loc:CNHMP_2015-1 .
+
+un-loc:CNHMP_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNCYH ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Haimen Pt"@en , "Haimen Pt" ;
+	skos:notation	"CNHMP" ;
+	skos:note	"Use CNCYH"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNHNP
+	owl:sameAs	un-loc:CNHNP_2015-1 .
+
+un-loc:CNHNP_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNHXG ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-46 ;
+	rdfs:label	"Haikou New Pt"@en , "Haikou New Pt" ;
+	skos:notation	"CNHNP" ;
+	skos:note	"Use CNHXG"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNHOG
@@ -3698,6 +4185,23 @@ un-loc:CNHUN_2014-2
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNHXD
+	owl:sameAs	un-loc:CNHXD_2015-1 .
+
+un-loc:CNHXD_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	30.18 ;
+	geo:long	122.65 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Huangxingdao"@en , "Huangxingdao" ;
+	skos:notation	"CNHXD" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNHZP
 	owl:sameAs	un-loc:CNHZP_2014-2 .
 
@@ -3734,6 +4238,23 @@ un-loc:CNINX_2011-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNJGA
+	owl:sameAs	un-loc:CNJGA_2015-1 .
+
+un-loc:CNJGA_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNDMJ ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Jingan"@en , "Jingan" ;
+	skos:notation	"CNJGA" ;
+	skos:note	"Use CNDMJ"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNJIG
 	owl:sameAs	un-loc:CNJIG_2014-2 .
 
@@ -3747,6 +4268,23 @@ un-loc:CNJIG_2014-2
 	skos:note	"USE CNJID"@en ;
 	tempo:efficaciousFrom	"1998-05"^^xsd:gYearMonth ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNJIK
+	owl:sameAs	un-loc:CNJIK_2015-1 .
+
+un-loc:CNJIK_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNJOK ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Jiaokou"@en , "Jiaokou" ;
+	skos:notation	"CNJIK" ;
+	skos:note	"Use CNJOK"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -3783,6 +4321,25 @@ un-loc:CNJJG_2014-2
 	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2002-04-04"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNJNI
+	owl:sameAs	un-loc:CNJNI_2015-1 .
+
+un-loc:CNJNI_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNPTJ ;
+	geo:lat	24.57 ;
+	geo:long	118.60 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-35 ;
+	rdfs:label	"Jinjing"@en , "Jinjing" ;
+	skos:notation	"CNJNI" ;
+	skos:note	"Use CNPTJ"@en ;
+	tempo:efficaciousFrom	"2006-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2006-06-09"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -3858,6 +4415,25 @@ un-loc:CNJY2_2014-2
 	tempo:validFrom	"2010-10-29"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNKRL
+	owl:sameAs	un-loc:CNKRL_2015-1 .
+
+un-loc:CNKRL_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNKOL ;
+	geo:lat	41.75 ;
+	geo:long	86.13 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-65 ;
+	rdfs:label	"Korla"@en , "Korla" ;
+	skos:notation	"CNKRL" ;
+	skos:note	"Use CNKOL"@en ;
+	tempo:efficaciousFrom	"2007-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2008-03-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNLAI
@@ -3948,6 +4524,59 @@ un-loc:CNLFG_2014-2
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNLHD
+	owl:sameAs	un-loc:CNLHD_2015-1 .
+
+un-loc:CNLHD_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Luhuadao"@en , "Luhuadao" ;
+	skos:notation	"CNLHD" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNLIA
+	owl:sameAs	un-loc:CNLIA_2015-1 .
+
+un-loc:CNLIA_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNLYS ;
+	geo:lat	41.27 ;
+	geo:long	123.17 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-21 ;
+	rdfs:label	"Liaoyang"@en , "Liaoyang" ;
+	skos:notation	"CNLIA" ;
+	skos:note	"Use CNLYS"@en ;
+	tempo:efficaciousFrom	"2006-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2008-03-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNLIG
+	owl:sameAs	un-loc:CNLIG_2015-1 .
+
+un-loc:CNLIG_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNLCH ;
+	geo:lat	36.43 ;
+	geo:long	115.62 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-37 ;
+	rdfs:label	"Liaocheng"@en , "Liaocheng" ;
+	skos:notation	"CNLIG" ;
+	skos:note	"Use CNLCH"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNLIO
 	owl:sameAs	un-loc:CNLIO_2014-2 .
 
@@ -3965,6 +4594,25 @@ un-loc:CNLIO_2014-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNLIS
+	owl:sameAs	un-loc:CNLIS_2015-1 .
+
+un-loc:CNLIS_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNLSS ;
+	geo:lat	28.45 ;
+	geo:long	119.90 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Lishui"@en , "Lishui" ;
+	skos:notation	"CNLIS" ;
+	skos:note	"Use CNLSS"@en ;
+	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2004-02-18"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNLNP
 	owl:sameAs	un-loc:CNLNP_2014-2 .
 
@@ -3980,6 +4628,39 @@ un-loc:CNLNP_2014-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNLON
+	owl:sameAs	un-loc:CNLON_2015-1 .
+
+un-loc:CNLON_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNLYF ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-35 ;
+	rdfs:label	"Longyan"@en , "Longyan" ;
+	skos:notation	"CNLON" ;
+	skos:note	"Use CNLYF"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNLWU
+	owl:sameAs	un-loc:CNLWU_2015-1 .
+
+un-loc:CNLWU_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNLWS ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-37 ;
+	rdfs:label	"Laiwu"@en , "Laiwu" ;
+	skos:notation	"CNLWU" ;
+	skos:note	"Use CNLWS"@en ;
+	tempo:efficaciousFrom	"1997-09"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNLZD
@@ -4035,6 +4716,23 @@ un-loc:CNMCN_2014-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNMDJ
+	owl:sameAs	un-loc:CNMDJ_2015-1 .
+
+un-loc:CNMDJ_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNMDG ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-23 ;
+	rdfs:label	"Mudanjiang Hailang Apt"@en , "Mudanjiang Hailang Apt" ;
+	skos:notation	"CNMDJ" ;
+	skos:note	"Use CNMDG"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNMEI
 	owl:sameAs	un-loc:CNMEI_2014-2 .
 
@@ -4051,6 +4749,25 @@ un-loc:CNMEI_2014-2
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2004-02-18"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNMFG
+	owl:sameAs	un-loc:CNMFG_2015-1 .
+
+un-loc:CNMFG_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNSHM ;
+	geo:lat	23.23 ;
+	geo:long	112.80 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Mafang"@en , "Mafang" ;
+	skos:notation	"CNMFG" ;
+	skos:note	"Use CNSHM"@en ;
+	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -4142,6 +4859,25 @@ un-loc:CNNAA_2014-2
 	tempo:validFrom	"2010-10-29"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNNAO
+	owl:sameAs	un-loc:CNNAO_2015-1 .
+
+un-loc:CNNAO_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNNCO ;
+	geo:lat	30.80 ;
+	geo:long	106.07 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-51 ;
+	rdfs:label	"Nanchong"@en , "Nanchong" ;
+	skos:notation	"CNNAO" ;
+	skos:note	"Use CNNCO"@en ;
+	tempo:efficaciousFrom	"2007-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2008-03-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNNBP
@@ -4316,6 +5052,25 @@ un-loc:CNNPG_2014-2
 	un-loc:hasFunction	un-loc:func-RailTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNOHE
+	owl:sameAs	un-loc:CNOHE_2015-1 .
+
+un-loc:CNOHE_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNLHE ;
+	geo:lat	33.57 ;
+	geo:long	114.03 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-41 ;
+	rdfs:label	"Luohe"@en , "Luohe" ;
+	skos:notation	"CNOHE" ;
+	skos:note	"Use CNLHE"@en ;
+	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-10-29"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNPGU
 	owl:sameAs	un-loc:CNPGU_2014-2 .
 
@@ -4437,6 +5192,44 @@ un-loc:CNQPU_2014-2
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNQUZ
+	owl:sameAs	un-loc:CNQUZ_2015-1 .
+
+un-loc:CNQUZ_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNQZS ;
+	geo:lat	36.77 ;
+	geo:long	114.95 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Quzhou"@en , "Quzhou" ;
+	skos:notation	"CNQUZ" ;
+	skos:note	"Use CNQZS"@en ;
+	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2004-02-18"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNQXI
+	owl:sameAs	un-loc:CNQXI_2015-1 .
+
+un-loc:CNQXI_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNJDR ;
+	geo:lat	23.55 ;
+	geo:long	116.42 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Quxi"@en , "Quxi" ;
+	skos:notation	"CNQXI" ;
+	skos:note	"Use CNJDR"@en ;
+	tempo:efficaciousFrom	"2005-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2005-07-08"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNQYN
 	owl:sameAs	un-loc:CNQYN_2014-2 .
 
@@ -4450,6 +5243,25 @@ un-loc:CNQYN_2014-2
 	skos:note	"USE CNQGY"@en ;
 	tempo:efficaciousFrom	"1995-06"^^xsd:gYearMonth ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNRSH
+	owl:sameAs	un-loc:CNRSH_2015-1 .
+
+un-loc:CNRSH_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNWHR ;
+	geo:lat	36.83 ;
+	geo:long	121.50 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-37 ;
+	rdfs:label	"Rushan"@en , "Rushan" ;
+	skos:notation	"CNRSH" ;
+	skos:note	"Use CNWHR"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -4484,6 +5296,23 @@ un-loc:CNSGP_2014-2
 	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNSHC
+	owl:sameAs	un-loc:CNSHC_2015-1 .
+
+un-loc:CNSHC_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNNDS ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-35 ;
+	rdfs:label	"Shacheng"@en , "Shacheng" ;
+	skos:notation	"CNSHC" ;
+	skos:note	"Use CNNDS"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -4541,6 +5370,23 @@ un-loc:CNSIW_2014-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNSJI
+	owl:sameAs	un-loc:CNSJI_2015-1 .
+
+un-loc:CNSJI_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	30.72 ;
+	geo:long	122.48 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Sijiao"@en , "Sijiao" ;
+	skos:notation	"CNSJI" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNSND
 	owl:sameAs	un-loc:CNSND_2014-2 .
 
@@ -4576,6 +5422,25 @@ un-loc:CNSNG_2014-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNSNR
+	owl:sameAs	un-loc:CNSNR_2015-1 .
+
+un-loc:CNSNR_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNSRS ;
+	geo:lat	28.50 ;
+	geo:long	117.92 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-36 ;
+	rdfs:label	"Shangrao"@en , "Shangrao" ;
+	skos:notation	"CNSNR" ;
+	skos:note	"Use CNSRS"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNSOJ
 	owl:sameAs	un-loc:CNSOJ_2014-2 .
 
@@ -4591,6 +5456,42 @@ un-loc:CNSOJ_2014-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNSPU
+	owl:sameAs	un-loc:CNSPU_2015-1 .
+
+un-loc:CNSPU_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNXSP ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Shipu"@en , "Shipu" ;
+	skos:notation	"CNSPU" ;
+	skos:note	"Use CNXSP"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNSQI
+	owl:sameAs	un-loc:CNSQI_2015-1 .
+
+un-loc:CNSQI_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNSUQ ;
+	geo:lat	33.93 ;
+	geo:long	118.28 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-32 ;
+	rdfs:label	"Suqian"@en , "Suqian" ;
+	skos:notation	"CNSQI" ;
+	skos:note	"Use CNSUQ"@en ;
+	tempo:efficaciousFrom	"2010-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-12-18"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNSQP
@@ -4674,6 +5575,25 @@ un-loc:CNSUI_2014-2
 	tempo:validFrom	"2004-02-18"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNSUN
+	owl:sameAs	un-loc:CNSUN_2015-1 .
+
+un-loc:CNSUN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNSNY ;
+	geo:lat	40.12 ;
+	geo:long	116.63 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-11 ;
+	rdfs:label	"Shunyi"@en , "Shunyi" ;
+	skos:notation	"CNSUN" ;
+	skos:note	"Use CNSNY"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNSYP
@@ -4817,6 +5737,23 @@ un-loc:CNTJP_2014-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNTMN
+	owl:sameAs	un-loc:CNTMN_2015-1 .
+
+un-loc:CNTMN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNQNH ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-46 ;
+	rdfs:label	"Tanmen"@en , "Tanmen" ;
+	skos:notation	"CNTMN" ;
+	skos:note	"Use CNQNH"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNTSH
 	owl:sameAs	un-loc:CNTSH_2007 .
 
@@ -4937,6 +5874,23 @@ un-loc:CNWFG_2014-2
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNWFP
+	owl:sameAs	un-loc:CNWFP_2015-1 .
+
+un-loc:CNWFP_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNWEF ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-37 ;
+	rdfs:label	"Weifang Pt"@en , "Weifang Pt" ;
+	skos:notation	"CNWFP" ;
+	skos:note	"Use CNWEF"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNWHA
 	owl:sameAs	un-loc:CNWHA_2014-2 .
 
@@ -5026,6 +5980,57 @@ un-loc:CNWXN_2014-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNWZP
+	owl:sameAs	un-loc:CNWZP_2015-1 .
+
+un-loc:CNWZP_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNWZO ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Wenzhou Pt"@en , "Wenzhou Pt" ;
+	skos:notation	"CNWZP" ;
+	skos:note	"Use CNWZO"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNXAN
+	owl:sameAs	un-loc:CNXAN_2015-1 .
+
+un-loc:CNXAN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNSHX ;
+	geo:lat	23.17 ;
+	geo:long	112.88 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Xinan"@en , "Xinan" ;
+	skos:notation	"CNXAN" ;
+	skos:note	"Use CNSHX"@en ;
+	tempo:efficaciousFrom	"2006-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2008-03-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNXCN
+	owl:sameAs	un-loc:CNXCN_2015-1 .
+
+un-loc:CNXCN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-46 ;
+	rdfs:label	"Xincun"@en , "Xincun" ;
+	skos:notation	"CNXCN" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNXFN
@@ -5172,6 +6177,25 @@ un-loc:CNXIZ_2014-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNXJC
+	owl:sameAs	un-loc:CNXJC_2015-1 .
+
+un-loc:CNXJC_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNXJS ;
+	geo:lat	44.17 ;
+	geo:long	872.50 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-65 ;
+	rdfs:label	"Changji"@en , "Changji" ;
+	skos:notation	"CNXJC" ;
+	skos:note	"Use CNXJS"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNXMP
 	owl:sameAs	un-loc:CNXMP_2014-2 .
 
@@ -5245,6 +6269,76 @@ un-loc:CNXYY_2014-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNYAN
+	owl:sameAs	un-loc:CNYAN_2015-1 .
+
+un-loc:CNYAN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNYSA ;
+	geo:lat	30.62 ;
+	geo:long	122.05 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-33 ;
+	rdfs:label	"Yangshan Port"@en , "Yangshan Port" ;
+	skos:notation	"CNYAN" ;
+	skos:note	"Use CNYSA"@en ;
+	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2004-02-18"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNYBN
+	owl:sameAs	un-loc:CNYBN_2015-1 .
+
+un-loc:CNYBN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNYIB ;
+	geo:lat	28.77 ;
+	geo:long	104.57 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-51 ;
+	rdfs:label	"Yibin"@en , "Yibin" ;
+	skos:notation	"CNYBN" ;
+	skos:note	"Use CNYIB"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNYGZ
+	owl:sameAs	un-loc:CNYGZ_2015-1 .
+
+un-loc:CNYGZ_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-44 ;
+	rdfs:label	"Yingzi"@en , "Yingzi" ;
+	skos:notation	"CNYGZ" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNYHZ
+	owl:sameAs	un-loc:CNYHZ_2015-1 .
+
+un-loc:CNYHZ_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNYNZ ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-32 ;
+	rdfs:label	"Yancheng Apt"@en , "Yancheng Apt" ;
+	skos:notation	"CNYHZ" ;
+	skos:note	"Use CNYNZ"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNYIW
 	owl:sameAs	un-loc:CNYIW_2014-2 .
 
@@ -5261,6 +6355,25 @@ un-loc:CNYIW_2014-2
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2004-02-18"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNYIX
+	owl:sameAs	un-loc:CNYIX_2015-1 .
+
+un-loc:CNYIX_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNYXS ;
+	geo:lat	31.37 ;
+	geo:long	119.83 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-32 ;
+	rdfs:label	"Yixing"@en , "Yixing" ;
+	skos:notation	"CNYIX" ;
+	skos:note	"Use CNYXS"@en ;
+	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2004-02-18"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -5480,6 +6593,25 @@ un-loc:CNZCA_2014-2
 	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:CNZGG
+	owl:sameAs	un-loc:CNZGG_2015-1 .
+
+un-loc:CNZGG_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNZGO ;
+	geo:lat	29.35 ;
+	geo:long	104.75 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-51 ;
+	rdfs:label	"Zigong"@en , "Zigong" ;
+	skos:notation	"CNZGG" ;
+	skos:note	"Use CNZGO"@en ;
+	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:CNZGL
 	owl:sameAs	un-loc:CNZGL_2010-1 .
 
@@ -5533,6 +6665,92 @@ un-loc:CNZHO_2014-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNZIB
+	owl:sameAs	un-loc:CNZIB_2015-1 .
+
+un-loc:CNZIB_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNZBO ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-37 ;
+	rdfs:label	"Zibo"@en , "Zibo" ;
+	skos:notation	"CNZIB" ;
+	skos:note	"Use CNZBO"@en ;
+	tempo:efficaciousFrom	"1999-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNZJA
+	owl:sameAs	un-loc:CNZJA_2015-1 .
+
+un-loc:CNZJA_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNZJK ;
+	geo:lat	40.80 ;
+	geo:long	114.87 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-13 ;
+	rdfs:label	"Zhangjiakou"@en , "Zhangjiakou" ;
+	skos:notation	"CNZJA" ;
+	skos:note	"Use CNZJK"@en ;
+	tempo:efficaciousFrom	"2002-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNZJJ
+	owl:sameAs	un-loc:CNZJJ_2015-1 .
+
+un-loc:CNZJJ_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNDYG ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-43 ;
+	rdfs:label	"Zhangjiajie Apt"@en , "Zhangjiajie Apt" ;
+	skos:notation	"CNZJJ" ;
+	skos:note	"Use CNDYG"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNZJU
+	owl:sameAs	un-loc:CNZJU_2015-1 .
+
+un-loc:CNZJU_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNWHZ ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-37 ;
+	rdfs:label	"Zhangjiabu"@en , "Zhangjiabu" ;
+	skos:notation	"CNZJU" ;
+	skos:note	"Use CNWHZ"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNZOH
+	owl:sameAs	un-loc:CNZOH_2015-1 .
+
+un-loc:CNZOH_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:CNZZS ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-37 ;
+	rdfs:label	"Zaozhuang"@en , "Zaozhuang" ;
+	skos:notation	"CNZOH" ;
+	skos:note	"Use CNZZS"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNZUU
@@ -8548,6 +9766,25 @@ un-loc:DEDGG_2002-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:DEDGS
+	owl:sameAs	un-loc:DEDGS_2015-1 .
+
+un-loc:DEDGS_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEDDY ;
+	geo:lat	53.87 ;
+	geo:long	9.52 ;
+	lcc-cr:isPartOf	cc1:DE , cc2:DE-SH ;
+	rdfs:label	"Dageling"@en , "Dageling" ;
+	skos:notation	"DEDGS" ;
+	skos:note	"Use DE DDY"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:DEDHH_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -9771,9 +11008,6 @@ un-loc:DEWUF_2004-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:DEWZR
-	owl:sameAs	un-loc:DEWZR_2011-2 .
-
 un-loc:DEWZR_2011-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -9785,6 +11019,7 @@ un-loc:DEWZR_2011-2
 	skos:notation	"DEWZR" ;
 	skos:note	"Use DEWSW"@en ;
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
@@ -11121,23 +12356,6 @@ un-loc:EEEHA_2013-2
 	lcc-cr:isPartOf	cc1:EE ;
 	rdfs:label	"Eha"@en , "Eha" ;
 	skos:notation	"EEEHA" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:EEEIS
-	owl:sameAs	un-loc:EEEIS_2013-2 .
-
-un-loc:EEEIS_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	59.57 ;
-	geo:long	26.32 ;
-	lcc-cr:isPartOf	cc1:EE ;
-	rdfs:label	"Eisma"@en , "Eisma" ;
-	skos:notation	"EEEIS" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
@@ -13633,6 +14851,23 @@ un-loc:EEKMU_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:EEKNK
+	owl:sameAs	un-loc:EEKNK_2015-1 .
+
+un-loc:EEKNK_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	59.50 ;
+	geo:long	25.08 ;
+	lcc-cr:isPartOf	cc1:EE , cc2:EE-37 ;
+	rdfs:label	"Koljunuki"@en , "Koljunuki" ;
+	skos:notation	"EEKNK" ;
+	tempo:efficaciousFrom	"2012-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2013-03-07"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:EEKNN
 	owl:sameAs	un-loc:EEKNN_2013-2 .
 
@@ -13729,23 +14964,6 @@ un-loc:EEKOE_2013-2
 	lcc-cr:isPartOf	cc1:EE ;
 	rdfs:label	"Koolimae"@en , "Koolimäe" ;
 	skos:notation	"EEKOE" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:EEKOL
-	owl:sameAs	un-loc:EEKOL_2013-2 .
-
-un-loc:EEKOL_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	58.55 ;
-	geo:long	27.22 ;
-	lcc-cr:isPartOf	cc1:EE ;
-	rdfs:label	"Kolkja"@en , "Kolkja" ;
-	skos:notation	"EEKOL" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
@@ -21982,9 +23200,6 @@ un-loc:EESRT_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EESRV
-	owl:sameAs	un-loc:EESRV_2013-2 .
-
 un-loc:EESRV_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -21994,6 +23209,7 @@ un-loc:EESRV_2013-2
 	rdfs:label	"Sarve"@en , "Sarve" ;
 	skos:notation	"EESRV" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -22169,9 +23385,6 @@ un-loc:EESUJ_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EESUL
-	owl:sameAs	un-loc:EESUL_2013-2 .
-
 un-loc:EESUL_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -22181,6 +23394,7 @@ un-loc:EESUL_2013-2
 	rdfs:label	"Sula"@en , "Sula" ;
 	skos:notation	"EESUL" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -24496,23 +25710,6 @@ un-loc:EEVOO_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EEVOS
-	owl:sameAs	un-loc:EEVOS_2013-2 .
-
-un-loc:EEVOS_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	59.58 ;
-	geo:long	25.97 ;
-	lcc-cr:isPartOf	cc1:EE ;
-	rdfs:label	"Vosu"@en , "Võsu" ;
-	skos:notation	"EEVOS" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:EEVPA
 	owl:sameAs	un-loc:EEVPA_2013-2 .
 
@@ -24632,9 +25829,6 @@ un-loc:EEVPP_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EEVPS
-	owl:sameAs	un-loc:EEVPS_2013-2 .
-
 un-loc:EEVPS_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -24644,6 +25838,7 @@ un-loc:EEVPS_2013-2
 	rdfs:label	"Varssu paadisadam"@en , "Värssu paadisadam" ;
 	skos:notation	"EEVPS" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -24767,9 +25962,6 @@ un-loc:EEVRR_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EEVRS
-	owl:sameAs	un-loc:EEVRS_2013-2 .
-
 un-loc:EEVRS_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -24779,6 +25971,7 @@ un-loc:EEVRS_2013-2
 	rdfs:label	"Vaike-Rootsi"@en , "Väike-Rootsi" ;
 	skos:notation	"EEVRS" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -25988,9 +27181,6 @@ un-loc:ESDAA_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ESDLC
-	owl:sameAs	un-loc:ESDLC_2011-2 .
-
 un-loc:ESDLC_2011-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -26002,6 +27192,7 @@ un-loc:ESDLC_2011-2
 	skos:notation	"ESDLC" ;
 	skos:note	"Use ESRUZ"@en ;
 	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-10-29"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
@@ -27518,9 +28709,6 @@ un-loc:ESSPT_2013-2
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ESSPY
-	owl:sameAs	un-loc:ESSPY_2011-2 .
-
 un-loc:ESSPY_2011-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -27532,6 +28720,7 @@ un-loc:ESSPY_2011-2
 	skos:notation	"ESSPY" ;
 	skos:note	"Use ESPNY"@en ;
 	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-10-29"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
@@ -29238,6 +30427,25 @@ un-loc:FR2MN_2013-1
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:FR2PL
+	owl:sameAs	un-loc:FR2PL_2015-1 .
+
+un-loc:FR2PL_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRPUT ;
+	geo:lat	48.58 ;
+	geo:long	-2.07 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-35 ;
+	rdfs:label	"Pleurtuit"@en , "Pleurtuit" ;
+	skos:notation	"FR2PL" ;
+	skos:note	"Use FRPUT"@en ;
+	tempo:efficaciousFrom	"2013-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2013-12-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:FR2SS
 	owl:sameAs	un-loc:FR2SS_2013-1 .
 
@@ -29274,6 +30482,23 @@ un-loc:FR2TY_2011-2
 	tempo:validFrom	"2010-10-29"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FR3DX
+	owl:sameAs	un-loc:FR3DX_2015-1 .
+
+un-loc:FR3DX_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	43.55 ;
+	geo:long	-1.38 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-40 ;
+	rdfs:label	"Saint-Martin-de-Seignanx"@en , "Saint-Martin-de-Seignanx" ;
+	skos:notation	"FR3DX" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:FR7SL
@@ -29633,6 +30858,23 @@ un-loc:FRAYX_2013-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:FRAZ8
+	owl:sameAs	un-loc:FRAZ8_2015-1 .
+
+un-loc:FRAZ8_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	47.82 ;
+	geo:long	-0.68 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-53 ;
+	rdfs:label	"Aze"@en , "Azé" ;
+	skos:notation	"FRAZ8" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:FRBB3
 	owl:sameAs	un-loc:FRBB3_2013-2 .
 
@@ -29650,9 +30892,6 @@ un-loc:FRBB3_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRBB4
-	owl:sameAs	un-loc:FRBB4_2013-2 .
-
 un-loc:FRBB4_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -29662,6 +30901,7 @@ un-loc:FRBB4_2013-2
 	rdfs:label	"Baie de Bourgneuf"@en , "Baie de Bourgneuf" ;
 	skos:notation	"FRBB4" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -30386,9 +31626,6 @@ un-loc:FRCH8_2013-2
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRCH9
-	owl:sameAs	un-loc:FRCH9_2013-2 .
-
 un-loc:FRCH9_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -30398,6 +31635,7 @@ un-loc:FRCH9_2013-2
 	rdfs:label	"Les Champs"@en , "Les Champs" ;
 	skos:notation	"FRCH9" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -30492,9 +31730,6 @@ un-loc:FRCM5_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRCM6
-	owl:sameAs	un-loc:FRCM6_2013-2 .
-
 un-loc:FRCM6_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -30504,6 +31739,7 @@ un-loc:FRCM6_2013-2
 	rdfs:label	"Camoel"@en , "Camoël" ;
 	skos:notation	"FRCM6" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -30613,9 +31849,6 @@ un-loc:FRCPT_2011-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRCQ2
-	owl:sameAs	un-loc:FRCQ2_2013-2 .
-
 un-loc:FRCQ2_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -30625,6 +31858,7 @@ un-loc:FRCQ2_2013-2
 	rdfs:label	"Le Conquet"@en , "Le Conquet" ;
 	skos:notation	"FRCQ2" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -30696,9 +31930,6 @@ un-loc:FRCR9_2013-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRCS9
-	owl:sameAs	un-loc:FRCS9_2013-2 .
-
 un-loc:FRCS9_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -30708,6 +31939,7 @@ un-loc:FRCS9_2013-2
 	rdfs:label	"Cassy"@en , "Cassy" ;
 	skos:notation	"FRCS9" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -31197,9 +32429,6 @@ un-loc:FREL2_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FREOE
-	owl:sameAs	un-loc:FREOE_2013-2 .
-
 un-loc:FREOE_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -31209,6 +32438,7 @@ un-loc:FREOE_2013-2
 	rdfs:label	"Estuaire de la Loire"@en , "Estuaire de la Loire" ;
 	skos:notation	"FREOE" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -33180,9 +34410,6 @@ un-loc:FRLL2_2011-2
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRLM5
-	owl:sameAs	un-loc:FRLM5_2013-2 .
-
 un-loc:FRLM5_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -33192,6 +34419,7 @@ un-loc:FRLM5_2013-2
 	rdfs:label	"La Malle"@en , "La Malle" ;
 	skos:notation	"FRLM5" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -33231,9 +34459,6 @@ un-loc:FRLM7_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRLM8
-	owl:sameAs	un-loc:FRLM8_2013-2 .
-
 un-loc:FRLM8_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -33243,6 +34468,7 @@ un-loc:FRLM8_2013-2
 	rdfs:label	"Luc-sur-Mer"@en , "Luc-sur-Mer" ;
 	skos:notation	"FRLM8" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -33607,9 +34833,6 @@ un-loc:FRMFS_2010-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRMG8
-	owl:sameAs	un-loc:FRMG8_2013-2 .
-
 un-loc:FRMG8_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -33619,6 +34842,7 @@ un-loc:FRMG8_2013-2
 	rdfs:label	"Morgat"@en , "Morgat" ;
 	skos:notation	"FRMG8" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -33728,9 +34952,6 @@ un-loc:FRMJI_2011-2
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRMM4
-	owl:sameAs	un-loc:FRMM4_2013-2 .
-
 un-loc:FRMM4_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -33740,6 +34961,7 @@ un-loc:FRMM4_2013-2
 	rdfs:label	"Meyran"@en , "Meyran" ;
 	skos:notation	"FRMM4" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -33809,9 +35031,6 @@ un-loc:FRMNL_2002-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRMO5
-	owl:sameAs	un-loc:FRMO5_2013-2 .
-
 un-loc:FRMO5_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -33821,6 +35040,7 @@ un-loc:FRMO5_2013-2
 	rdfs:label	"Meschers-sur-Gironde"@en , "Meschers-sur-Gironde" ;
 	skos:notation	"FRMO5" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -34210,6 +35430,22 @@ un-loc:FROPV_2011-2
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:FRORY
+	owl:sameAs	un-loc:FRORY_2015-1 .
+
+un-loc:FRORY_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	48.75 ;
+	geo:long	2.40 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-94 ;
+	rdfs:label	"Orly Apt/Paris"@en , "Orly Apt/Paris" ;
+	skos:notation	"FRORY" ;
+	tempo:efficaciousFrom	"1995-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-PostalExchangeOffice , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:FROS2
 	owl:sameAs	un-loc:FROS2_2013-2 .
 
@@ -34541,9 +35777,6 @@ un-loc:FRPFY_2011-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRPG3
-	owl:sameAs	un-loc:FRPG3_2011-2 .
-
 un-loc:FRPG3_2011-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -34555,6 +35788,7 @@ un-loc:FRPG3_2011-2
 	skos:notation	"FRPG3" ;
 	skos:note	"Use FRIEM"@en ;
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
@@ -34734,9 +35968,6 @@ un-loc:FRPKE_2011-2
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRPL4
-	owl:sameAs	un-loc:FRPL4_2013-2 .
-
 un-loc:FRPL4_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -34746,6 +35977,7 @@ un-loc:FRPL4_2013-2
 	rdfs:label	"Le Pouliguen"@en , "Le Pouliguen" ;
 	skos:notation	"FRPL4" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -35089,9 +36321,6 @@ un-loc:FRPSB_2013-2
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRPSI
-	owl:sameAs	un-loc:FRPSI_2013-2 .
-
 un-loc:FRPSI_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -35101,6 +36330,7 @@ un-loc:FRPSI_2013-2
 	rdfs:label	"Pors-Gelin"@en , "Pors-Gelin" ;
 	skos:notation	"FRPSI" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -35553,6 +36783,23 @@ un-loc:FRREO_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:FRRFR
+	owl:sameAs	un-loc:FRRFR_2015-1 .
+
+un-loc:FRRFR_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	48.10 ;
+	geo:long	-0.80 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-53 ;
+	rdfs:label	"Change"@en , "Changé" ;
+	skos:notation	"FRRFR" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:FRRGM
 	owl:sameAs	un-loc:FRRGM_2011-2 .
 
@@ -35912,9 +37159,6 @@ un-loc:FRSB4_2011-2
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRSB9
-	owl:sameAs	un-loc:FRSB9_2013-2 .
-
 un-loc:FRSB9_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -35924,6 +37168,7 @@ un-loc:FRSB9_2013-2
 	rdfs:label	"St-Briac-sur-Mer"@en , "St-Briac-sur-Mer" ;
 	skos:notation	"FRSB9" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -35961,6 +37206,25 @@ un-loc:FRSD5_2011-2
 	tempo:validFrom	"2010-10-29"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRSDW
+	owl:sameAs	un-loc:FRSDW_2015-1 .
+
+un-loc:FRSDW_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRDVA ;
+	geo:lat	47.88 ;
+	geo:long	1.95 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-45 ;
+	rdfs:label	"Saint-Denis-en-Val"@en , "Saint-Denis-en-Val" ;
+	skos:notation	"FRSDW" ;
+	skos:note	"Use FRDVA"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:FRSE2
@@ -36050,6 +37314,25 @@ un-loc:FRSF7_2011-2
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:FRSFJ
+	owl:sameAs	un-loc:FRSFJ_2015-1 .
+
+un-loc:FRSFJ_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRHCP ;
+	geo:lat	47.10 ;
+	geo:long	-1.87 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-44 ;
+	rdfs:label	"Saint-Hilaire-de-Chaleons"@en , "Saint-Hilaire-de-Chaléons" ;
+	skos:notation	"FRSFJ" ;
+	skos:note	"Use FRHCP"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:FRSG3_2011-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -36084,9 +37367,6 @@ un-loc:FRSG6_2011-2
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRSG7
-	owl:sameAs	un-loc:FRSG7_2011-2 .
-
 un-loc:FRSG7_2011-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -36098,13 +37378,11 @@ un-loc:FRSG7_2011-2
 	skos:notation	"FRSG7" ;
 	skos:note	"Use FRGBS"@en ;
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:FRSG9
-	owl:sameAs	un-loc:FRSG9_2013-2 .
 
 un-loc:FRSG9_2013-2
 	a	owl:Individual ;
@@ -36115,6 +37393,7 @@ un-loc:FRSG9_2013-2
 	rdfs:label	"Saint-Germain-sur-Ay"@en , "Saint-Germain-sur-Ay" ;
 	skos:notation	"FRSG9" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -37315,9 +38594,6 @@ un-loc:FRTTU_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRTVG
-	owl:sameAs	un-loc:FRTVG_2013-2 .
-
 un-loc:FRTVG_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -37327,6 +38603,7 @@ un-loc:FRTVG_2013-2
 	rdfs:label	"Trevignon"@en , "Trevignon" ;
 	skos:notation	"FRTVG" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -37822,9 +39099,6 @@ un-loc:FRVNW_2014-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRVQE
-	owl:sameAs	un-loc:FRVQE_2011-2 .
-
 un-loc:FRVQE_2011-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -37836,6 +39110,7 @@ un-loc:FRVQE_2011-2
 	skos:notation	"FRVQE" ;
 	skos:note	"Use FRVD6"@en ;
 	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-10-29"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
@@ -38489,6 +39764,25 @@ un-loc:FRYU3_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRYVJ
+	owl:sameAs	un-loc:FRYVJ_2015-1 .
+
+un-loc:FRYVJ_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRGYG ;
+	geo:lat	48.67 ;
+	geo:long	2.35 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-91 ;
+	rdfs:label	"Savigny-sur-Orge"@en , "Savigny-sur-Orge" ;
+	skos:notation	"FRYVJ" ;
+	skos:note	"Use FRGYG"@en ;
+	tempo:efficaciousFrom	"2013-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2013-07-05"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:FRYXC
@@ -44711,6 +46005,25 @@ un-loc:ITBOT_2004-2
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:ITBSW
+	owl:sameAs	un-loc:ITBSW_2015-1 .
+
+un-loc:ITBSW_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITAEM ;
+	geo:lat	45.72 ;
+	geo:long	10.08 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-BS ;
+	rdfs:label	"Monte Isola"@en , "Monte Isola" ;
+	skos:notation	"ITBSW" ;
+	skos:note	"Use ITAEM"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:ITBZI_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -45159,6 +46472,25 @@ un-loc:ITGIE_2010-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:ITIDN
+	owl:sameAs	un-loc:ITIDN_2015-1 .
+
+un-loc:ITIDN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITMRW ;
+	geo:lat	46.08 ;
+	geo:long	13.13 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-UD ;
+	rdfs:label	"Martignacco"@en , "Martignacco" ;
+	skos:notation	"ITIDN" ;
+	skos:note	"Use ITMRW"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:ITIDO_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -45303,6 +46635,23 @@ un-loc:ITLLN_2013-2
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ITLLQ
+	owl:sameAs	un-loc:ITLLQ_2015-1 .
+
+un-loc:ITLLQ_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	44.00 ;
+	geo:long	11.93 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-FC ;
+	rdfs:label	"Civitella di Romagna"@en , "Civitella di Romagna" ;
+	skos:notation	"ITLLQ" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:ITLMV
@@ -45744,6 +47093,23 @@ un-loc:ITRST_2004-2
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:efficaciousTill	"2006-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ITS8O
+	owl:sameAs	un-loc:ITS8O_2015-1 .
+
+un-loc:ITS8O_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	40.62 ;
+	geo:long	14.37 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-NA ;
+	rdfs:label	"Sorrento"@en , "Sorrento" ;
+	skos:notation	"ITS8O" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:ITSAC_2004-2
@@ -46623,9 +47989,6 @@ un-loc:JPGNM_2011-1
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:JPHOK
-	owl:sameAs	un-loc:JPHOK_2011-1 .
-
 un-loc:JPHOK_2011-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -46636,6 +47999,7 @@ un-loc:JPHOK_2011-1
 	skos:notation	"JPHOK" ;
 	skos:note	"JP prefecture"@en ;
 	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-10-29"^^xsd:date ;
 	tempo:validTill	"2011-09-22"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
@@ -46999,9 +48363,6 @@ un-loc:JPMYZ_2011-1
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:JPNGA
-	owl:sameAs	un-loc:JPNGA_2011-1 .
-
 un-loc:JPNGA_2011-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -47012,6 +48373,7 @@ un-loc:JPNGA_2011-1
 	skos:notation	"JPNGA" ;
 	skos:note	"JP prefecture"@en ;
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2011-09-22"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
@@ -47047,9 +48409,6 @@ un-loc:JPNGY_2011-1
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:JPNIG
-	owl:sameAs	un-loc:JPNIG_2011-1 .
-
 un-loc:JPNIG_2011-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -47060,6 +48419,7 @@ un-loc:JPNIG_2011-1
 	skos:notation	"JPNIG" ;
 	skos:note	"JP prefecture"@en ;
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2011-09-22"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
@@ -47292,9 +48652,6 @@ un-loc:JPTKX_2002-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:JPTOC
-	owl:sameAs	un-loc:JPTOC_2011-1 .
-
 un-loc:JPTOC_2011-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -47305,6 +48662,7 @@ un-loc:JPTOC_2011-1
 	skos:notation	"JPTOC" ;
 	skos:note	"JP prefecture"@en ;
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2011-09-22"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
@@ -48015,6 +49373,25 @@ un-loc:LTMMO_2005-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:LTPAZ
+	owl:sameAs	un-loc:LTPAZ_2015-1 .
+
+un-loc:LTPAZ_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:LTPNV ;
+	geo:lat	55.73 ;
+	geo:long	24.35 ;
+	lcc-cr:isPartOf	cc1:LT , cc2:LT-PN ;
+	rdfs:label	"Panevezys"@en , "Panevezys" ;
+	skos:notation	"LTPAZ" ;
+	skos:note	"Use LT PNV"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:LTZAA
 	owl:sameAs	un-loc:LTZAA_2010-2 .
 
@@ -48356,6 +49733,23 @@ un-loc:MXCZR_2009-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:MXGKF
+	owl:sameAs	un-loc:MXGKF_2015-1 .
+
+un-loc:MXGKF_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	25.82 ;
+	geo:long	-100.58 ;
+	lcc-cr:isPartOf	cc1:MX , cc2:MX-NLE ;
+	rdfs:label	"Garcia"@en , "García" ;
+	skos:notation	"MXGKF" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:MXGUI
 	owl:sameAs	un-loc:MXGUI_2010-2 .
 
@@ -48465,6 +49859,23 @@ un-loc:MYKEL_2011-2
 	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:MYNIL
+	owl:sameAs	un-loc:MYNIL_2015-1 .
+
+un-loc:MYNIL_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:MYNII ;
+	lcc-cr:isPartOf	cc1:MY , cc2:MY-04 ;
+	rdfs:label	"Nilai"@en , "Nilai" ;
+	skos:notation	"MYNIL" ;
+	skos:note	"Use MY NII"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:MYPBK
@@ -48587,6 +49998,25 @@ un-loc:NLMLD_2003-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:NLNS4
+	owl:sameAs	un-loc:NLNS4_2015-1 .
+
+un-loc:NLNS4_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:NLSNN ;
+	geo:lat	51.60 ;
+	geo:long	4.10 ;
+	lcc-cr:isPartOf	cc1:NL , cc2:NL-ZE ;
+	rdfs:label	"Sint Annaland"@en , "Sint Annaland" ;
+	skos:notation	"NLNS4" ;
+	skos:note	"Use NL SNN"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:NLNVE
 	owl:sameAs	un-loc:NLNVE_2007 .
 
@@ -48602,6 +50032,25 @@ un-loc:NLNVE_2007
 	tempo:validTill	"2008-03-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-AF .
+
+un-loc:NLREQ
+	owl:sameAs	un-loc:NLREQ_2015-1 .
+
+un-loc:NLREQ_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:NLREK ;
+	geo:lat	51.75 ;
+	geo:long	5.68 ;
+	lcc-cr:isPartOf	cc1:NL , cc2:NL-NB ;
+	rdfs:label	"Reek"@en , "Reek" ;
+	skos:notation	"NLREQ" ;
+	skos:note	"Use NL REK"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:NLSAH
 	owl:sameAs	un-loc:NLSAH_2011-2 .
@@ -48695,6 +50144,37 @@ un-loc:NLZBP_2010-2
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:NOBOX
+	owl:sameAs	un-loc:NOBOX_2015-1 .
+
+un-loc:NOBOX_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NO ;
+	rdfs:label	"Bo"@en , "Bø" ;
+	skos:notation	"NOBOX" ;
+	tempo:efficaciousFrom	"1997-04"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:NOD8L
+	owl:sameAs	un-loc:NOD8L_2015-1 .
+
+un-loc:NOD8L_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	59.40 ;
+	geo:long	10.70 ;
+	lcc-cr:isPartOf	cc1:NO , cc2:NO-01 ;
+	rdfs:label	"Dilling"@en , "Dilling" ;
+	skos:notation	"NOD8L" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:NOESD
 	owl:sameAs	un-loc:NOESD_2013-1 .
 
@@ -48767,6 +50247,20 @@ un-loc:NOOSZ_2014-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:NORSN
+	owl:sameAs	un-loc:NORSN_2015-1 .
+
+un-loc:NORSN_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NO ;
+	rdfs:label	"Raudsandnes"@en , "Raudsandnes" ;
+	skos:notation	"NORSN" ;
+	tempo:efficaciousFrom	"1998-11"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:NOSJR
 	owl:sameAs	un-loc:NOSJR_2013-1 .
 
@@ -48786,6 +50280,69 @@ un-loc:NOSJR_2013-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:NOST8
+	owl:sameAs	un-loc:NOST8_2015-1 .
+
+un-loc:NOST8_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:NOSTB ;
+	geo:lat	60.08 ;
+	geo:long	5.22 ;
+	lcc-cr:isPartOf	cc1:NO , cc2:NO-12 ;
+	rdfs:label	"Storebo"@en , "Storebo" ;
+	skos:notation	"NOST8" ;
+	skos:note	"Use NOSTB"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:NOSTT
+	owl:sameAs	un-loc:NOSTT_2015-1 .
+
+un-loc:NOSTT_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NO ;
+	rdfs:label	"Statfjord Terminal"@en , "Statfjord Terminal" ;
+	skos:notation	"NOSTT" ;
+	tempo:efficaciousFrom	"1995-06"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:NOSVA
+	owl:sameAs	un-loc:NOSVA_2015-1 .
+
+un-loc:NOSVA_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NO , cc2:NO-20 ;
+	rdfs:label	"Sor-Varanger"@en , "Sør-Varanger" ;
+	skos:notation	"NOSVA" ;
+	tempo:efficaciousFrom	"1997-04"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:NOTLL
+	owl:sameAs	un-loc:NOTLL_2015-1 .
+
+un-loc:NOTLL_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	60.67 ;
+	geo:long	3.67 ;
+	lcc-cr:isPartOf	cc1:NO ;
+	rdfs:label	"Troll A Platform"@en , "Troll A Platform" ;
+	skos:notation	"NOTLL" ;
+	tempo:efficaciousFrom	"2010-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-12-18"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:NOV77
 	owl:sameAs	un-loc:NOV77_2013-1 .
 
@@ -48803,6 +50360,40 @@ un-loc:NOV77_2013-1
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-07-05"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:NOVAR
+	owl:sameAs	un-loc:NOVAR_2015-1 .
+
+un-loc:NOVAR_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	58.07 ;
+	geo:long	1.90 ;
+	lcc-cr:isPartOf	cc1:NO ;
+	rdfs:label	"Petrojarl Varg FPSO"@en , "Petrojarl Varg FPSO" ;
+	skos:notation	"NOVAR" ;
+	tempo:efficaciousFrom	"2011-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2012-02-28"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:NOVEA
+	owl:sameAs	un-loc:NOVEA_2015-1 .
+
+un-loc:NOVEA_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	59.30 ;
+	geo:long	5.23 ;
+	lcc-cr:isPartOf	cc1:NO , cc2:NO-11 ;
+	rdfs:label	"Stavneset"@en , "Stavneset" ;
+	skos:notation	"NOVEA" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:NZTIM
@@ -49997,9 +51588,6 @@ un-loc:PTARB_2004-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:PTAVA
-	owl:sameAs	un-loc:PTAVA_2004-2 .
-
 un-loc:PTAVA_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -50011,6 +51599,7 @@ un-loc:PTAVA_2004-2
 	skos:notation	"PTAVA" ;
 	skos:note	"Entry error. cf PT ALB"@en ;
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
@@ -53304,9 +54893,6 @@ un-loc:SEGLL_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:SEGLM
-	owl:sameAs	un-loc:SEGLM_2013-2 .
-
 un-loc:SEGLM_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -53316,6 +54902,7 @@ un-loc:SEGLM_2013-2
 	rdfs:label	"Galtstrom"@en , "Galtström" ;
 	skos:notation	"SEGLM" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2015-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -61447,23 +63034,6 @@ un-loc:SETSD_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:SETSL
-	owl:sameAs	un-loc:SETSL_2013-2 .
-
-un-loc:SETSL_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	57.05 ;
-	geo:long	12.28 ;
-	lcc-cr:isPartOf	cc1:SE , cc2:SE-N ;
-	rdfs:label	"Traslovslage"@en , "Träslövsläge" ;
-	skos:notation	"SETSL" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:SETST
 	owl:sameAs	un-loc:SETST_2013-2 .
 
@@ -62104,23 +63674,6 @@ un-loc:SEVKL_2013-2
 	lcc-cr:isPartOf	cc1:SE , cc2:SE-K ;
 	rdfs:label	"Karlshamn-Vagga"@en , "Karlshamn-Vägga" ;
 	skos:notation	"SEVKL" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:SEVKN
-	owl:sameAs	un-loc:SEVKN_2013-2 .
-
-un-loc:SEVKN_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	56.15 ;
-	geo:long	12.58 ;
-	lcc-cr:isPartOf	cc1:SE , cc2:SE-M ;
-	rdfs:label	"Viken, Hoganas"@en , "Viken, Höganäs" ;
-	skos:notation	"SEVKN" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
@@ -65644,6 +67197,22 @@ un-loc:USMPC_2004-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:USMPG
+	owl:sameAs	un-loc:USMPG_2015-1 .
+
+un-loc:USMPG_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	40.83 ;
+	geo:long	-74.03 ;
+	lcc-cr:isPartOf	cc1:US , cc2:US-NJ ;
+	rdfs:label	"Moonachie"@en , "Moonachie" ;
+	skos:notation	"USMPG" ;
+	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:USMPN_2002-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -67712,6 +69281,22 @@ un-loc:USWLL_2004-1
 	tempo:efficaciousFrom	"2003-07"^^xsd:gYearMonth ;
 	tempo:efficaciousTill	"2006-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-02-18"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:USWOA
+	owl:sameAs	un-loc:USWOA_2015-1 .
+
+un-loc:USWOA_2015-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:USTHW ;
+	lcc-cr:isPartOf	cc1:US , cc2:US-TX ;
+	rdfs:label	"Woodland"@en , "Woodland" ;
+	skos:notation	"USWOA" ;
+	skos:note	"Use US THW"@en ;
+	tempo:efficaciousFrom	"1993-07"^^xsd:gYearMonth ;
+	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 

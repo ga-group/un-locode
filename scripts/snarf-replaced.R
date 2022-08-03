@@ -6,7 +6,7 @@ args <- commandArgs(trailingOnly=TRUE)
 
 fread(args[[1L]]) -> x
 
-x[, regexpr(" [A-Z]{2}[- ]{0,1}[ ]{0,1}[A-Z]{3}", rem)] -> y
+x[, regexpr(" [A-Z]{2}[- ]{0,1}[ ]{0,1}[A-Z0-9]{3}", rem)] -> y
 x[, by:=substr(rem, y, y + attr(y, "match.length"))]
 x[, by:=gsub("[^A-Z0-9]", "", by)]
 

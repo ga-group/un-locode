@@ -7,7 +7,7 @@
 		print "	."
 	}
 }
-/tempo:efficaciousFrom/ && / , / {
+(/tempo:efficaciousFrom/ || /tempo:validFrom/) && / , / {
 	sub(/ ,.* ;/, " ;", $0)
 }
 1

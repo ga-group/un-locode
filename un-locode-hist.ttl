@@ -985,6 +985,44 @@ un-loc:AUMMA_2011-2
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:AUREN
+	owl:sameAs	un-loc:AUREN_2017-1 .
+
+un-loc:AUREN_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AUNRW ;
+	geo:lat	-38.03 ;
+	geo:long	145.30 ;
+	lcc-cr:isPartOf	cc1:AU , cc2:AU-VIC ;
+	rdfs:label	"Narre Warren"@en , "Narre Warren" ;
+	skos:notation	"AUREN" ;
+	skos:note	"Use AU NRW"@en ;
+	tempo:efficaciousFrom	"2015-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2015-12-17"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:AURG2
+	owl:sameAs	un-loc:AURG2_2017-1 .
+
+un-loc:AURG2_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AUNER ;
+	geo:lat	-27.98 ;
+	geo:long	153.32 ;
+	lcc-cr:isPartOf	cc1:AU , cc2:AU-QLD ;
+	rdfs:label	"Nerang"@en , "Nerang" ;
+	skos:notation	"AURG2" ;
+	skos:note	"Use AU NER"@en ;
+	tempo:efficaciousFrom	"2015-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2015-12-17"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:AURMH
 	owl:sameAs	un-loc:AURMH_2014-2 .
 
@@ -1038,6 +1076,25 @@ un-loc:AUWLY_2011-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:AUWW3
+	owl:sameAs	un-loc:AUWW3_2017-1 .
+
+un-loc:AUWW3_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AUBW3 ;
+	geo:lat	-35.17 ;
+	geo:long	138.60 ;
+	lcc-cr:isPartOf	cc1:AU , cc2:AU-SA ;
+	rdfs:label	"Blewitts Springs"@en , "Blewitts Springs" ;
+	skos:notation	"AUWW3" ;
+	skos:note	"Use AU BW3"@en ;
+	tempo:efficaciousFrom	"2015-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2015-12-17"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:AUYQD
@@ -1750,6 +1807,25 @@ un-loc:BNBTN_2004-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:BR9SB
+	owl:sameAs	un-loc:BR9SB_2017-1 .
+
+un-loc:BR9SB_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSDB ;
+	geo:lat	-21.63 ;
+	geo:long	-41.05 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Sao Joao da Barra"@en , "São João da Barra" ;
+	skos:notation	"BR9SB" ;
+	skos:note	"USE BRSDB"@en ;
+	tempo:efficaciousFrom	"2013-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2013-12-20"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:BRBCU
 	owl:sameAs	un-loc:BRBCU_2011-2 .
 
@@ -1853,6 +1929,25 @@ un-loc:BRQOJ_2011-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRRJK
+	owl:sameAs	un-loc:BRRJK_2017-1 .
+
+un-loc:BRRJK_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRINJ ;
+	geo:lat	85.67 ;
+	geo:long	-37.55 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PE ;
+	rdfs:label	"Inaja"@en , "Inajá" ;
+	skos:notation	"BRRJK" ;
+	skos:note	"USE BRINJ"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:BRSPB_2006-1
@@ -2657,9 +2752,6 @@ un-loc:CHDVI_2010-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:CHHAS
-	owl:sameAs	un-loc:CHHAS_2010-1 .
-
 un-loc:CHHAS_2010-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -2669,6 +2761,7 @@ un-loc:CHHAS_2010-1
 	skos:notation	"CHHAS" ;
 	skos:note	"cf CHNHI"@en ;
 	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2010-10-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
@@ -2709,9 +2802,6 @@ un-loc:CHMSC_2010-1
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:CHMUN
-	owl:sameAs	un-loc:CHMUN_2007 .
-
 un-loc:CHMUN_2007
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -2721,6 +2811,7 @@ un-loc:CHMUN_2007
 	rdfs:label	"Munchenstein"@en , "Münchenstein" ;
 	skos:notation	"CHMUN" ;
 	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2008-03-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-RL .
@@ -5183,20 +5274,6 @@ un-loc:CNPLA_2014-2
 	tempo:validFrom	"2004-02-18"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:CNPNG
-	owl:sameAs	un-loc:CNPNG_2014-2 .
-
-un-loc:CNPNG_2014-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	lcc-cr:isPartOf	cc1:CN ;
-	rdfs:label	"Puning"@en , "Puning" ;
-	skos:notation	"CNPNG" ;
-	tempo:efficaciousFrom	"1997-05"^^xsd:gYearMonth ;
-	tempo:validTill	"2014-12-29"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNQDP
@@ -10847,9 +10924,6 @@ un-loc:DESQG_2011-2
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:DESSG
-	owl:sameAs	un-loc:DESSG_2010-1 .
-
 un-loc:DESSG_2010-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -10861,6 +10935,7 @@ un-loc:DESSG_2010-1
 	skos:notation	"DESSG" ;
 	skos:note	"cf DEMOI"@en ;
 	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2010-10-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
@@ -11649,6 +11724,25 @@ un-loc:DKHLS_2002-1
 	tempo:efficaciousTill	"2002-01"^^xsd:gYearMonth ;
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RailTerminal ;
 	un-loc:hasStatus	un-loc:stat-AF , un-loc:stat-XX .
+
+un-loc:DKHQS
+	owl:sameAs	un-loc:DKHQS_2017-1 .
+
+un-loc:DKHQS_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DKHHS ;
+	geo:lat	55.65 ;
+	geo:long	121.33 ;
+	lcc-cr:isPartOf	cc1:DK , cc2:DK-84 ;
+	rdfs:label	"Hedehusene"@en , "Hedehusene" ;
+	skos:notation	"DKHQS" ;
+	skos:note	"Use DK HHS"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:DKNYK
 	owl:sameAs	un-loc:DKNYK_2004-1 .
@@ -14176,9 +14270,6 @@ un-loc:EEKDP_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EEKDR
-	owl:sameAs	un-loc:EEKDR_2013-2 .
-
 un-loc:EEKDR_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -14188,6 +14279,7 @@ un-loc:EEKDR_2013-2
 	rdfs:label	"Kadariku paadisadam"@en , "Kadariku paadisadam" ;
 	skos:notation	"EEKDR" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -15120,23 +15212,6 @@ un-loc:EEKOU_2013-2
 	lcc-cr:isPartOf	cc1:EE ;
 	rdfs:label	"Kadaka oja lauter"@en , "Kadaka oja lauter" ;
 	skos:notation	"EEKOU" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:EEKPA
-	owl:sameAs	un-loc:EEKPA_2013-2 .
-
-un-loc:EEKPA_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	59.55 ;
-	geo:long	26.42 ;
-	lcc-cr:isPartOf	cc1:EE ;
-	rdfs:label	"Karepa"@en , "Karepa" ;
-	skos:notation	"EEKPA" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
@@ -18258,23 +18333,6 @@ un-loc:EEMID_2007
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EEMIH
-	owl:sameAs	un-loc:EEMIH_2013-2 .
-
-un-loc:EEMIH_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	58.78 ;
-	geo:long	26.98 ;
-	lcc-cr:isPartOf	cc1:EE ;
-	rdfs:label	"Mihkli sadam"@en , "Mihkli sadam" ;
-	skos:notation	"EEMIH" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:EEMII
 	owl:sameAs	un-loc:EEMII_2013-2 .
 
@@ -19812,23 +19870,6 @@ un-loc:EEORU_2013-2
 	lcc-cr:isPartOf	cc1:EE ;
 	rdfs:label	"Oru"@en , "Oru" ;
 	skos:notation	"EEORU" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:EEOSM
-	owl:sameAs	un-loc:EEOSM_2013-2 .
-
-un-loc:EEOSM_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	59.28 ;
-	geo:long	23.40 ;
-	lcc-cr:isPartOf	cc1:EE ;
-	rdfs:label	"Osmussaare"@en , "Osmussaare" ;
-	skos:notation	"EEOSM" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
@@ -25153,23 +25194,6 @@ un-loc:EEVID_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EEVIK
-	owl:sameAs	un-loc:EEVIK_2013-2 .
-
-un-loc:EEVIK_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	58.37 ;
-	geo:long	21.87 ;
-	lcc-cr:isPartOf	cc1:EE ;
-	rdfs:label	"Vikati"@en , "Vikati" ;
-	skos:notation	"EEVIK" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:EEVJL
 	owl:sameAs	un-loc:EEVJL_2013-2 .
 
@@ -26384,6 +26408,25 @@ un-loc:ESADI_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:ESADX
+	owl:sameAs	un-loc:ESADX_2017-1 .
+
+un-loc:ESADX_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESAQI ;
+	geo:lat	40.30 ;
+	geo:long	0.22 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-CS ;
+	rdfs:label	"Alcala de Xivert"@en , "Alcalà de Xivert" ;
+	skos:notation	"ESADX" ;
+	skos:note	"Use ES AQI"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:ESAEM
 	owl:sameAs	un-loc:ESAEM_2013-2 .
 
@@ -26399,6 +26442,25 @@ un-loc:ESAEM_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ESAGM
+	owl:sameAs	un-loc:ESAGM_2017-1 .
+
+un-loc:ESAGM_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESAGP ;
+	geo:lat	36.72 ;
+	geo:long	-4.42 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-MA ;
+	rdfs:label	"Malaga"@en , "Málaga" ;
+	skos:notation	"ESAGM" ;
+	skos:note	"Use ES AGP"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:ESAMC
@@ -26597,6 +26659,25 @@ un-loc:ESBLV_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:ESBMH
+	owl:sameAs	un-loc:ESBMH_2017-1 .
+
+un-loc:ESBMH_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESMAH ;
+	geo:lat	39.88 ;
+	geo:long	4.25 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-PM ;
+	rdfs:label	"Mahon"@en , "Mahón" ;
+	skos:notation	"ESBMH" ;
+	skos:note	"Use ES MAH"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:ESBMR
 	owl:sameAs	un-loc:ESBMR_2011-2 .
 
@@ -26792,9 +26873,6 @@ un-loc:ESCBY_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ESCCM
-	owl:sameAs	un-loc:ESCCM_2013-2 .
-
 un-loc:ESCCM_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -26804,6 +26882,7 @@ un-loc:ESCCM_2013-2
 	rdfs:label	"Castillo del Romeral"@en , "Castillo del Romeral" ;
 	skos:notation	"ESCCM" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -26824,6 +26903,25 @@ un-loc:ESCCZ_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ESCD7
+	owl:sameAs	un-loc:ESCD7_2017-1 .
+
+un-loc:ESCD7_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESRES ;
+	geo:lat	39.57 ;
+	geo:long	-6.42 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-CC ;
+	rdfs:label	"Casar de Caceres"@en , "Casar de Cáceres" ;
+	skos:notation	"ESCD7" ;
+	skos:note	"Use ES RES"@en ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:ESCEM
@@ -27200,6 +27298,25 @@ un-loc:ESEEN_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:ESERQ
+	owl:sameAs	un-loc:ESERQ_2017-1 .
+
+un-loc:ESERQ_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESERT ;
+	geo:lat	37.97 ;
+	geo:long	-1.17 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-MU ;
+	rdfs:label	"Era-Alta"@en , "Era-Alta" ;
+	skos:notation	"ESERQ" ;
+	skos:note	"Use ES ERT"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:ESETO
 	owl:sameAs	un-loc:ESETO_2010-1 .
 
@@ -27454,6 +27571,25 @@ un-loc:ESIAM_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ESL3F
+	owl:sameAs	un-loc:ESL3F_2017-1 .
+
+un-loc:ESL3F_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESFLH ;
+	geo:lat	38.80 ;
+	geo:long	-0.87 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-V ;
+	rdfs:label	"La Font de la Figuera"@en , "La Font de la Figuera" ;
+	skos:notation	"ESL3F" ;
+	skos:note	"Use ES FLH"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:ESLAF
@@ -28391,6 +28527,25 @@ un-loc:ESRAC_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:ESRDQ
+	owl:sameAs	un-loc:ESRDQ_2017-1 .
+
+un-loc:ESRDQ_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESRDS ;
+	geo:lat	41.82 ;
+	geo:long	2.72 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-GI ;
+	rdfs:label	"Riudarenes"@en , "Riudarenes" ;
+	skos:notation	"ESRDQ" ;
+	skos:note	"Use ES RDS"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:ESREE
 	owl:sameAs	un-loc:ESREE_2013-2 .
 
@@ -28476,6 +28631,25 @@ un-loc:ESSEM_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ESSFX
+	owl:sameAs	un-loc:ESSFX_2017-1 .
+
+un-loc:ESSFX_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESSFU ;
+	geo:lat	41.78 ;
+	geo:long	3.03 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-GI ;
+	rdfs:label	"Sant Feliu de Guixols"@en , "Sant Feliu de Guixols" ;
+	skos:notation	"ESSFX" ;
+	skos:note	"Use ES SFU"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:ESSIE
@@ -29021,6 +29195,25 @@ un-loc:ESVIZ_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:ESVLP
+	owl:sameAs	un-loc:ESVLP_2017-1 .
+
+un-loc:ESVLP_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESVAP ;
+	geo:lat	38.77 ;
+	geo:long	-3.38 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-CR ;
+	rdfs:label	"Valdepenas"@en , "Valdepenas" ;
+	skos:notation	"ESVLP" ;
+	skos:note	"Use ES VAP"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:ESVQS
 	owl:sameAs	un-loc:ESVQS_2013-2 .
 
@@ -29038,6 +29231,25 @@ un-loc:ESVQS_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ESVTV
+	owl:sameAs	un-loc:ESVTV_2017-1 .
+
+un-loc:ESVTV_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESJTV ;
+	geo:lat	38.98 ;
+	geo:long	-0.52 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-V ;
+	rdfs:label	"Xativa"@en , "Xàtiva" ;
+	skos:notation	"ESVTV" ;
+	skos:note	"Use ES JTV"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:ESVVP_2004-1
@@ -29699,9 +29911,6 @@ un-loc:FIKNA_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FIKON
-	owl:sameAs	un-loc:FIKON_2013-2 .
-
 un-loc:FIKON_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -29711,6 +29920,7 @@ un-loc:FIKON_2013-2
 	rdfs:label	"Konikarvo/Rahja"@en , "Konikarvo/Rahja" ;
 	skos:notation	"FIKON" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -31086,9 +31296,6 @@ un-loc:FRBL5_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRBM4
-	owl:sameAs	un-loc:FRBM4_2013-2 .
-
 un-loc:FRBM4_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -31098,6 +31305,7 @@ un-loc:FRBM4_2013-2
 	rdfs:label	"Batz-sur-Mer"@en , "Batz-sur-Mer" ;
 	skos:notation	"FRBM4" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -31919,23 +32127,6 @@ un-loc:FRCX5_2011-2
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRDBI
-	owl:sameAs	un-loc:FRDBI_2013-2 .
-
-un-loc:FRDBI_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	48.85 ;
-	geo:long	-1.57 ;
-	lcc-cr:isPartOf	cc1:FR ;
-	rdfs:label	"Donville-les-Bains"@en , "Donville-les-Bains" ;
-	skos:notation	"FRDBI" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:FRDBT_2011-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -32186,6 +32377,23 @@ un-loc:FRDUU_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRDZN
+	owl:sameAs	un-loc:FRDZN_2017-1 .
+
+un-loc:FRDZN_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRDZA ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-47 ;
+	rdfs:label	"Domazan"@en , "Domazan" ;
+	skos:notation	"FRDZN" ;
+	skos:note	"Use FR DZA"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:FRDZR
@@ -32862,23 +33070,6 @@ un-loc:FRGGO_2011-2
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:FRGIX
-	owl:sameAs	un-loc:FRGIX_2013-2 .
-
-un-loc:FRGIX_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	49.68 ;
-	geo:long	2.48 ;
-	lcc-cr:isPartOf	cc1:FR , cc2:FR-80 ;
-	rdfs:label	"Grivesnes"@en , "Grivesnes" ;
-	skos:notation	"FRGIX" ;
-	tempo:efficaciousFrom	"2011-07"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-02-28"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:FRGJE
@@ -34123,6 +34314,25 @@ un-loc:FRL66_2013-1
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:FRL9R
+	owl:sameAs	un-loc:FRL9R_2017-1 .
+
+un-loc:FRL9R_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRHSE ;
+	geo:lat	48.78 ;
+	geo:long	2.33 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-94 ;
+	rdfs:label	"L'Hay-les-Roses"@en , "L'Hay-les-Roses" ;
+	skos:notation	"FRL9R" ;
+	skos:note	"Use FR HSE"@en ;
+	tempo:efficaciousFrom	"2013-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2013-07-05"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:FRLB2_2011-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -34476,23 +34686,6 @@ un-loc:FRLO6_2013-2
 	lcc-cr:isPartOf	cc1:FR ;
 	rdfs:label	"Lanmodez"@en , "Lanmodez" ;
 	skos:notation	"FRLO6" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:FRLP4
-	owl:sameAs	un-loc:FRLP4_2013-2 .
-
-un-loc:FRLP4_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	47.70 ;
-	geo:long	-3.38 ;
-	lcc-cr:isPartOf	cc1:FR ;
-	rdfs:label	"Larmor-Plage"@en , "Larmor-Plage" ;
-	skos:notation	"FRLP4" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
@@ -35223,9 +35416,6 @@ un-loc:FRNRR_2013-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRNUO
-	owl:sameAs	un-loc:FRNUO_2013-2 .
-
 un-loc:FRNUO_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -35235,6 +35425,7 @@ un-loc:FRNUO_2013-2
 	rdfs:label	"Nord-Boulogne"@en , "Nord-Boulogne" ;
 	skos:notation	"FRNUO" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -35786,9 +35977,6 @@ un-loc:FRPGC_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRPHE
-	owl:sameAs	un-loc:FRPHE_2013-2 .
-
 un-loc:FRPHE_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -35798,6 +35986,7 @@ un-loc:FRPHE_2013-2
 	rdfs:label	"Penhors"@en , "Penhors" ;
 	skos:notation	"FRPHE" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -36005,9 +36194,6 @@ un-loc:FRPM4_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRPN6
-	owl:sameAs	un-loc:FRPN6_2013-2 .
-
 un-loc:FRPN6_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -36017,6 +36203,7 @@ un-loc:FRPN6_2013-2
 	rdfs:label	"Port nord"@en , "Port nord" ;
 	skos:notation	"FRPN6" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -36875,9 +37062,6 @@ un-loc:FRRMO_2010-1
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRRO3
-	owl:sameAs	un-loc:FRRO3_2013-2 .
-
 un-loc:FRRO3_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -36887,6 +37071,7 @@ un-loc:FRRO3_2013-2
 	rdfs:label	"Ravenoville"@en , "Ravenoville" ;
 	skos:notation	"FRRO3" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -37902,9 +38087,6 @@ un-loc:FRSUW_2010-1
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRSV3
-	owl:sameAs	un-loc:FRSV3_2013-2 .
-
 un-loc:FRSV3_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -37916,6 +38098,7 @@ un-loc:FRSV3_2013-2
 	skos:notation	"FRSV3" ;
 	skos:note	"Use FR VEX"@en ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -41939,25 +42122,6 @@ un-loc:GRAOS_2014-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:GRAPP
-	owl:sameAs	un-loc:GRAPP_2010-1 .
-
-un-loc:GRAPP_2010-1
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	dct:isReplacedBy	un-loc:GRASS ;
-	geo:lat	38.07 ;
-	geo:long	23.58 ;
-	lcc-cr:isPartOf	cc1:GR , cc2:GR-A1 ;
-	rdfs:label	"Aspropyrgos"@en , "Aspropyrgos" ;
-	skos:notation	"GRAPP" ;
-	skos:note	"cf GRASS"@en ;
-	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2009-09-23"^^xsd:date ;
-	tempo:validTill	"2010-10-29"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Multimodal ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:GRAPY
 	owl:sameAs	un-loc:GRAPY_2011-2 .
 
@@ -42358,6 +42522,25 @@ un-loc:GRNPL_2004-1
 	tempo:efficaciousFrom	"2003-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-02-18"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:GRNXA
+	owl:sameAs	un-loc:GRNXA_2017-1 .
+
+un-loc:GRNXA_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DRNSA ;
+	geo:lat	40.62 ;
+	geo:long	22.07 ;
+	lcc-cr:isPartOf	cc1:GR , cc2:GR-53 ;
+	rdfs:label	"Naousa"@en , "Náousa" ;
+	skos:notation	"GRNXA" ;
+	skos:note	"Use DR NSA"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:GRPAN
@@ -46620,6 +46803,25 @@ un-loc:ITIDO_2004-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:ITILE
+	owl:sameAs	un-loc:ITILE_2017-1 .
+
+un-loc:ITILE_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITSEA ;
+	geo:lat	45.65 ;
+	geo:long	12.30 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-TV ;
+	rdfs:label	"Silea"@en , "Silea" ;
+	skos:notation	"ITILE" ;
+	skos:note	"Use IT SEA"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:ITIMC
 	owl:sameAs	un-loc:ITIMC_2013-1 .
 
@@ -46636,6 +46838,25 @@ un-loc:ITIMC_2013-1
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2013-07-05"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ITIVT
+	owl:sameAs	un-loc:ITIVT_2017-1 .
+
+un-loc:ITIVT_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITVTI ;
+	geo:lat	44.43 ;
+	geo:long	8.75 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-GE ;
+	rdfs:label	"Voltri"@en , "Voltri" ;
+	skos:notation	"ITIVT" ;
+	skos:note	"Use IT VTI"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -46862,6 +47083,25 @@ un-loc:ITMIN_2004-2
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:efficaciousTill	"2006-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ITMLR
+	owl:sameAs	un-loc:ITMLR_2017-1 .
+
+un-loc:ITMLR_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITMON ;
+	geo:lat	45.00 ;
+	geo:long	7.68 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-TO ;
+	rdfs:label	"Moncalieri"@en , "Moncalieri" ;
+	skos:notation	"ITMLR" ;
+	skos:note	"Use IT MON"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -47115,6 +47355,25 @@ un-loc:ITPTZ_2013-2
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:ITPV3
+	owl:sameAs	un-loc:ITPV3_2017-1 .
+
+un-loc:ITPV3_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITPVG ;
+	geo:lat	45.33 ;
+	geo:long	10.87 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-VR ;
+	rdfs:label	"Povegliano Veronese"@en , "Povegliano Veronese" ;
+	skos:notation	"ITPV3" ;
+	skos:note	"Use IT PVG"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:ITQGD
 	owl:sameAs	un-loc:ITQGD_2004-2 .
 
@@ -47203,6 +47462,25 @@ un-loc:ITRST_2004-2
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:efficaciousTill	"2006-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ITRSU
+	owl:sameAs	un-loc:ITRSU_2017-1 .
+
+un-loc:ITRSU_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ITROB ;
+	geo:lat	45.43 ;
+	geo:long	8.88 ;
+	lcc-cr:isPartOf	cc1:IT , cc2:IT-MI ;
+	rdfs:label	"Robecco sul Naviglio"@en , "Robecco sul Naviglio" ;
+	skos:notation	"ITRSU" ;
+	skos:note	"Use IT ROB"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:ITS8O
@@ -47970,6 +48248,25 @@ un-loc:JPAMO_2011-1
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2011-09-22"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:JPAOD
+	owl:sameAs	un-loc:JPAOD_2017-1 .
+
+un-loc:JPAOD_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:JPIZO ;
+	geo:lat	35.18 ;
+	geo:long	132.50 ;
+	lcc-cr:isPartOf	cc1:JP , cc2:JP-32 ;
+	rdfs:label	"Oda, Shimane"@en , "Oda, Shimane" ;
+	skos:notation	"JPAOD" ;
+	skos:note	"Use JP IZO"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -48931,6 +49228,25 @@ un-loc:JPYMS_2011-1
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:KHSCH
+	owl:sameAs	un-loc:KHSCH_2017-1 .
+
+un-loc:KHSCH_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:KHKOS ;
+	geo:lat	10.63 ;
+	geo:long	103.50 ;
+	lcc-cr:isPartOf	cc1:KH , cc2:KH-18 ;
+	rdfs:label	"Sihanoukville"@en , "Sihanoukville" ;
+	skos:notation	"KHSCH" ;
+	skos:note	"Use KH KOS"@en ;
+	tempo:efficaciousFrom	"2014-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-12-29"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:KHSHV
 	owl:sameAs	un-loc:KHSHV_2005-2 .
 
@@ -49012,25 +49328,6 @@ un-loc:KRCHU_2001-1
 	tempo:efficaciousTill	"2001-03"^^xsd:gYearMonth ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-AI , un-loc:stat-RL .
-
-un-loc:KRCUC
-	owl:sameAs	un-loc:KRCUC_2013-1 .
-
-un-loc:KRCUC_2013-1
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	dct:isReplacedBy	un-loc:KRCHO ;
-	geo:lat	36.80 ;
-	geo:long	127.15 ;
-	lcc-cr:isPartOf	cc1:KR , cc2:KR-44 ;
-	rdfs:label	"Chonan"@en , "Chonan" ;
-	skos:notation	"KRCUC" ;
-	skos:note	"Use KRCHO"@en ;
-	tempo:efficaciousFrom	"2007-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2008-03-20"^^xsd:date ;
-	tempo:validTill	"2013-07-05"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
-	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:KRCUN
 	owl:sameAs	un-loc:KRCUN_2004-1 .
@@ -49270,25 +49567,6 @@ un-loc:KRPYK_2013-1
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:KRSTJ
-	owl:sameAs	un-loc:KRSTJ_2013-1 .
-
-un-loc:KRSTJ_2013-1
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	dct:isReplacedBy	un-loc:KRSAJ ;
-	geo:lat	36.45 ;
-	geo:long	127.42 ;
-	lcc-cr:isPartOf	cc1:KR , cc2:KR-30 ;
-	rdfs:label	"Shintanjin"@en , "Shintanjin" ;
-	skos:notation	"KRSTJ" ;
-	skos:note	"Use KRSAJ"@en ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-07-05"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Multimodal ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:KRWSN
 	owl:sameAs	un-loc:KRWSN_2007 .
 
@@ -49519,6 +49797,25 @@ un-loc:LTZAA_2010-2
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:LUCBG
+	owl:sameAs	un-loc:LUCBG_2017-1 .
+
+un-loc:LUCBG_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:LUCOL ;
+	geo:lat	49.80 ;
+	geo:long	6.08 ;
+	lcc-cr:isPartOf	cc1:LU , cc2:LU-ME ;
+	rdfs:label	"Colmar-Berg"@en , "Colmar-Berg" ;
+	skos:notation	"LUCBG" ;
+	skos:note	"Use LU COL"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:LVJUR
 	owl:sameAs	un-loc:LVJUR_2013-2 .
 
@@ -49694,6 +49991,25 @@ un-loc:MKVLS_2004-1
 	skos:note	"cf MK TTV"@en ;
 	tempo:efficaciousFrom	"2003-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-02-18"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:MMYAN
+	owl:sameAs	un-loc:MMYAN_2017-1 .
+
+un-loc:MMYAN_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:MMRGN ;
+	geo:lat	16.80 ;
+	geo:long	96.15 ;
+	lcc-cr:isPartOf	cc1:MM , cc2:MM-06 ;
+	rdfs:label	"Yangon"@en , "Yangon" ;
+	skos:notation	"MMYAN" ;
+	skos:note	"Use MM RGN"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -50256,6 +50572,25 @@ un-loc:NLVDE_2010-2
 	tempo:efficaciousFrom	"2007-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2008-03-20"^^xsd:date ;
 	tempo:validTill	"2010-12-18"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:NLWEN
+	owl:sameAs	un-loc:NLWEN_2017-1 .
+
+un-loc:NLWEN_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:NLBUW ;
+	geo:lat	51.88 ;
+	geo:long	5.52 ;
+	lcc-cr:isPartOf	cc1:NL , cc2:NL-GE ;
+	rdfs:label	"Beneden Leeuwen"@en , "Beneden Leeuwen" ;
+	skos:notation	"NLWEN" ;
+	skos:note	"Use NL BUW"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -51462,19 +51797,6 @@ un-loc:NOSKA_2015-2
 	tempo:validTill	"2015-12-17"^^xsd:date ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:NOSKD
-	owl:sameAs	un-loc:NOSKD_2015-2 .
-
-un-loc:NOSKD_2015-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	lcc-cr:isPartOf	cc1:NO , cc2:NO-03 ;
-	rdfs:label	"Skedsmokorset"@en , "Skedsmokorset" ;
-	skos:notation	"NOSKD" ;
-	tempo:efficaciousFrom	"1995-06"^^xsd:gYearMonth ;
-	tempo:validTill	"2015-12-17"^^xsd:date ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:NOSKJ
 	owl:sameAs	un-loc:NOSKJ_2015-2 .
 
@@ -51592,9 +51914,6 @@ un-loc:NOSTT_2015-1
 	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:NOSVA
-	owl:sameAs	un-loc:NOSVA_2015-1 .
-
 un-loc:NOSVA_2015-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -51602,6 +51921,7 @@ un-loc:NOSVA_2015-1
 	rdfs:label	"Sor-Varanger"@en , "Sør-Varanger" ;
 	skos:notation	"NOSVA" ;
 	tempo:efficaciousFrom	"1997-04"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
@@ -52228,6 +52548,9 @@ un-loc:PLKAR_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:PLKAT
+	owl:sameAs	un-loc:PLKAT_2017-1 .
+
 un-loc:PLKAT_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -52241,6 +52564,22 @@ un-loc:PLKAT_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:PLKAT_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:PLKTW ;
+	geo:lat	50.27 ;
+	geo:long	19.02 ;
+	lcc-cr:isPartOf	cc1:PL , cc2:PL-SL ;
+	rdfs:label	"Katowice"@en , "Katowice" ;
+	skos:notation	"PLKAT" ;
+	skos:note	"Use PL KTW"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:PLKDK
@@ -52399,6 +52738,25 @@ un-loc:PLLBI_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:PLLOZ
+	owl:sameAs	un-loc:PLLOZ_2017-1 .
+
+un-loc:PLLOZ_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:PLLOD ;
+	geo:lat	51.75 ;
+	geo:long	19.47 ;
+	lcc-cr:isPartOf	cc1:PL , cc2:PL-LD ;
+	rdfs:label	"Lodz"@en , "Lodz" ;
+	skos:notation	"PLLOZ" ;
+	skos:note	"Use PL LOD"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:PLMEC
 	owl:sameAs	un-loc:PLMEC_2013-2 .
 
@@ -52534,9 +52892,6 @@ un-loc:PLOKY_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:PLORW
-	owl:sameAs	un-loc:PLORW_2013-2 .
-
 un-loc:PLORW_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -52546,6 +52901,7 @@ un-loc:PLORW_2013-2
 	rdfs:label	"Orlowo"@en , "Orlowo" ;
 	skos:notation	"PLORW" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -53272,6 +53628,25 @@ un-loc:RUAMD_2010-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:RUKAZ
+	owl:sameAs	un-loc:RUKAZ_2017-1 .
+
+un-loc:RUKAZ_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:RUKZN ;
+	geo:lat	55.75 ;
+	geo:long	49.13 ;
+	lcc-cr:isPartOf	cc1:RU , cc2:RU-TA ;
+	rdfs:label	"Kazan"@en , "Kazan" ;
+	skos:notation	"RUKAZ" ;
+	skos:note	"Use RU KZN"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:RUKLD
 	owl:sameAs	un-loc:RUKLD_2004-2 .
 
@@ -53399,6 +53774,25 @@ un-loc:RUSVX_2004-2
 	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:RUUGA
+	owl:sameAs	un-loc:RUUGA_2017-1 .
+
+un-loc:RUUGA_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:RUULU ;
+	geo:lat	59.65 ;
+	geo:long	28.27 ;
+	lcc-cr:isPartOf	cc1:RU , cc2:RU-LEN ;
+	rdfs:label	"Ust-Luga"@en , "Ust-Luga" ;
+	skos:notation	"RUUGA" ;
+	skos:note	"Use RU ULU"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:SAAAK
 	owl:sameAs	un-loc:SAAAK_2004-1 .
 
@@ -53481,6 +53875,25 @@ un-loc:SAIEB_2004-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:SAJEH
+	owl:sameAs	un-loc:SAJEH_2017-1 .
+
+un-loc:SAJEH_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SAJED ;
+	geo:lat	21.53 ;
+	geo:long	39.17 ;
+	lcc-cr:isPartOf	cc1:SA , cc2:SA-02 ;
+	rdfs:label	"Jeddah"@en , "Jeddah" ;
+	skos:notation	"SAJEH" ;
+	skos:note	"Use SA JED"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:SAJIZ
 	owl:sameAs	un-loc:SAJIZ_2007 .
 
@@ -53493,6 +53906,25 @@ un-loc:SAJIZ_2007
 	tempo:efficaciousFrom	"1996-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2008-03-20"^^xsd:date ;
 	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:SARIY
+	owl:sameAs	un-loc:SARIY_2017-1 .
+
+un-loc:SARIY_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SARUH ;
+	geo:lat	24.63 ;
+	geo:long	46.77 ;
+	lcc-cr:isPartOf	cc1:SA , cc2:SA-01 ;
+	rdfs:label	"Riyadh"@en , "Riyadh" ;
+	skos:notation	"SARIY" ;
+	skos:note	"Use SA RUH"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:SEABB
 	owl:sameAs	un-loc:SEABB_2013-2 .
@@ -54786,9 +55218,6 @@ un-loc:SEBRR_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:SEBRS
-	owl:sameAs	un-loc:SEBRS_2013-2 .
-
 un-loc:SEBRS_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -54798,6 +55227,7 @@ un-loc:SEBRS_2013-2
 	rdfs:label	"Bredskar"@en , "Bredskär" ;
 	skos:notation	"SEBRS" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -58463,23 +58893,6 @@ un-loc:SEKDD_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:SEKIK
-	owl:sameAs	un-loc:SEKIK_2013-2 .
-
-un-loc:SEKIK_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	55.68 ;
-	geo:long	14.23 ;
-	lcc-cr:isPartOf	cc1:SE , cc2:SE-M ;
-	rdfs:label	"Kivik"@en , "Kivik" ;
-	skos:notation	"SEKIK" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:SEKKA
 	owl:sameAs	un-loc:SEKKA_2013-2 .
 
@@ -60956,9 +61369,6 @@ un-loc:SEOLM_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:SEOLS
-	owl:sameAs	un-loc:SEOLS_2013-2 .
-
 un-loc:SEOLS_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -60968,6 +61378,7 @@ un-loc:SEOLS_2013-2
 	rdfs:label	"Olmanas"@en , "Ölmanäs" ;
 	skos:notation	"SEOLS" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -62391,23 +62802,6 @@ un-loc:SESFO_2013-2
 	lcc-cr:isPartOf	cc1:SE , cc2:SE-E ;
 	rdfs:label	"Sodra Finno"@en , "Södra Finnö" ;
 	skos:notation	"SESFO" ;
-	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2012-09-14"^^xsd:date ;
-	tempo:validTill	"2013-12-20"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:SESGB
-	owl:sameAs	un-loc:SESGB_2013-2 .
-
-un-loc:SESGB_2013-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	58.45 ;
-	geo:long	16.60 ;
-	lcc-cr:isPartOf	cc1:SE , cc2:SE-E ;
-	rdfs:label	"Stegeborg"@en , "Stegeborg" ;
-	skos:notation	"SESGB" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
@@ -65933,6 +66327,63 @@ un-loc:THKKN_2010-2
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:THKLT
+	owl:sameAs	un-loc:THKLT_2017-1 .
+
+un-loc:THKLT_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:THBKK ;
+	geo:lat	13.72 ;
+	geo:long	100.57 ;
+	lcc-cr:isPartOf	cc1:TH , cc2:TH-31 ;
+	rdfs:label	"Klong Toei"@en , "Klong Toei" ;
+	skos:notation	"THKLT" ;
+	skos:note	"Use TH BKK"@en ;
+	tempo:efficaciousFrom	"2012-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2013-03-07"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:THKTL
+	owl:sameAs	un-loc:THKTL_2017-1 .
+
+un-loc:THKTL_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:THBKK ;
+	geo:lat	13.70 ;
+	geo:long	100.58 ;
+	lcc-cr:isPartOf	cc1:TH , cc2:TH-10 ;
+	rdfs:label	"Klong Toey"@en , "Klong Toey" ;
+	skos:notation	"THKTL" ;
+	skos:note	"Use TH BKK"@en ;
+	tempo:efficaciousFrom	"2013-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2013-07-05"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:THKTY
+	owl:sameAs	un-loc:THKTY_2017-1 .
+
+un-loc:THKTY_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:THBKK ;
+	geo:lat	13.72 ;
+	geo:long	100.57 ;
+	lcc-cr:isPartOf	cc1:TH , cc2:TH-10 ;
+	rdfs:label	"Khlong Toei"@en , "Khlong Toei" ;
+	skos:notation	"THKTY" ;
+	skos:note	"Use TH BKK"@en ;
+	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2004-02-18"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:THLAC
 	owl:sameAs	un-loc:THLAC_2004-2 .
 
@@ -66229,6 +66680,25 @@ un-loc:UAIVA_2014-1
 	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-06-20"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:UAKIE
+	owl:sameAs	un-loc:UAKIE_2017-1 .
+
+un-loc:UAKIE_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:UAIEV ;
+	geo:lat	50.43 ;
+	geo:long	30.52 ;
+	lcc-cr:isPartOf	cc1:UA , cc2:UA-30 ;
+	rdfs:label	"Kiev"@en , "Kiev" ;
+	skos:notation	"UAKIE" ;
+	skos:note	"Use UA IEV"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -69615,6 +70085,22 @@ un-loc:USRE9_2010-1
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-RL .
 
+un-loc:USRED
+	owl:sameAs	un-loc:USRED_2017-1 .
+
+un-loc:USRED_2017-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	40.57 ;
+	geo:long	-77.63 ;
+	lcc-cr:isPartOf	cc1:US , cc2:US-PA ;
+	rdfs:label	"Reedsville-Lewistown Apt"@en , "Reedsville-Lewistown Apt" ;
+	skos:notation	"USRED" ;
+	tempo:efficaciousFrom	"2003-07"^^xsd:gYearMonth ;
+	tempo:validTill	"2017-07-13"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI , un-loc:stat-XX .
+
 un-loc:USRGW_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -69695,9 +70181,6 @@ un-loc:USRPH_2011-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:USRRR
-	owl:sameAs	un-loc:USRRR_2010-2 .
-
 un-loc:USRRR_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -69722,6 +70205,7 @@ un-loc:USRRR_2010-2
 	skos:notation	"USRRR" ;
 	skos:note	"cf USRVF"@en ;
 	tempo:efficaciousFrom	"2007-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2017-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2008-03-20"^^xsd:date ;
 	tempo:validTill	"2010-12-18"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;

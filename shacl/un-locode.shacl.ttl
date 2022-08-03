@@ -47,6 +47,16 @@ un-loc:aliased-shape a sh:NodeShape ;
 	sh:sparql un-loc:sameAs-solitude ;
 	.
 
+un-loc:historical-shape1 a sh:NodeShape ;
+	sh:targetSubjectsOf tempo:validTill ;
+	sh:sparql un-loc:xxxTill-iri ;
+	.
+
+un-loc:historical-shape2 a sh:NodeShape ;
+	sh:targetSubjectsOf tempo:efficaciousTill ;
+	sh:sparql un-loc:xxxTill-iri ;
+	.
+
 ## properties
 rdfs:label-property a sh:PropertyShape ;
 	sh:path rdfs:label ;
@@ -135,6 +145,18 @@ SELECT $this ?value WHERE {
 	} GROUP BY $this
 	}
 	FILTER(?value > 0)
+}
+"""
+	.
+
+un-loc:xxxTill-iri
+	sh:prefixes un-loc: ;
+	sh:message "resources constrained by validTill or efficaciousTill should look like un-loc:XXXXX_YYYY-N, i.e. containing a release in their IRI" ;
+	sh:select """
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT $this WHERE {
+	FILTER(!REGEX(STR($this), '_[12][0-9][0-9][0-9]'))
 }
 """
 	.

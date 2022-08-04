@@ -1204,6 +1204,25 @@ un-loc:AZMHL_2004-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:AZNK7
+	owl:sameAs	un-loc:AZNK7_2020-1 .
+
+un-loc:AZNK7_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:AZNAJ ;
+	geo:lat	39.20 ;
+	geo:long	45.40 ;
+	lcc-cr:isPartOf	cc1:AZ ;
+	rdfs:label	"Nakhchivan"@en , "Nakhchivan" ;
+	skos:notation	"AZNK7" ;
+	skos:note	"Use AZ NAJ"@en ;
+	tempo:efficaciousFrom	"2013-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2013-07-05"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:BBSML
 	owl:sameAs	un-loc:BBSML_2013-1 .
 
@@ -2562,6 +2581,22 @@ un-loc:BRBVH_2019-1
 	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:BRBZC
+	owl:sameAs	un-loc:BRBZC_2020-1 .
+
+un-loc:BRBZC_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRABZ ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Buzios"@en , "Buzios" ;
+	skos:notation	"BRBZC" ;
+	skos:note	"USE BR ABZ"@en ;
+	tempo:efficaciousFrom	"1999-12"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:BRCAR
 	owl:sameAs	un-loc:BRCAR_2019-1 .
 
@@ -2747,6 +2782,22 @@ un-loc:BRCM3_2019-1
 	tempo:validFrom	"2013-07-05"^^xsd:date ;
 	tempo:validTill	"2019-07-05"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRCMP
+	owl:sameAs	un-loc:BRCMP_2020-1 .
+
+un-loc:BRCMP_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSAG ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-PA ;
+	rdfs:label	"Santana Do Araguaia"@en , "Santana Do Araguaia" ;
+	skos:notation	"BRCMP" ;
+	skos:note	"USE BR SAG"@en ;
+	tempo:efficaciousFrom	"1999-12"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:BRCPN
@@ -3180,6 +3231,41 @@ un-loc:BRGUU_2019-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:BRIDO
+	owl:sameAs	un-loc:BRIDO_2020-1 .
+
+un-loc:BRIDO_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRLCU ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-TO ;
+	rdfs:label	"Santa Isabel do Morro"@en , "Santa Isabel do Morro" ;
+	skos:notation	"BRIDO" ;
+	skos:note	"USE BR LCU"@en ;
+	tempo:efficaciousFrom	"1996-01"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRIDT
+	owl:sameAs	un-loc:BRIDT_2020-1 .
+
+un-loc:BRIDT_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRRIO ;
+	geo:lat	-22.82 ;
+	geo:long	-43.05 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Ilha d'Agua Terminal"@en , "Ilha d'Agua Terminal" ;
+	skos:notation	"BRIDT" ;
+	skos:note	"USE BR RIO"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:BRIIR
 	owl:sameAs	un-loc:BRIIR_2018-2 .
 
@@ -3446,6 +3532,24 @@ un-loc:BRJSE_2019-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:BRLAZ
+	owl:sameAs	un-loc:BRLAZ_2020-1 .
+
+un-loc:BRLAZ_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRBJL ;
+	geo:lat	-13.25 ;
+	geo:long	-43.42 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-BA ;
+	rdfs:label	"Bom Jesus da Lapa"@en , "Bom Jesus da Lapa" ;
+	skos:notation	"BRLAZ" ;
+	skos:note	"USE BR BJL"@en ;
+	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:BRLBT
 	owl:sameAs	un-loc:BRLBT_2019-1 .
 
@@ -3461,6 +3565,24 @@ un-loc:BRLBT_2019-1
 	tempo:validFrom	"2013-07-05"^^xsd:date ;
 	tempo:validTill	"2019-07-05"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRLCB
+	owl:sameAs	un-loc:BRLCB_2020-1 .
+
+un-loc:BRLCB_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRPLC ;
+	geo:lat	-15.20 ;
+	geo:long	-59.37 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MT ;
+	rdfs:label	"Pontes e Lacerda"@en , "Pontes e Lacerda" ;
+	skos:notation	"BRLCB" ;
+	skos:note	"USE BR PLC"@en ;
+	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:BRLEI
@@ -3717,6 +3839,23 @@ un-loc:BRMIN_2019-1
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:BRMLM
+	owl:sameAs	un-loc:BRMLM_2020-1 .
+
+un-loc:BRMLM_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-22.33 ;
+	geo:long	-40.07 ;
+	lcc-cr:isPartOf	cc1:BR ;
+	rdfs:label	"Marlim"@en , "Marlim" ;
+	skos:notation	"BRMLM" ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:BRMMM
 	owl:sameAs	un-loc:BRMMM_2019-1 .
 
@@ -3828,6 +3967,41 @@ un-loc:BRNBV_2019-1
 	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:BRNCT
+	owl:sameAs	un-loc:BRNCT_2020-1 .
+
+un-loc:BRNCT_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSBJ ;
+	geo:lat	-18.98 ;
+	geo:long	-39.72 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-ES ;
+	rdfs:label	"Norte Capixaba Terminal"@en , "Norte Capixaba Terminal" ;
+	skos:notation	"BRNCT" ;
+	skos:note	"USE BR SBJ"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRNTM
+	owl:sameAs	un-loc:BRNTM_2020-1 .
+
+un-loc:BRNTM_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRMTS ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-TO ;
+	rdfs:label	"Miracema do Norte"@en , "Miracema do Norte" ;
+	skos:notation	"BRNTM" ;
+	skos:note	"USE BR MTS"@en ;
+	tempo:efficaciousFrom	"1999-12"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:BRNVV
 	owl:sameAs	un-loc:BRNVV_2019-1 .
 
@@ -3843,6 +4017,22 @@ un-loc:BRNVV_2019-1
 	tempo:validFrom	"2011-09-22"^^xsd:date ;
 	tempo:validTill	"2019-07-05"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BROAL
+	owl:sameAs	un-loc:BROAL_2020-1 .
+
+un-loc:BROAL_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRCCL ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RO ;
+	rdfs:label	"Cacoal"@en , "Cacoal" ;
+	skos:notation	"BROAL" ;
+	skos:note	"USE BR CCL"@en ;
+	tempo:efficaciousFrom	"1999-12"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:BROSA
@@ -4137,9 +4327,6 @@ un-loc:BRPIO_2019-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:BRPMB
-	owl:sameAs	un-loc:BRPMB_2019-1 .
-
 un-loc:BRPMB_2019-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -4147,6 +4334,7 @@ un-loc:BRPMB_2019-1
 	rdfs:label	"Praia de Tambaba"@en , "Praia de Tambaba" ;
 	skos:notation	"BRPMB" ;
 	tempo:efficaciousFrom	"2006-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2008-03-20"^^xsd:date ;
 	tempo:validTill	"2019-07-05"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
@@ -4938,6 +5126,41 @@ un-loc:BRQXA_2019-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:BRRBB
+	owl:sameAs	un-loc:BRRBB_2020-1 .
+
+un-loc:BRRBB_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRBOB ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-AM ;
+	rdfs:label	"Borba"@en , "Borba" ;
+	skos:notation	"BRRBB" ;
+	skos:note	"USE BR BOB"@en ;
+	tempo:efficaciousFrom	"1999-12"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRRET
+	owl:sameAs	un-loc:BRRET_2020-1 .
+
+un-loc:BRRET_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRRIO ;
+	geo:lat	-23.33 ;
+	geo:long	-43.18 ;
+	lcc-cr:isPartOf	cc1:BR ;
+	rdfs:label	"Ilha Redonda Terminal"@en , "Ilha Redonda Terminal" ;
+	skos:notation	"BRRET" ;
+	skos:note	"USE BR RIO"@en ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-FixedTransport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:BRRGT
 	owl:sameAs	un-loc:BRRGT_2019-1 .
 
@@ -5705,6 +5928,22 @@ un-loc:BRSUP_2019-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:BRSWM
+	owl:sameAs	un-loc:BRSWM_2020-1 .
+
+un-loc:BRSWM_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRABV ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-MT ;
+	rdfs:label	"Suia-Missu"@en , "Suia-Missu" ;
+	skos:notation	"BRSWM" ;
+	skos:note	"USE BR ABV"@en ;
+	tempo:efficaciousFrom	"1999-12"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:BRSXV
 	owl:sameAs	un-loc:BRSXV_2019-1 .
 
@@ -5794,6 +6033,24 @@ un-loc:BRTLA_2019-1
 	tempo:efficaciousFrom	"2006-07"^^xsd:gYearMonth ;
 	tempo:validFrom	"2008-03-20"^^xsd:date ;
 	tempo:validTill	"2019-07-05"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRTRF
+	owl:sameAs	un-loc:BRTRF_2020-1 .
+
+un-loc:BRTRF_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRTFO ;
+	geo:lat	-29.93 ;
+	geo:long	-51.72 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RS ;
+	rdfs:label	"Triunfo"@en , "Triunfo" ;
+	skos:notation	"BRTRF" ;
+	skos:note	"USE BR TFO"@en ;
+	tempo:efficaciousFrom	"2003-07"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -5988,6 +6245,22 @@ un-loc:BRXAP_2019-1
 	skos:note	"USE BR CHA"@en ;
 	tempo:efficaciousFrom	"1996-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2019-07-05"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:BRZMD
+	owl:sameAs	un-loc:BRZMD_2020-1 .
+
+un-loc:BRZMD_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:BRSMA ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-AC ;
+	rdfs:label	"Sena Madureira"@en , "Sena Madureira" ;
+	skos:notation	"BRZMD" ;
+	skos:note	"USE BR SMA"@en ;
+	tempo:efficaciousFrom	"1999-12"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -15449,6 +15722,25 @@ un-loc:DEMND_2007
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-RL .
 
+un-loc:DEMVS
+	owl:sameAs	un-loc:DEMVS_2020-1 .
+
+un-loc:DEMVS_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DEGHJ ;
+	geo:lat	53.52 ;
+	geo:long	13.75 ;
+	lcc-cr:isPartOf	cc1:DE , cc2:DE-MV ;
+	rdfs:label	"Strasburg"@en , "Strasburg" ;
+	skos:notation	"DEMVS" ;
+	skos:note	"Use DE GHJ"@en ;
+	tempo:efficaciousFrom	"2018-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2018-12-21"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:DENBB
 	owl:sameAs	un-loc:DENBB_2014-2 .
 
@@ -15465,6 +15757,25 @@ un-loc:DENBB_2014-2
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:DENG7
+	owl:sameAs	un-loc:DENG7_2020-1 .
+
+un-loc:DENG7_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:DENPO ;
+	geo:lat	50.98 ;
+	geo:long	11.65 ;
+	lcc-cr:isPartOf	cc1:DE , cc2:DE-TH ;
+	rdfs:label	"Neuengonna"@en , "Neuengönna" ;
+	skos:notation	"DENG7" ;
+	skos:note	"Use DE NPO"@en ;
+	tempo:efficaciousFrom	"2018-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2018-12-21"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -22472,9 +22783,6 @@ un-loc:EELOK_2007
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EELOO
-	owl:sameAs	un-loc:EELOO_2013-2 .
-
 un-loc:EELOO_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -22484,6 +22792,7 @@ un-loc:EELOO_2013-2
 	rdfs:label	"Loode"@en , "Loode" ;
 	skos:notation	"EELOO" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -31983,9 +32292,6 @@ un-loc:ESCOS_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ESCPE
-	owl:sameAs	un-loc:ESCPE_2013-2 .
-
 un-loc:ESCPE_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -31995,6 +32301,7 @@ un-loc:ESCPE_2013-2
 	rdfs:label	"Campelo"@en , "Campelo" ;
 	skos:notation	"ESCPE" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -32053,9 +32360,6 @@ un-loc:ESCRQ_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ESCSB
-	owl:sameAs	un-loc:ESCSB_2013-2 .
-
 un-loc:ESCSB_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -32065,13 +32369,11 @@ un-loc:ESCSB_2013-2
 	rdfs:label	"Colonia San Jorge"@en , "Colonia San Jorge" ;
 	skos:notation	"ESCSB" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:ESCSU
-	owl:sameAs	un-loc:ESCSU_2013-2 .
 
 un-loc:ESCSU_2013-2
 	a	owl:Individual ;
@@ -32082,6 +32384,7 @@ un-loc:ESCSU_2013-2
 	rdfs:label	"Castro Urdiales"@en , "Castro Urdiales" ;
 	skos:notation	"ESCSU" ;
 	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-10-29"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -32694,9 +32997,6 @@ un-loc:ESLS3_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ESLST
-	owl:sameAs	un-loc:ESLST_2013-2 .
-
 un-loc:ESLST_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -32706,6 +33006,7 @@ un-loc:ESLST_2013-2
 	rdfs:label	"La Santa"@en , "La Santa" ;
 	skos:notation	"ESLST" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
@@ -32828,9 +33129,6 @@ un-loc:ESMHR_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ESMLR
-	owl:sameAs	un-loc:ESMLR_2010-1 .
-
 un-loc:ESMLR_2010-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -32842,6 +33140,7 @@ un-loc:ESMLR_2010-1
 	skos:notation	"ESMLR" ;
 	skos:note	"cf ESMGO"@en ;
 	tempo:efficaciousFrom	"2006-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2008-03-20"^^xsd:date ;
 	tempo:validTill	"2010-10-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
@@ -36374,8 +36673,23 @@ un-loc:FRBE7_2013-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRBG4
-	owl:sameAs	un-loc:FRBG4_2013-2 .
+un-loc:FRBER
+	owl:sameAs	un-loc:FRBER_2020-1 .
+
+un-loc:FRBER_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRBNY ;
+	geo:lat	49.10 ;
+	geo:long	0.57 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-72 ;
+	rdfs:label	"Bernay"@en , "Bernay" ;
+	skos:notation	"FRBER" ;
+	skos:note	"Use FRBNY"@en ;
+	tempo:efficaciousFrom	"1997-05"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:FRBG4_2013-2
 	a	owl:Individual ;
@@ -36386,6 +36700,7 @@ un-loc:FRBG4_2013-2
 	rdfs:label	"Brigneau"@en , "Brigneau" ;
 	skos:notation	"FRBG4" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -39008,6 +39323,21 @@ un-loc:FRGV3_2013-2
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:FRGVN
+	owl:sameAs	un-loc:FRGVN_2020-1 .
+
+un-loc:FRGVN_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-21 ;
+	rdfs:label	"Lavigny"@en , "Lavigny" ;
+	skos:notation	"FRGVN" ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:FRGZO_2010-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -40634,6 +40964,23 @@ un-loc:FRLR5_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRLR7
+	owl:sameAs	un-loc:FRLR7_2020-1 .
+
+un-loc:FRLR7_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	48.27 ;
+	geo:long	0.70 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-61 ;
+	rdfs:label	"L'Aiguillon-la-Rouge"@en , "L'Aiguillon-la-Rouge" ;
+	skos:notation	"FRLR7" ;
+	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-10-29"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:FRLR9
@@ -48135,6 +48482,24 @@ un-loc:GBKNI_2014-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:GBKUH
+	owl:sameAs	un-loc:GBKUH_2020-1 .
+
+un-loc:GBKUH_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GBHUL ;
+	geo:lat	53.72 ;
+	geo:long	-0.33 ;
+	lcc-cr:isPartOf	cc1:GB , cc2:GB-NLN ;
+	rdfs:label	"Kingston upon Hull"@en , "Kingston upon Hull" ;
+	skos:notation	"GBKUH" ;
+	skos:note	"Use GB HUL"@en ;
+	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:GBLGM
 	owl:sameAs	un-loc:GBLGM_2010-1 .
 
@@ -49332,9 +49697,6 @@ un-loc:GRPEK_2014-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:GRPIL
-	owl:sameAs	un-loc:GRPIL_2004-1 .
-
 un-loc:GRPIL_2004-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -49344,6 +49706,7 @@ un-loc:GRPIL_2004-1
 	skos:notation	"GRPIL" ;
 	skos:note	"cf GR PYL"@en ;
 	tempo:efficaciousFrom	"2003-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-02-18"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
@@ -52762,6 +53125,23 @@ un-loc:INTAE_2014-2
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:INVIZ
+	owl:sameAs	un-loc:INVIZ_2020-1 .
+
+un-loc:INVIZ_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	17.70 ;
+	geo:long	83.25 ;
+	lcc-cr:isPartOf	cc1:IN , cc2:IN-AP ;
+	rdfs:label	"Vizag"@en , "Vizag" ;
+	skos:notation	"INVIZ" ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:IQMAW
 	owl:sameAs	un-loc:IQMAW_2004-1 .
 
@@ -53274,9 +53654,6 @@ un-loc:ITBA3_2018-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ITBAN
-	owl:sameAs	un-loc:ITBAN_2018-2 .
-
 un-loc:ITBAN_2018-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -53288,6 +53665,7 @@ un-loc:ITBAN_2018-2
 	skos:notation	"ITBAN" ;
 	skos:note	"Use IT BRM"@en ;
 	tempo:efficaciousFrom	"2006-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2008-03-20"^^xsd:date ;
 	tempo:validTill	"2018-12-21"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-RoadTerminal ;
@@ -53927,9 +54305,6 @@ un-loc:ITCSV_2018-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ITCSX
-	owl:sameAs	un-loc:ITCSX_2017-2 .
-
 un-loc:ITCSX_2017-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -53941,6 +54316,7 @@ un-loc:ITCSX_2017-2
 	skos:notation	"ITCSX" ;
 	skos:note	"Use IT LSU"@en ;
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2017-12-21"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
@@ -58580,6 +58956,20 @@ un-loc:KWCDH_2019-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:KWJAH
+	owl:sameAs	un-loc:KWJAH_2020-1 .
+
+un-loc:KWJAH_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:KW ;
+	rdfs:label	"Jahran"@en , "Jahran" ;
+	skos:notation	"KWJAH" ;
+	tempo:efficaciousFrom	"1981-10"^^xsd:gYearMonth ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:KWJUA
 	owl:sameAs	un-loc:KWJUA_2004-1 .
 
@@ -62337,9 +62727,6 @@ un-loc:PLQLC_2011-2
 	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:PLREW
-	owl:sameAs	un-loc:PLREW_2013-2 .
-
 un-loc:PLREW_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -62349,6 +62736,7 @@ un-loc:PLREW_2013-2
 	rdfs:label	"Rewa"@en , "Rewa" ;
 	skos:notation	"PLREW" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -66449,9 +66837,6 @@ un-loc:SEGRG_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:SEGRM
-	owl:sameAs	un-loc:SEGRM_2013-2 .
-
 un-loc:SEGRM_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -66461,6 +66846,7 @@ un-loc:SEGRM_2013-2
 	rdfs:label	"Gronemad"@en , "Grönemad" ;
 	skos:notation	"SEGRM" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -66874,9 +67260,6 @@ un-loc:SEHAU_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:SEHAV
-	owl:sameAs	un-loc:SEHAV_2013-2 .
-
 un-loc:SEHAV_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -66886,6 +67269,7 @@ un-loc:SEHAV_2013-2
 	rdfs:label	"Havstenssund"@en , "Havstenssund" ;
 	skos:notation	"SEHAV" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -74585,9 +74969,6 @@ un-loc:SEVAS_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:SEVAT
-	owl:sameAs	un-loc:SEVAT_2013-2 .
-
 un-loc:SEVAT_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -74597,6 +74978,7 @@ un-loc:SEVAT_2013-2
 	rdfs:label	"Vatnas"@en , "Våtnäs" ;
 	skos:notation	"SEVAT" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2020-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -81873,6 +82255,21 @@ un-loc:VNITF_2011-2
 	tempo:validFrom	"2010-12-18"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:VNKHA
+	owl:sameAs	un-loc:VNKHA_2020-1 .
+
+un-loc:VNKHA_2020-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:VN , cc2:VN-34 ;
+	rdfs:label	"Khanh Hoa"@en , "Khanh Hoa" ;
+	skos:notation	"VNKHA" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:VNNWP

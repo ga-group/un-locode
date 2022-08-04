@@ -102,6 +102,23 @@ tmp/%.out: sql/%.sql
 	$(sdexec) --format CSV $< \
 	> $@.t && mv $@.t $@
 
+tmp/decouple.cand: /tmp/check.un-locode.ttl
+	grep -A 2 -F 'sameAs-solitude' $< \
+	| grep -F focusNode \
+	| mawk -F'/' '$$0="un-loc:"substr($$NF,1,5)' \
+	> $@.t && mv $@.t $@
+
+tmp/decouple.only: un-locode.ttl tmp/decouple.cand
+	ttl2ttl --sortable $< \
+	| grep -Ff tmp/decouple.cand \
+	| ttl2ttl \
+	> $@.t && mv $@.t $@
+
+auto.decouple: un-locode-hist.ttl tmp/decouple.cand
+	ttl2ttl --sortable $< \
+	| grep -Ff <(mawk '$$0=$$0"\t"' tmp/decouple.cand) \
+	> .decouple.t && mv .decouple.t .decouple
+
 decouple: .decouple
 	ttl2ttl --sortable un-locode.ttl \
 	| grep -Ff <(scripts/decouple.awk .decouple) \

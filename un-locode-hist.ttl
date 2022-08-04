@@ -2784,9 +2784,6 @@ un-loc:BRCM3_2019-1
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:BRCMP
-	owl:sameAs	un-loc:BRCMP_2020-1 .
-
 un-loc:BRCMP_2020-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -2796,6 +2793,7 @@ un-loc:BRCMP_2020-1
 	skos:notation	"BRCMP" ;
 	skos:note	"USE BR SAG"@en ;
 	tempo:efficaciousFrom	"1999-12"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2020-07-01"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
@@ -4151,9 +4149,6 @@ un-loc:BRPCB_2017-2
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:BRPCE
-	owl:sameAs	un-loc:BRPCE_2018-2 .
-
 un-loc:BRPCE_2018-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -4165,6 +4160,7 @@ un-loc:BRPCE_2018-2
 	skos:notation	"BRPCE" ;
 	skos:note	"USE BR PEC"@en ;
 	tempo:efficaciousFrom	"2017-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2017-07-13"^^xsd:date ;
 	tempo:validTill	"2018-12-21"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -9731,6 +9727,23 @@ un-loc:CNSAO_2014-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:CNSEH
+	owl:sameAs	un-loc:CNSEH_2021-1 .
+
+un-loc:CNSEH_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	26.02 ;
+	geo:long	104.82 ;
+	lcc-cr:isPartOf	cc1:CN , cc2:CN-GD ;
+	rdfs:label	"Shahe"@en , "Shahe" ;
+	skos:notation	"CNSEH" ;
+	tempo:efficaciousFrom	"2007-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2008-03-20"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:CNSGA
@@ -15668,9 +15681,6 @@ un-loc:DEMDG_2010-1
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:DEMEU
-	owl:sameAs	un-loc:DEMEU_2004-2 .
-
 un-loc:DEMEU_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -15682,6 +15692,7 @@ un-loc:DEMEU_2004-2
 	skos:notation	"DEMEU" ;
 	skos:note	"cf DE BMH"@en ;
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
@@ -16345,9 +16356,6 @@ un-loc:DEUUZ_2018-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:DEVEU
-	owl:sameAs	un-loc:DEVEU_2010-1 .
-
 un-loc:DEVEU_2010-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -16357,6 +16365,7 @@ un-loc:DEVEU_2010-1
 	skos:notation	"DEVEU" ;
 	skos:note	"cf DEVBG"@en ;
 	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2010-10-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
@@ -20400,9 +20409,6 @@ un-loc:EEKOA_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EEKOB
-	owl:sameAs	un-loc:EEKOB_2013-2 .
-
 un-loc:EEKOB_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -20412,6 +20418,7 @@ un-loc:EEKOB_2013-2
 	rdfs:label	"Kolga-Aabla kai"@en , "Kolga-Aabla kai" ;
 	skos:notation	"EEKOB" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -20672,9 +20679,6 @@ un-loc:EEKRJ_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EEKRK
-	owl:sameAs	un-loc:EEKRK_2013-2 .
-
 un-loc:EEKRK_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -20684,6 +20688,7 @@ un-loc:EEKRK_2013-2
 	rdfs:label	"Kari, Kostiranna k"@en , "Kari, Kostiranna k" ;
 	skos:notation	"EEKRK" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -28849,9 +28854,6 @@ un-loc:EESYN_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EETAB
-	owl:sameAs	un-loc:EETAB_2013-2 .
-
 un-loc:EETAB_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -28861,6 +28863,7 @@ un-loc:EETAB_2013-2
 	rdfs:label	"Tabivere"@en , "Tabivere" ;
 	skos:notation	"EETAB" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -30866,9 +30869,6 @@ un-loc:EEVOD_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EEVOK
-	owl:sameAs	un-loc:EEVOK_2013-2 .
-
 un-loc:EEVOK_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -30878,6 +30878,7 @@ un-loc:EEVOK_2013-2
 	rdfs:label	"Voka"@en , "Voka" ;
 	skos:notation	"EEVOK" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -31017,9 +31018,6 @@ un-loc:EEVPS_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:EEVRA
-	owl:sameAs	un-loc:EEVRA_2013-2 .
-
 un-loc:EEVRA_2013-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -31029,6 +31027,7 @@ un-loc:EEVRA_2013-2
 	rdfs:label	"Valgeranna"@en , "Valgeranna" ;
 	skos:notation	"EEVRA" ;
 	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
@@ -31569,6 +31568,25 @@ un-loc:ERMIT_2004-2
 	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ESA7L
+	owl:sameAs	un-loc:ESA7L_2021-1 .
+
+un-loc:ESA7L_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ESZBL ;
+	geo:lat	42.37 ;
+	geo:long	-2.47 ;
+	lcc-cr:isPartOf	cc1:ES , cc2:ES-LO ;
+	rdfs:label	"Albelda de Iregua"@en , "Albelda de Iregua" ;
+	skos:notation	"ESA7L" ;
+	skos:note	"Use ES ZBL"@en ;
+	tempo:efficaciousFrom	"2020-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2020-07-01"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:ESAAZ
@@ -36669,9 +36687,6 @@ un-loc:FRBE7_2013-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRBER
-	owl:sameAs	un-loc:FRBER_2020-1 .
-
 un-loc:FRBER_2020-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -36683,6 +36698,7 @@ un-loc:FRBER_2020-1
 	skos:notation	"FRBER" ;
 	skos:note	"Use FRBNY"@en ;
 	tempo:efficaciousFrom	"1997-05"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validTill	"2020-07-01"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
@@ -38578,23 +38594,6 @@ un-loc:FRFSW_2019-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRG6E
-	owl:sameAs	un-loc:FRG6E_2019-2 .
-
-un-loc:FRG6E_2019-2
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	16.13 ;
-	geo:long	-61.57 ;
-	lcc-cr:isPartOf	cc1:FR , cc2:FR-77 ;
-	rdfs:label	"Goyave"@en , "Goyave" ;
-	skos:notation	"FRG6E" ;
-	tempo:efficaciousFrom	"2018-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2018-07-02"^^xsd:date ;
-	tempo:validTill	"2019-12-12"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-RoadTerminal ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
 un-loc:FRG7N
 	owl:sameAs	un-loc:FRG7N_2019-2 .
 
@@ -39529,9 +39528,6 @@ un-loc:FRHID_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:FRHNE
-	owl:sameAs	un-loc:FRHNE_2010-1 .
-
 un-loc:FRHNE_2010-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -39543,6 +39539,7 @@ un-loc:FRHNE_2010-1
 	skos:notation	"FRHNE" ;
 	skos:note	"cf FRTHF"@en ;
 	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2010-10-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
@@ -40954,23 +40951,6 @@ un-loc:FRLR5_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
-	un-loc:hasStatus	un-loc:stat-XX .
-
-un-loc:FRLR7
-	owl:sameAs	un-loc:FRLR7_2020-1 .
-
-un-loc:FRLR7_2020-1
-	a	owl:Individual ;
-	a	un-loc:Location ;
-	geo:lat	48.27 ;
-	geo:long	0.70 ;
-	lcc-cr:isPartOf	cc1:FR , cc2:FR-61 ;
-	rdfs:label	"L'Aiguillon-la-Rouge"@en , "L'Aiguillon-la-Rouge" ;
-	skos:notation	"FRLR7" ;
-	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
-	tempo:validFrom	"2010-10-29"^^xsd:date ;
-	tempo:validTill	"2020-07-01"^^xsd:date ;
-	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:FRLR9
@@ -43359,6 +43339,25 @@ un-loc:FRQZS_2011-2
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:FRR2S
+	owl:sameAs	un-loc:FRR2S_2021-1 .
+
+un-loc:FRR2S_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:FRZDX ;
+	geo:lat	50.18 ;
+	geo:long	3.17 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-59 ;
+	rdfs:label	"Raillencourt-Sainte-Olle"@en , "Raillencourt-Sainte-Olle" ;
+	skos:notation	"FRR2S" ;
+	skos:note	"Use FR ZDX"@en ;
+	tempo:efficaciousFrom	"2015-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2015-12-17"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:FRR69_2011-2
@@ -49443,6 +49442,25 @@ un-loc:GRHEC_2014-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:GRHKL
+	owl:sameAs	un-loc:GRHKL_2021-1 .
+
+un-loc:GRHKL_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:GRHER ;
+	geo:lat	35.33 ;
+	geo:long	25.00 ;
+	lcc-cr:isPartOf	cc1:GR , cc2:GR-91 ;
+	rdfs:label	"Heraklion"@en , "Héraklion" ;
+	skos:notation	"GRHKL" ;
+	skos:note	"Use GR HER"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:GRIEA
 	owl:sameAs	un-loc:GRIEA_2014-1 .
 
@@ -52804,6 +52822,22 @@ un-loc:INCDR_2014-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2014-12-29"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:INCNN
+	owl:sameAs	un-loc:INCNN_2021-1 .
+
+un-loc:INCNN_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:INKNN ;
+	lcc-cr:isPartOf	cc1:IN , cc2:IN-KL ;
+	rdfs:label	"Cannanore"@en , "Cannanore" ;
+	skos:notation	"INCNN" ;
+	skos:note	"Use IN KNN"@en ;
+	tempo:efficaciousFrom	"2020-07"^^xsd:gYearMonth ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:INCUM
@@ -56702,9 +56736,6 @@ un-loc:ITVNZ_2004-2
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ITVOA
-	owl:sameAs	un-loc:ITVOA_2018-2 .
-
 un-loc:ITVOA_2004-2
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -56726,6 +56757,7 @@ un-loc:ITVOA_2018-2
 	rdfs:label	"Valle Olona"@en , "Valle Olona" ;
 	skos:notation	"ITVOA" ;
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2018-12-21"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
@@ -57008,9 +57040,6 @@ un-loc:ITZCE_2010-2
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:ITZCL
-	owl:sameAs	un-loc:ITZCL_2013-1 .
-
 un-loc:ITZCL_2013-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -57022,6 +57051,7 @@ un-loc:ITZCL_2013-1
 	skos:notation	"ITZCL" ;
 	skos:note	"Use ITACP"@en ;
 	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2013-07-05"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
@@ -58050,9 +58080,6 @@ un-loc:JPNGA_2011-1
 	un-loc:hasFunction	un-loc:func-Multimodal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-un-loc:JPNGY
-	owl:sameAs	un-loc:JPNGY_2011-1 .
-
 un-loc:JPNGY_2009-1
 	a	owl:Individual ;
 	a	un-loc:Location ;
@@ -58075,6 +58102,7 @@ un-loc:JPNGY_2011-1
 	skos:notation	"JPNGY" ;
 	skos:note	"JP prefecture"@en ;
 	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:efficaciousTill	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2011-09-22"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
@@ -59461,6 +59489,25 @@ un-loc:MTZEB_2015-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:MX7TL
+	owl:sameAs	un-loc:MX7TL_2021-1 .
+
+un-loc:MX7TL_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:MXTLQ ;
+	geo:lat	20.65 ;
+	geo:long	-103.32 ;
+	lcc-cr:isPartOf	cc1:MX , cc2:MX-JAL ;
+	rdfs:label	"Tlaquepaque"@en , "Tlaquepaque" ;
+	skos:notation	"MX7TL" ;
+	skos:note	"Use MX TLQ"@en ;
+	tempo:efficaciousFrom	"2015-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2015-12-17"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:MXATC
 	owl:sameAs	un-loc:MXATC_2011-2 .
 
@@ -59700,6 +59747,25 @@ un-loc:MXTUT_2013-2
 	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:MXVDM
+	owl:sameAs	un-loc:MXVDM_2021-1 .
+
+un-loc:MXVDM_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:MXMXL ;
+	geo:lat	32.62 ;
+	geo:long	-115.45 ;
+	lcc-cr:isPartOf	cc1:MX , cc2:MX-BCN ;
+	rdfs:label	"Mexicali"@en , "Mexicali" ;
+	skos:notation	"MXVDM" ;
+	skos:note	"Use MXMXL"@en ;
+	tempo:efficaciousFrom	"2020-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2020-07-01"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:MYKEL
 	owl:sameAs	un-loc:MYKEL_2011-2 .
 
@@ -59768,6 +59834,729 @@ un-loc:MYTMI_2014-1
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:NAADI
+	owl:sameAs	un-loc:NAADI_2021-1 .
+
+un-loc:NAADI_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Arandis"@en , "Arandis" ;
+	skos:notation	"NAADI" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAAIW
+	owl:sameAs	un-loc:NAAIW_2021-1 .
+
+un-loc:NAAIW_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Ai-Ais"@en , "Ai-Ais" ;
+	skos:notation	"NAAIW" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NABQI
+	owl:sameAs	un-loc:NABQI_2021-1 .
+
+un-loc:NABQI_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Bagani"@en , "Bagani" ;
+	skos:notation	"NABQI" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAERS
+	owl:sameAs	un-loc:NAERS_2021-1 .
+
+un-loc:NAERS_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-22.60 ;
+	geo:long	17.07 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-KH ;
+	rdfs:label	"Windhoek Eros Airport"@en , "Windhoek Eros Airport" ;
+	skos:notation	"NAERS" ;
+	tempo:efficaciousFrom	"2016-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-12-22"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAGFY
+	owl:sameAs	un-loc:NAGFY_2021-1 .
+
+un-loc:NAGFY_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Grootfontein"@en , "Grootfontein" ;
+	skos:notation	"NAGFY" ;
+	tempo:efficaciousFrom	"1996-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAGOG
+	owl:sameAs	un-loc:NAGOG_2021-1 .
+
+un-loc:NAGOG_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Gobabis"@en , "Gobabis" ;
+	skos:notation	"NAGOG" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAHAL
+	owl:sameAs	un-loc:NAHAL_2021-1 .
+
+un-loc:NAHAL_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Halali"@en , "Halali" ;
+	skos:notation	"NAHAL" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAHTN
+	owl:sameAs	un-loc:NAHTN_2021-1 .
+
+un-loc:NAHTN_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-22.12 ;
+	geo:long	14.28 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-ER ;
+	rdfs:label	"Henties Bay (Hentiesbaai)"@en , "Henties Bay (Hentiesbaai)" ;
+	skos:notation	"NAHTN" ;
+	tempo:efficaciousFrom	"2015-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2015-07-06"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAKAS
+	owl:sameAs	un-loc:NAKAS_2021-1 .
+
+un-loc:NAKAS_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Karasburg"@en , "Karasburg" ;
+	skos:notation	"NAKAS" ;
+	tempo:efficaciousFrom	"1998-05"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-PostalExchangeOffice ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAKAT
+	owl:sameAs	un-loc:NAKAT_2021-1 .
+
+un-loc:NAKAT_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-17.50 ;
+	geo:long	24.27 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-CA ;
+	rdfs:label	"Katima Mulilo"@en , "Katima Mulilo" ;
+	skos:notation	"NAKAT" ;
+	tempo:efficaciousFrom	"2017-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2017-12-21"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAKMP
+	owl:sameAs	un-loc:NAKMP_2021-1 .
+
+un-loc:NAKMP_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Keetmanshoop"@en , "Keetmanshoop" ;
+	skos:notation	"NAKMP" ;
+	tempo:efficaciousFrom	"1996-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAKRB
+	owl:sameAs	un-loc:NAKRB_2021-1 .
+
+un-loc:NAKRB_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-21.93 ;
+	geo:long	15.85 ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Karibib"@en , "Karibib" ;
+	skos:notation	"NAKRB" ;
+	tempo:efficaciousFrom	"2002-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NALUD
+	owl:sameAs	un-loc:NALUD_2021-1 .
+
+un-loc:NALUD_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-26.65 ;
+	geo:long	15.17 ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Luderitz"@en , "Lüderitz" ;
+	skos:notation	"NALUD" ;
+	tempo:efficaciousFrom	"2002-12"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAMAR
+	owl:sameAs	un-loc:NAMAR_2021-1 .
+
+un-loc:NAMAR_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Mariental"@en , "Mariental" ;
+	skos:notation	"NAMAR" ;
+	tempo:efficaciousFrom	"1998-05"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-PostalExchangeOffice ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAMJO
+	owl:sameAs	un-loc:NAMJO_2021-1 .
+
+un-loc:NAMJO_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Mount Etjo Lodge"@en , "Mount Etjo Lodge" ;
+	skos:notation	"NAMJO" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAMPA
+	owl:sameAs	un-loc:NAMPA_2021-1 .
+
+un-loc:NAMPA_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Mpacha"@en , "Mpacha" ;
+	skos:notation	"NAMPA" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAMQG
+	owl:sameAs	un-loc:NAMQG_2021-1 .
+
+un-loc:NAMQG_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Midgard"@en , "Midgard" ;
+	skos:notation	"NAMQG" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAMTH
+	owl:sameAs	un-loc:NAMTH_2021-1 .
+
+un-loc:NAMTH_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-24.83 ;
+	geo:long	16.98 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-HA ;
+	rdfs:label	"Maltahohe"@en , "Maltahohe" ;
+	skos:notation	"NAMTH" ;
+	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-10-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:NANDU
+	owl:sameAs	un-loc:NANDU_2021-1 .
+
+un-loc:NANDU_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Rundu"@en , "Rundu" ;
+	skos:notation	"NANDU" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NANNI
+	owl:sameAs	un-loc:NANNI_2021-1 .
+
+un-loc:NANNI_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Namutoni"@en , "Namutoni" ;
+	skos:notation	"NANNI" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAOGV
+	owl:sameAs	un-loc:NAOGV_2021-1 .
+
+un-loc:NAOGV_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Ongava Game Reserve"@en , "Ongava Game Reserve" ;
+	skos:notation	"NAOGV" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAOHI
+	owl:sameAs	un-loc:NAOHI_2021-1 .
+
+un-loc:NAOHI_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Oshakati"@en , "Oshakati" ;
+	skos:notation	"NAOHI" ;
+	tempo:efficaciousFrom	"1998-05"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-PostalExchangeOffice ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAOKF
+	owl:sameAs	un-loc:NAOKF_2021-1 .
+
+un-loc:NAOKF_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Okaukuejo"@en , "Okaukuejo" ;
+	skos:notation	"NAOKF" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAOKU
+	owl:sameAs	un-loc:NAOKU_2021-1 .
+
+un-loc:NAOKU_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Mokuti Lodge"@en , "Mokuti Lodge" ;
+	skos:notation	"NAOKU" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAOMA
+	owl:sameAs	un-loc:NAOMA_2021-1 .
+
+un-loc:NAOMA_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-21.43 ;
+	geo:long	15.93 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-ER ;
+	rdfs:label	"Omaruru"@en , "Omaruru" ;
+	skos:notation	"NAOMA" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAOMD
+	owl:sameAs	un-loc:NAOMD_2021-1 .
+
+un-loc:NAOMD_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Oranjemund"@en , "Oranjemund" ;
+	skos:notation	"NAOMD" ;
+	tempo:efficaciousFrom	"1990-12"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:NAOMG
+	owl:sameAs	un-loc:NAOMG_2021-1 .
+
+un-loc:NAOMG_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Omega"@en , "Omega" ;
+	skos:notation	"NAOMG" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAOND
+	owl:sameAs	un-loc:NAOND_2021-1 .
+
+un-loc:NAOND_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Ondangwa"@en , "Ondangwa" ;
+	skos:notation	"NAOND" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAONG
+	owl:sameAs	un-loc:NAONG_2021-1 .
+
+un-loc:NAONG_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-17.77 ;
+	geo:long	15.75 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-ON ;
+	rdfs:label	"Ongwediva"@en , "Ongwediva" ;
+	skos:notation	"NAONG" ;
+	tempo:efficaciousFrom	"2019-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2019-07-05"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAOOZ
+	owl:sameAs	un-loc:NAOOZ_2021-1 .
+
+un-loc:NAOOZ_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-21.98 ;
+	geo:long	16.92 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-OD ;
+	rdfs:label	"Okahandja"@en , "Okahandja" ;
+	skos:notation	"NAOOZ" ;
+	tempo:efficaciousFrom	"2014-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-06-20"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAOPW
+	owl:sameAs	un-loc:NAOPW_2021-1 .
+
+un-loc:NAOPW_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Opuwa"@en , "Opuwa" ;
+	skos:notation	"NAOPW" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAOSH
+	owl:sameAs	un-loc:NAOSH_2021-1 .
+
+un-loc:NAOSH_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-17.40 ;
+	geo:long	15.88 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-OW ;
+	rdfs:label	"Oshikango"@en , "Oshikango" ;
+	skos:notation	"NAOSH" ;
+	tempo:efficaciousFrom	"2014-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2014-12-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAOTJ
+	owl:sameAs	un-loc:NAOTJ_2021-1 .
+
+un-loc:NAOTJ_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Otjiwarongo"@en , "Otjiwarongo" ;
+	skos:notation	"NAOTJ" ;
+	tempo:efficaciousFrom	"1998-05"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-PostalExchangeOffice ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAOTP
+	owl:sameAs	un-loc:NAOTP_2021-1 .
+
+un-loc:NAOTP_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-19.65 ;
+	geo:long	17.33 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-OD ;
+	rdfs:label	"Otavi"@en , "Otavi" ;
+	skos:notation	"NAOTP" ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAOUT
+	owl:sameAs	un-loc:NAOUT_2021-1 .
+
+un-loc:NAOUT_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-20.12 ;
+	geo:long	16.15 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-KU ;
+	rdfs:label	"Outjo"@en , "Outjo" ;
+	skos:notation	"NAOUT" ;
+	tempo:efficaciousFrom	"2019-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2019-07-05"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAOVO
+	owl:sameAs	un-loc:NAOVO_2021-1 .
+
+un-loc:NAOVO_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-18.62 ;
+	geo:long	17.17 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-OT ;
+	rdfs:label	"Oshivelo"@en , "Oshivelo" ;
+	skos:notation	"NAOVO" ;
+	tempo:efficaciousFrom	"2017-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2017-12-21"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NARUA
+	owl:sameAs	un-loc:NARUA_2021-1 .
+
+un-loc:NARUA_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-17.43 ;
+	geo:long	14.35 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-KU ;
+	rdfs:label	"Ruacana"@en , "Ruacana" ;
+	skos:notation	"NARUA" ;
+	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-10-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-RQ .
+
+un-loc:NASWP
+	owl:sameAs	un-loc:NASWP_2021-1 .
+
+un-loc:NASWP_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Swakopmund"@en , "Swakopmund" ;
+	skos:notation	"NASWP" ;
+	tempo:efficaciousFrom	"1998-05"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-PostalExchangeOffice ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NASZM
+	owl:sameAs	un-loc:NASZM_2021-1 .
+
+un-loc:NASZM_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Sesriem"@en , "Sesriem" ;
+	skos:notation	"NASZM" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NATCY
+	owl:sameAs	un-loc:NATCY_2021-1 .
+
+un-loc:NATCY_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Terrace Bay"@en , "Terrace Bay" ;
+	skos:notation	"NATCY" ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NATSB
+	owl:sameAs	un-loc:NATSB_2021-1 .
+
+un-loc:NATSB_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Tsumeb"@en , "Tsumeb" ;
+	skos:notation	"NATSB" ;
+	tempo:efficaciousFrom	"1996-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAUIS
+	owl:sameAs	un-loc:NAUIS_2021-1 .
+
+un-loc:NAUIS_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-21.22 ;
+	geo:long	14.85 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-ER ;
+	rdfs:label	"Uis"@en , "Uis" ;
+	skos:notation	"NAUIS" ;
+	tempo:efficaciousFrom	"2018-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2018-07-02"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAVFG
+	owl:sameAs	un-loc:NAVFG_2021-1 .
+
+un-loc:NAVFG_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-28.12 ;
+	geo:long	19.82 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-KA ;
+	rdfs:label	"Ariamsvlei"@en , "Ariamsvlei" ;
+	skos:notation	"NAVFG" ;
+	tempo:efficaciousFrom	"2010-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-10-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
+un-loc:NAWDH
+	owl:sameAs	un-loc:NAWDH_2021-1 .
+
+un-loc:NAWDH_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Windhoek"@en , "Windhoek" ;
+	skos:notation	"NAWDH" ;
+	tempo:efficaciousFrom	"1996-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Airport , un-loc:func-PostalExchangeOffice ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAWOR
+	owl:sameAs	un-loc:NAWOR_2021-1 .
+
+un-loc:NAWOR_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-28.75 ;
+	geo:long	17.62 ;
+	lcc-cr:isPartOf	cc1:NA , cc2:NA-KA ;
+	rdfs:label	"Noordoewer"@en , "Noordoewer" ;
+	skos:notation	"NAWOR" ;
+	tempo:efficaciousFrom	"2003-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-PostalExchangeOffice , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-AI .
+
+un-loc:NAWVB
+	owl:sameAs	un-loc:NAWVB_2021-1 .
+
+un-loc:NAWVB_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Walvis Bay"@en , "Walvis Bay" ;
+	skos:notation	"NAWVB" ;
+	tempo:efficaciousFrom	"1981-03"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-07-29"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-QQ .
+
+un-loc:NAZAR
+	owl:sameAs	un-loc:NAZAR_2021-1 .
+
+un-loc:NAZAR_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	geo:lat	-28.35 ;
+	geo:long	17.38 ;
+	lcc-cr:isPartOf	cc1:NA ;
+	rdfs:label	"Aussenkehr"@en , "Aussenkehr" ;
+	skos:notation	"NAZAR" ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-RL .
+
 un-loc:NGMOT
 	owl:sameAs	un-loc:NGMOT_2004-1 .
 
@@ -59819,6 +60608,25 @@ un-loc:NIPSZ_2009-1
 	tempo:validFrom	"2008-03-20"^^xsd:date ;
 	tempo:validTill	"2009-09-23"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:NLHA9
+	owl:sameAs	un-loc:NLHA9_2021-1 .
+
+un-loc:NLHA9_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:NLHAG ;
+	geo:lat	52.08 ;
+	geo:long	4.30 ;
+	lcc-cr:isPartOf	cc1:NL , cc2:NL-ZH ;
+	rdfs:label	"The Hague"@en , "The Hague" ;
+	skos:notation	"NLHA9" ;
+	skos:note	"Use NL HAG"@en ;
+	tempo:efficaciousFrom	"2013-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2013-12-20"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:NLHGZ_2007
@@ -75682,6 +76490,25 @@ un-loc:SEYXO_2013-2
 	un-loc:hasFunction	un-loc:func-Port ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:SILJA
+	owl:sameAs	un-loc:SILJA_2021-1 .
+
+un-loc:SILJA_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:SILJU ;
+	geo:lat	46.05 ;
+	geo:long	14.50 ;
+	lcc-cr:isPartOf	cc1:SI , cc2:SI-061 ;
+	rdfs:label	"Ljubljana"@en , "Ljubljana" ;
+	skos:notation	"SILJA" ;
+	skos:note	"Use SI LJU"@en ;
+	tempo:efficaciousFrom	"2016-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2016-07-01"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:SKANY
 	owl:sameAs	un-loc:SKANY_2019-1 .
 
@@ -76171,6 +76998,25 @@ un-loc:THBGP_2019-1
 	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:THCPH
+	owl:sameAs	un-loc:THCPH_2021-1 .
+
+un-loc:THCPH_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:THCHU ;
+	geo:lat	10.50 ;
+	geo:long	99.17 ;
+	lcc-cr:isPartOf	cc1:TH , cc2:TH-86 ;
+	rdfs:label	"Chumphon"@en , "Chumphon" ;
+	skos:notation	"THCPH" ;
+	skos:note	"Use TH CHU"@en ;
+	tempo:efficaciousFrom	"2013-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2013-07-05"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:THHON
 	owl:sameAs	un-loc:THHON_2018-2 .
 
@@ -76298,6 +77144,25 @@ un-loc:THLAC_2004-2
 	tempo:validTill	"2004-07-27"^^xsd:date ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:THMTP
+	owl:sameAs	un-loc:THMTP_2021-1 .
+
+un-loc:THMTP_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:THMAT ;
+	geo:lat	12.72 ;
+	geo:long	101.15 ;
+	lcc-cr:isPartOf	cc1:TH , cc2:TH-31 ;
+	rdfs:label	"Ban Map Ta Phut"@en , "Ban Map Ta Phut" ;
+	skos:notation	"THMTP" ;
+	skos:note	"Use TH MAT"@en ;
+	tempo:efficaciousFrom	"2004-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2002-04-04"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Port , un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:THNYP
 	owl:sameAs	un-loc:THNYP_2018-2 .
 
@@ -76374,6 +77239,24 @@ un-loc:THPMM_2018-2
 	un-loc:hasFunction	un-loc:func-Airport ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+un-loc:THPRG
+	owl:sameAs	un-loc:THPRG_2021-1 .
+
+un-loc:THPRG_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:THPPA ;
+	geo:lat	13.67 ;
+	geo:long	100.53 ;
+	lcc-cr:isPartOf	cc1:TH , cc2:TH-11 ;
+	rdfs:label	"Phra Pradaeng"@en , "Phra Pradaeng" ;
+	skos:notation	"THPRG" ;
+	skos:note	"Use TH PPA"@en ;
+	tempo:efficaciousFrom	"2003-07"^^xsd:gYearMonth ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 un-loc:THQJX
 	owl:sameAs	un-loc:THQJX_2018-2 .
 
@@ -76420,6 +77303,25 @@ un-loc:THSIN_2004-1
 	tempo:efficaciousFrom	"2003-07"^^xsd:gYearMonth ;
 	tempo:validTill	"2004-02-18"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Port ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:THSIR
+	owl:sameAs	un-loc:THSIR_2021-1 .
+
+un-loc:THSIR_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:THSRI ;
+	geo:lat	13.17 ;
+	geo:long	100.93 ;
+	lcc-cr:isPartOf	cc1:TH , cc2:TH-20 ;
+	rdfs:label	"Si Racha"@en , "Si Racha" ;
+	skos:notation	"THSIR" ;
+	skos:note	"Use TH SRI"@en ;
+	tempo:efficaciousFrom	"2005-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2005-07-08"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-Multimodal , un-loc:func-Port , un-loc:func-RailTerminal , un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:THSPR
@@ -83151,6 +84053,25 @@ un-loc:ZAMHL_2013-1
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-07-05"^^xsd:date ;
 	un-loc:hasFunction	un-loc:func-Multimodal ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+un-loc:ZARKK
+	owl:sameAs	un-loc:ZARKK_2021-1 .
+
+un-loc:ZARKK_2021-1
+	a	owl:Individual ;
+	a	un-loc:Location ;
+	dct:isReplacedBy	un-loc:ZARKL ;
+	geo:lat	-33.38 ;
+	geo:long	18.88 ;
+	lcc-cr:isPartOf	cc1:ZA , cc2:ZA-WC ;
+	rdfs:label	"Riebeek-Kasteel"@en , "Riebeek-Kasteel" ;
+	skos:notation	"ZARKK" ;
+	skos:note	"Use ZA RKL"@en ;
+	tempo:efficaciousFrom	"2018-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2018-12-21"^^xsd:date ;
+	tempo:validTill	"2021-07-08"^^xsd:date ;
+	un-loc:hasFunction	un-loc:func-RoadTerminal ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 un-loc:ZAZCM

@@ -8,7 +8,7 @@ include .release
 
 all: un-locode.ttl
 check: check.un-locode check.un-locode-hist
-canon: un-locode-hist.ttl.canon un-locode.ttl.canon
+canon: un-locode-align.ttl.canon un-locode-hist.ttl.canon un-locode.ttl.canon
 fixup: fixup.un-locode-hist fixup.un-locode
 
 ## untar and cat CodeListPart*.csv to this file

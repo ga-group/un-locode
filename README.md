@@ -10,7 +10,12 @@ as published by UNECE, see https://unece.org/trade/uncefact/unlocode.
 Why?
 ----
 
-UNECE does not provide a namespace for its code identifiers.
+This repository was created to expose UN/LOCODEs as Linked Data, particularly to
+provide a namespace for the codes.  UNCEFACT has since begun working on providing
+linked data resources themselves ([repository](https://github.com/uncefact/codes-locode/)).
+
+This repository, in contrast, will keep track of historical codes, and provide
+alignment data.
 
 
 Where?

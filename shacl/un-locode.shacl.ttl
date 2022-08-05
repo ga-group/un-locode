@@ -5,6 +5,7 @@
 @prefix fibo-fnd-dt-bd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/> .
 @prefix fibo-fnd-plc-loc: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/> .
 @prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix gleif: <https://rdf.gleif.org/L1/> .
 @prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
 @prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
@@ -29,6 +30,31 @@ un-loc:Location-shape a sh:NodeShape ;
 	sh:targetClass un-loc:Location ;
 	## tests
 	sh:property rdfs:label-property ;
+	sh:property owl:sameAs-property ;
+	sh:property geo:lat-property ;
+	sh:property geo:long-property ;
+	sh:property dct:isReplacedBy-property ;
+	sh:property rdfs:seeAlso-property ;
+	sh:property skos:notation-property ;
+	sh:property tempo:efficaciousFrom-property ;
+	sh:property tempo:efficaciousTill-property ;
+	sh:property tempo:validFrom-property ;
+	sh:property tempo:validTill-property ;
+	.
+
+un-loc:aliased-shape a sh:NodeShape ;
+	sh:targetSubjectsOf owl:sameAs ;
+	sh:sparql un-loc:sameAs-solitude ;
+	.
+
+un-loc:historical-shape1 a sh:NodeShape ;
+	sh:targetSubjectsOf tempo:validTill ;
+	sh:sparql un-loc:xxxTill-iri ;
+	.
+
+un-loc:historical-shape2 a sh:NodeShape ;
+	sh:targetSubjectsOf tempo:efficaciousTill ;
+	sh:sparql un-loc:xxxTill-iri ;
 	.
 
 ## properties
@@ -37,4 +63,100 @@ rdfs:label-property a sh:PropertyShape ;
 	sh:minCount 1 ;
 	sh:type xsd:string ;
 	sh:uniqueLang true ;
+	.
+
+owl:sameAs-property a sh:PropertyShape ;
+	sh:path owl:sameAs ;
+	sh:maxCount 1 ;
+	sh:class un-loc:Location ;
+	.
+
+geo:lat-property a sh:PropertyShape ;
+	sh:path geo:lat ;
+	sh:maxCount 1 ;
+	sh:minInclusive -90 ;
+	sh:maxInclusive 90 ;
+	sh:type xsd:decimal ;
+	.
+
+geo:long-property a sh:PropertyShape ;
+	sh:path geo:long ;
+	sh:maxCount 1 ;
+	sh:minExclusive -180 ;
+	sh:maxInclusive 180 ;
+	sh:type xsd:decimal ;
+	.
+
+dct:isReplacedBy-property a sh:PropertyShape ;
+	sh:path dct:isReplacedBy ;
+	sh:maxCount 1 ;
+	sh:class un-loc:Location ;
+	.
+
+rdfs:seeAlso-property a sh:PropertyShape ;
+	sh:path rdfs:seeAlso ;
+	sh:maxCount 1 ;
+	sh:class un-loc:Location ;
+	.
+
+skos:notation-property a sh:PropertyShape ;
+	sh:path skos:notation ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:type xsd:string ;
+	sh:pattern "^[A-Z][A-Z][A-Z0-9]{3}$" ;
+	.
+
+tempo:efficaciousFrom-property a sh:PropertyShape ;
+	sh:path tempo:efficaciousFrom ;
+	sh:maxCount 1 ;
+	sh:type xsd:date ;
+	.
+
+tempo:efficaciousTill-property a sh:PropertyShape ;
+	sh:path tempo:efficaciousTill ;
+	sh:maxCount 1 ;
+	sh:type xsd:date ;
+	.
+
+tempo:validFrom-property a sh:PropertyShape ;
+	sh:path tempo:validFrom ;
+	sh:maxCount 1 ;
+	sh:type xsd:date ;
+	.
+
+tempo:validTill-property a sh:PropertyShape ;
+	sh:path tempo:validTill ;
+	sh:maxCount 1 ;
+	sh:type xsd:date ;
+	.
+
+un-loc:sameAs-solitude
+	sh:prefixes un-loc: ;
+	sh:message "owl:sameAs aliases should exist in solitude" ;
+	sh:select """
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT $this ?value WHERE {
+	{
+	SELECT $this (COUNT(?p) AS ?value) WHERE {
+		$this owl:sameAs ?that ; ?p ?x .
+		FILTER(?p != owl:sameAs)
+	} GROUP BY $this
+	}
+	FILTER(?value > 0)
+}
+"""
+	.
+
+un-loc:xxxTill-iri
+	sh:prefixes un-loc: ;
+	sh:message "resources constrained by validTill or efficaciousTill should look like un-loc:XXXXX_YYYY-N, i.e. containing a release in their IRI" ;
+	sh:select """
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT $this WHERE {
+	FILTER(!REGEX(STR($this), '_[12][0-9][0-9][0-9]'))
+}
+"""
 	.

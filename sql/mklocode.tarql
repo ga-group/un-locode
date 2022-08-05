@@ -26,18 +26,36 @@ CONSTRUCT {
 		un-loc:hasFunction ?func ;
 		geo:lat ?lat ;
 		geo:long ?long ;
-		rdfs:label ?Name ;
+		rdfs:label ?loName ;
 		rdfs:label ?enName ;
-		skos:note ?enRemarks .
+		skos:note ?enRemarks ;
+		skos:notation ?LOCODE ;
+		tempo:efficaciousFrom ?idt ;
+		.
 }
 WHERE {
 	BIND(NOW() AS ?now)
-	BIND(IRI(CONCAT(STR(cc1:), SUBSTR(?LOCODE, 1, 2))) AS ?cc1)
-	BIND(IRI(CONCAT(STR(cc2:), SUBSTR(?LOCODE, 1, 2),'-',?SubDiv)) AS ?cc2)
+	BIND(STRAFTER(STR(<>), '!') AS ?param)
+	BIND(STRBEFORE(?param, ',') AS ?rev)
+	BIND(STRAFTER(?param, ',') AS ?rdt)
+
+	BIND(xsd:gYearMonth(?Date) AS ?idt)
+	BIND(CONCAT(?Country,?Location) AS ?LOCODE)
+	BIND(IRI(CONCAT(STR(cc1:), ?Country)) AS ?cc1)
+	BIND(IRI(CONCAT(STR(cc2:), ?Country,'-',REPLACE(?Subdivision," ",""))) AS ?cc2)
 	BIND(IRI(CONCAT(STR(un-loc:), 'stat-',?Status)) AS ?stat)
 	BIND(IRI(CONCAT(STR(un-loc:),IF(STRLEN(?LOCODE) = 5,?LOCODE,?nil))) AS ?loc)
-	BIND(STRLANG(?NameWoDiacritics, 'en') AS ?enName)
+
+	BIND(REPLACE(REPLACE(REPLACE(?Name,
+		"  *", " "),
+		"\u2019","'"),
+		" $", "") AS ?loName)
+	BIND(STRLANG(REPLACE(REPLACE(REPLACE(?NameWoDiacritics,
+		"  *", " "),
+		"\u2019","'"),
+		" $", ""), 'en') AS ?enName)
 	BIND(STRLANG(?Remarks, 'en') AS ?enRemarks)
+
 	?funs apf:strSplit (?Function "") .
 	VALUES (?funs ?func) {
 		("0" undef)

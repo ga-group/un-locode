@@ -82,11 +82,17 @@ un-locode-hist.ttl: tmp/un-locode-tempo.ttl tmp/un-locode-hist.ttl
 	touch $@
 	$(MAKE) $@.canon
 
-un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl tmp/un-locode-new.ttl un-locode-hist.ttl tmp/un-locode-tempo.ttl
+un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl tmp/un-locode-new.ttl un-locode-hist.ttl tmp/un-locode-tempo.ttl un-locode-align.ttl
 	cat $^ \
 	> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
 
+un-locode-align.ttl: download/alternateNamesV2.zip
+	tar xf $< -O - alternateNamesV2.txt \
+	| scripts/alignify.awk \
+	| tarql -t --stdin sql/mkalign.tarql \
+	> $@.t && mv $@.t $@
+	$(MAKE) $@.canon
 
 %.ttl.canon: %.ttl
 	rapper -i turtle $< >/dev/null

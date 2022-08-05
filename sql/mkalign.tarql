@@ -1,0 +1,29 @@
+PREFIX cc1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
+PREFIX cc2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes-Adjunct/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX gn: <https://www.geonames.org/ontology#>
+PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
+PREFIX lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+PREFIX lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tempo: <http://purl.org/tempo/>
+PREFIX un-loc: <http://data.ga-group.nl/un-locode/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fn: <http://www.w3.org/2005/xpath-functions#>
+
+CONSTRUCT {
+	?loc
+		skos:related ?gn ;
+		.
+}
+WHERE {
+	BIND(NOW() AS ?now)
+
+	BIND(IRI(CONCAT(STR(un-loc:),?code)) AS ?loc)
+	BIND(IRI(CONCAT('http://sws.geonames.org/',?geoid,'/')) AS ?gn)
+}

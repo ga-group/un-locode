@@ -4489,7 +4489,7 @@ un-loc:BRNCT
 un-loc:BRNCT_2020-1
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:BRSBJ ;
+	dct:isReplacedBy	un-loc:BRSBJ_2022-1 ;
 	geo:lat	-18.98 ;
 	geo:long	-39.72 ;
 	lcc-cr:isPartOf	cc1:BR , cc2:BR-ES ;
@@ -9650,7 +9650,7 @@ un-loc:CNHAI
 un-loc:CNHAI_2014-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:CNHAA ;
+	dct:isReplacedBy	un-loc:CNHAA_2015-1 ;
 	lcc-cr:isPartOf	cc1:CN ;
 	rdfs:label	"Haian"@en , "Haian" ;
 	skos:notation	"CNHAI" ;
@@ -11299,7 +11299,7 @@ un-loc:CNSRO
 un-loc:CNSRO_2014-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:CNSNR ;
+	dct:isReplacedBy	un-loc:CNSNR_2015-1 ;
 	lcc-cr:isPartOf	cc1:CN , cc2:CN-36 ;
 	rdfs:label	"Shangrao"@en , "Shangrao" ;
 	skos:notation	"CNSRO" ;
@@ -12019,7 +12019,7 @@ un-loc:CNXYT
 un-loc:CNXYT_2014-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:CNSUN ;
+	dct:isReplacedBy	un-loc:CNSUN_2015-1 ;
 	geo:lat	43.43 ;
 	geo:long	83.25 ;
 	lcc-cr:isPartOf	cc1:CN , cc2:CN-65 ;
@@ -37131,7 +37131,7 @@ un-loc:FJLEV
 un-loc:FJLEV_2017-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FJLEV ;
+	dct:isReplacedBy	un-loc:FJLEV_2017-2 ;
 	geo:lat	17.67 ;
 	geo:long	178.82 ;
 	lcc-cr:isPartOf	cc1:FJ ;
@@ -38407,7 +38407,7 @@ un-loc:FRBKE
 un-loc:FRBKE_2021-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRBWP ;
+	dct:isReplacedBy	un-loc:FRBWP_2021-2 ;
 	geo:lat	49.02 ;
 	geo:long	0.53 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-27 ;
@@ -39527,7 +39527,7 @@ un-loc:FRDD6
 un-loc:FRDD6_2011-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRHHO ;
+	dct:isReplacedBy	un-loc:FRHHO_2019-2 ;
 	geo:lat	47.87 ;
 	geo:long	2.12 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-45 ;
@@ -40344,7 +40344,7 @@ un-loc:FRG7N
 un-loc:FRG7N_2019-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRG9L ;
+	dct:isReplacedBy	un-loc:FRG9L_2021-2 ;
 	geo:lat	43.65 ;
 	geo:long	4.30 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-84 ;
@@ -40382,7 +40382,7 @@ un-loc:FRG9L
 un-loc:FRG9L_2021-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRG7N ;
+	dct:isReplacedBy	un-loc:FRG7N_2019-2 ;
 	geo:lat	43.65 ;
 	geo:long	4.30 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-30 ;
@@ -42367,7 +42367,7 @@ un-loc:FRLG9
 un-loc:FRLG9_2019-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRG9L ;
+	dct:isReplacedBy	un-loc:FRG9L_2021-2 ;
 	geo:lat	43.65 ;
 	geo:long	4.30 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-84 ;
@@ -43265,7 +43265,7 @@ un-loc:FRN9S
 un-loc:FRN9S_2019-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRNCS ;
+	dct:isReplacedBy	un-loc:FRNCS_2021-2 ;
 	geo:lat	48.05 ;
 	geo:long	-1.67 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-35 ;
@@ -43483,7 +43483,7 @@ un-loc:FRNNP
 un-loc:FRNNP_2011-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRGPN ;
+	dct:isReplacedBy	un-loc:FRGPN_2019-2 ;
 	geo:lat	46.47 ;
 	geo:long	-1.10 ;
 	lcc-cr:isPartOf	cc1:FR ;
@@ -45162,7 +45162,7 @@ un-loc:FRQSL
 un-loc:FRQSL_2011-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRSZE ;
+	dct:isReplacedBy	un-loc:FRSZE_2021-2 ;
 	geo:lat	45.63 ;
 	geo:long	4.85 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-69 ;
@@ -47130,7 +47130,7 @@ un-loc:FRTAH
 un-loc:FRTAH_2019-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRLTA ;
+	dct:isReplacedBy	un-loc:FRLTA_2021-2 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-68 ;
 	rdfs:label	"Tour-d'Aigues"@en , "Tour-d'Aigues" ;
 	skos:notation	"FRTAH" ;
@@ -49485,7 +49485,7 @@ un-loc:FRZDW
 un-loc:FRZDW_2010-1
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRHHO ;
+	dct:isReplacedBy	un-loc:FRHHO_2019-2 ;
 	geo:lat	47.87 ;
 	geo:long	2.12 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-45 ;
@@ -50129,7 +50129,7 @@ un-loc:FRZPK
 un-loc:FRZPK_2011-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
-	dct:isReplacedBy	un-loc:FRPPE ;
+	dct:isReplacedBy	un-loc:FRPPE_2021-2 ;
 	geo:lat	44.82 ;
 	geo:long	-0.23 ;
 	lcc-cr:isPartOf	cc1:FR , cc2:FR-33 ;

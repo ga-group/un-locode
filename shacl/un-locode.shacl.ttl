@@ -22,12 +22,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix un-loc: <http://data.ga-group.nl/un-locode/> .
+@prefix uncefact: <https://service.unece.org/trade/uncefact/vocabulary/uncefact#> .
 
 <> sh:entailment <http://www.w3.org/ns/entailment/RDFS> .
 
 ## shapes
-un-loc:Location-shape a sh:NodeShape ;
-	sh:targetClass un-loc:Location ;
+uncefact:Location-shape a sh:NodeShape ;
+	sh:targetClass uncefact:Location ;
 	## tests
 	sh:property rdfs:label-property ;
 	sh:property owl:sameAs-property ;
@@ -68,7 +69,7 @@ rdfs:label-property a sh:PropertyShape ;
 owl:sameAs-property a sh:PropertyShape ;
 	sh:path owl:sameAs ;
 	sh:maxCount 1 ;
-	sh:class un-loc:Location ;
+	sh:class uncefact:Location ;
 	.
 
 geo:lat-property a sh:PropertyShape ;
@@ -90,13 +91,13 @@ geo:long-property a sh:PropertyShape ;
 dct:isReplacedBy-property a sh:PropertyShape ;
 	sh:path dct:isReplacedBy ;
 	sh:maxCount 1 ;
-	sh:class un-loc:Location ;
+	sh:class uncefact:Location ;
 	.
 
 rdfs:seeAlso-property a sh:PropertyShape ;
 	sh:path rdfs:seeAlso ;
 	sh:maxCount 1 ;
-	sh:class un-loc:Location ;
+	sh:class uncefact:Location ;
 	.
 
 skos:notation-property a sh:PropertyShape ;

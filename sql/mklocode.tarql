@@ -13,12 +13,13 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX tempo: <http://purl.org/tempo/>
 PREFIX un-loc: <http://data.ga-group.nl/un-locode/>
+PREFIX uncefact: <https://service.unece.org/trade/uncefact/vocabulary/uncefact#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX fn: <http://www.w3.org/2005/xpath-functions#>
 
 CONSTRUCT {
 	?loc
-		a un-loc:Location ;
+		a uncefact:Location ;
 		a owl:Individual ;
 		lcc-cr:isPartOf ?cc1 ;
 		lcc-cr:isPartOf ?cc2 ;

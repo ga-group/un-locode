@@ -88,10 +88,18 @@ un-locode.ttl: un-locode-aux.ttl tmp/un-locode.ttl tmp/un-locode-new.ttl un-loco
 	$(MAKE) $@.canon
 
 un-locode-align.ttl: download/alternateNamesV2.zip
+	ttl2ttl --sortable un-locode-hist.ttl \
+	| grep -F owl:sameAs \
+	> tmp/alias
 	tar xf $< -O - alternateNamesV2.txt \
 	| scripts/alignify.awk \
 	| tarql -t --stdin sql/mkalign.tarql \
+	| ttl2ttl --sortable \
+	| tee tmp/align \
+	| grep -vFf <(cut -f1 tmp/alias) \
 	> $@.t && mv $@.t $@
+	scripts/tempoXsameAs.R tmp/ali{gn,as} \
+	>> $@
 	$(MAKE) $@.canon
 
 %.ttl.canon: %.ttl

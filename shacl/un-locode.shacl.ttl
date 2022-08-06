@@ -37,6 +37,7 @@ uncefact:Location-shape a sh:NodeShape ;
 	sh:property dct:isReplacedBy-property ;
 	sh:property rdfs:seeAlso-property ;
 	sh:property skos:notation-property ;
+	sh:property skos:related-property ;
 	sh:property tempo:efficaciousFrom-property ;
 	sh:property tempo:efficaciousTill-property ;
 	sh:property tempo:validFrom-property ;
@@ -98,6 +99,11 @@ rdfs:seeAlso-property a sh:PropertyShape ;
 	sh:path rdfs:seeAlso ;
 	sh:maxCount 1 ;
 	sh:class uncefact:Location ;
+	.
+
+skos:related-property a sh:PropertyShape ;
+	sh:path skos:related ;
+	sh:minCount 1 ;
 	.
 
 skos:notation-property a sh:PropertyShape ;

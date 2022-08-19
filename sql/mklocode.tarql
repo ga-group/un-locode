@@ -75,6 +75,8 @@ WHERE {
 	BIND(STRAFTER(?Coordinates, " ") AS ?longs)
 	BIND(SUBSTR(?lats,5,1) AS ?latsg)
 	BIND(SUBSTR(?longs,6,1) AS ?longsg)
-	BIND(xsd:decimal(fn:format-number((xsd:double(SUBSTR(?lats,1,2))+xsd:double(SUBSTR(?lats,3,2))/60.0)*IF(?latsg='N',1.0,IF(?latsg='S',-1.0,?null)),"#0.00")) AS ?lat)
-	BIND(xsd:decimal(fn:format-number((xsd:double(SUBSTR(?longs,1,3))+xsd:double(SUBSTR(?longs,4,2))/60.0)*IF(?longsg='E',1.0,IF(?longsg='W',-1.0,?null)),"#0.00")) AS ?long)
+	BIND(xsd:decimal(fn:format-number((xsd:double(SUBSTR(?lats,1,2))+xsd:double(SUBSTR(?lats,3,2))/60.0)*IF(?latsg='N',1.0,IF(?latsg='S',-1.0,?null)),"#0.00")) AS ?lat0)
+	BIND(xsd:decimal(fn:format-number((xsd:double(SUBSTR(?longs,1,3))+xsd:double(SUBSTR(?longs,4,2))/60.0)*IF(?longsg='E',1.0,IF(?longsg='W',-1.0,?null)),"#0.00")) AS ?long0)
+	BIND(IF(?lat0 != 0 || ?long0 != 0, ?lat0, ?nil) AS ?lat)
+	BIND(IF(?lat0 != 0 || ?long0 != 0, ?long0, ?nil) AS ?long)
 }

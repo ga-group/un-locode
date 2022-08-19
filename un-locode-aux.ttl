@@ -8,6 +8,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
 @prefix un-loc: <http://data.ga-group.nl/un-locode/> .
+@prefix unlcd: <https://service.unece.org/trade/uncefact/vocabulary/unlocode/> .
+@prefix unlcdf: <https://service.unece.org/trade/uncefact/vocabulary/unlocode-functions/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -31,11 +33,6 @@
 	vann:preferredNamespacePrefix	"un-loc"^^xsd:string ;
 	vann:preferredNamespaceUri	"http://data.ga-group.nl/un-locode/" .
 
-un-loc:Function
-	a	owl:Class ;
-	rdfs:label	"function"@en ;
-	skos:definition	"function of code, e.g. whether the location's airport or its main rail terminal is addressed."@en .
-
 un-loc:Status
 	a	owl:Class ;
 	rdfs:label	"status"@en ;
@@ -43,56 +40,64 @@ un-loc:Status
 
 un-loc:func-Airport
 	a	owl:Individual ;
-	a	un-loc:Function ;
+	a	unlcdf:Function ;
+	owl:sameAs	unlcdf:4 ;
 	rdfs:label	"Airport"@en ;
 	skos:definition	"the location is an Airport."@en .
 
 un-loc:func-BorderCrossing
 	a	owl:Individual ;
-	a	un-loc:Function ;
+	a	unlcdf:Function ;
+	owl:sameAs	unlcdf:B ;
 	rdfs:label	"Border crossing"@en ;
 	skos:definition	"the location is a Border crossing."@en .
 
 un-loc:func-FixedTransport
 	a	owl:Individual ;
-	a	un-loc:Function ;
+	a	unlcdf:Function ;
+	owl:sameAs	unlcdf:7 ;
 	rdfs:label	"Fixed transport"@en ;
 	skos:definition	"reserved for fixed transport functions (e.g. oil platform)."@en .
 
 un-loc:func-Multimodal
 	a	owl:Individual ;
-	a	un-loc:Function ;
+	a	unlcdf:Function ;
+	owl:sameAs	unlcdf:6 ;
 	rdfs:label	"Multimodal"@en ;
 	skos:definition	"reserved for multimodal functions, ICDs etc."@en .
 
 un-loc:func-Port
 	a	owl:Individual ;
-	a	un-loc:Function ;
+	a	unlcdf:Function ;
+	owl:sameAs	unlcdf:1 ;
 	rdfs:label	"Port"@en ;
 	skos:definition	"the location is a Port, as defined in UN/ECE Recommendation 16."@en .
 
 un-loc:func-PostalExchangeOffice
 	a	owl:Individual ;
-	a	un-loc:Function ;
+	a	unlcdf:Function ;
+	owl:sameAs	unlcdf:5 ;
 	rdfs:label	"Postal exchange office"@en ;
 	skos:definition	"the location is a Postal exchange office."@en .
 
 un-loc:func-RailTerminal
 	a	owl:Individual ;
-	a	un-loc:Function ;
+	a	unlcdf:Function ;
+	owl:sameAs	unlcdf:2 ;
 	rdfs:label	"Rail terminal"@en ;
 	skos:definition	"the location is a Rail terminal."@en .
 
 un-loc:func-RoadTerminal
 	a	owl:Individual ;
-	a	un-loc:Function ;
+	a	unlcdf:Function ;
+	owl:sameAs	unlcdf:3 ;
 	rdfs:label	"Road terminal"@en ;
 	skos:definition	"the location is a Road terminal."@en .
 
 un-loc:hasFunction
 	a	owl:ObjectProperty ;
 	rdfs:label	"has function"@en ;
-	rdfs:range	un-loc:Function ;
+	rdfs:range	unlcdf:Function ;
 	skos:definition	"relates a location with its current function"@en .
 
 un-loc:hasStatus

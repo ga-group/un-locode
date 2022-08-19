@@ -56,7 +56,7 @@ tmp/un-locode-new.ttl: tmp/un-locode.seen
 tmp/un-locode-tempo.ttl: .release $(dmp)
 	# rescue validFroms and efficaciousFroms of active nodes
 	-ttl2ttl --sortable un-locode.ttl \
-	| grep $$'^un-loc:.....\t' \
+	| grep $$'^unlcd:.....\t' \
 	| grep -F $$'tempo:validFrom\ntempo:efficaciousFrom' \
 	> $@
 

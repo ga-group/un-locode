@@ -12,7 +12,7 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX tempo: <http://purl.org/tempo/>
-PREFIX un-loc: <http://data.ga-group.nl/un-locode/>
+PREFIX unlcd: <https://service.unece.org/trade/uncefact/vocabulary/unlocode/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX fn: <http://www.w3.org/2005/xpath-functions#>
 
@@ -24,6 +24,6 @@ CONSTRUCT {
 WHERE {
 	BIND(NOW() AS ?now)
 
-	BIND(IRI(CONCAT(STR(un-loc:),?code)) AS ?loc)
+	BIND(IRI(CONCAT(STR(unlcd:),?code)) AS ?loc)
 	BIND(IRI(CONCAT('http://sws.geonames.org/',?geoid,'/')) AS ?gn)
 }

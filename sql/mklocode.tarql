@@ -14,6 +14,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX tempo: <http://purl.org/tempo/>
 PREFIX un-loc: <http://data.ga-group.nl/un-locode/>
 PREFIX uncefact: <https://service.unece.org/trade/uncefact/vocabulary/uncefact#>
+PREFIX unlcd: <https://service.unece.org/trade/uncefact/vocabulary/unlocode/>
+PREFIX unlcdf: <https://service.unece.org/trade/uncefact/vocabulary/unlocode-functions/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX fn: <http://www.w3.org/2005/xpath-functions#>
 
@@ -45,7 +47,7 @@ WHERE {
 	BIND(IRI(CONCAT(STR(cc1:), ?Country)) AS ?cc1)
 	BIND(IRI(CONCAT(STR(cc2:), ?Country,'-',REPLACE(?Subdivision," ",""))) AS ?cc2)
 	BIND(IRI(CONCAT(STR(un-loc:), 'stat-',?Status)) AS ?stat)
-	BIND(IRI(CONCAT(STR(un-loc:),IF(STRLEN(?LOCODE) = 5,?LOCODE,?nil))) AS ?loc)
+	BIND(IRI(CONCAT(STR(unlcd:),IF(STRLEN(?LOCODE) = 5,?LOCODE,?nil))) AS ?loc)
 
 	BIND(REPLACE(REPLACE(REPLACE(?Name,
 		"  *", " "),
@@ -58,18 +60,7 @@ WHERE {
 	BIND(STRLANG(?Remarks, 'en') AS ?enRemarks)
 
 	?funs apf:strSplit (?Function "") .
-	VALUES (?funs ?func) {
-		("0" undef)
-		("1" un-loc:func-Port)
-		("2" un-loc:func-RailTerminal)
-		("3" un-loc:func-RoadTerminal)
-		("4" un-loc:func-Airport)
-		("5" un-loc:func-PostalExchangeOffice)
-		("6" un-loc:func-Multimodal)
-		("7" un-loc:func-FixedTransport)
-		("B" un-loc:func-BorderCrossing)
-		("-" undef)
-	}
+	BIND(IF(?funs != '-', IRI(CONCAT(STR(unlcdf:), ?funs)), ?nil) AS ?func)
 
 	BIND(STRBEFORE(?Coordinates, " ") AS ?lats)
 	BIND(STRAFTER(?Coordinates, " ") AS ?longs)

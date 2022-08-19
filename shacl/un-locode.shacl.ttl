@@ -21,7 +21,7 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
-@prefix un-loc: <http://data.ga-group.nl/un-locode/> .
+@prefix unlcd: <https://service.unece.org/trade/uncefact/vocabulary/unlocode/> .
 @prefix uncefact: <https://service.unece.org/trade/uncefact/vocabulary/uncefact#> .
 
 <> sh:entailment <http://www.w3.org/ns/entailment/RDFS> .
@@ -44,19 +44,19 @@ uncefact:Location-shape a sh:NodeShape ;
 	sh:property tempo:validTill-property ;
 	.
 
-un-loc:aliased-shape a sh:NodeShape ;
+unlcd:aliased-shape a sh:NodeShape ;
 	sh:targetSubjectsOf owl:sameAs ;
-	sh:sparql un-loc:sameAs-solitude ;
+	sh:sparql unlcd:sameAs-solitude ;
 	.
 
-un-loc:historical-shape1 a sh:NodeShape ;
+unlcd:historical-shape1 a sh:NodeShape ;
 	sh:targetSubjectsOf tempo:validTill ;
-	sh:sparql un-loc:xxxTill-iri ;
+	sh:sparql unlcd:xxxTill-iri ;
 	.
 
-un-loc:historical-shape2 a sh:NodeShape ;
+unlcd:historical-shape2 a sh:NodeShape ;
 	sh:targetSubjectsOf tempo:efficaciousTill ;
-	sh:sparql un-loc:xxxTill-iri ;
+	sh:sparql unlcd:xxxTill-iri ;
 	.
 
 ## properties
@@ -138,8 +138,8 @@ tempo:validTill-property a sh:PropertyShape ;
 	sh:type xsd:date ;
 	.
 
-un-loc:sameAs-solitude
-	sh:prefixes un-loc: ;
+unlcd:sameAs-solitude
+	sh:prefixes unlcd: ;
 	sh:message "owl:sameAs aliases should exist in solitude" ;
 	sh:select """
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -156,9 +156,9 @@ SELECT $this ?value WHERE {
 """
 	.
 
-un-loc:xxxTill-iri
-	sh:prefixes un-loc: ;
-	sh:message "resources constrained by validTill or efficaciousTill should look like un-loc:XXXXX_YYYY-N, i.e. containing a release in their IRI" ;
+unlcd:xxxTill-iri
+	sh:prefixes unlcd: ;
+	sh:message "resources constrained by validTill or efficaciousTill should look like unlcd:XXXXX_YYYY-N, i.e. containing a release in their IRI" ;
 	sh:select """
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 

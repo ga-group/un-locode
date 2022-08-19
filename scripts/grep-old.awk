@@ -1,4 +1,4 @@
 #!/usr/bin/mawk -f
 
-/^\-un-loc:.....$/ &&
+/^\-unlcd:.....$/ &&
 $0 = substr($0, 2) "\t"

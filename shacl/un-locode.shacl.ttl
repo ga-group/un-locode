@@ -49,6 +49,11 @@ unlcd:aliased-shape a sh:NodeShape ;
 	sh:sparql unlcd:sameAs-solitude ;
 	.
 
+unlcd:aligned-shape a sh:NodeShape ;
+	sh:targetSubjectsOf skos:related ;
+	sh:sparql unlcd:related-solitude ;
+	.
+
 unlcd:historical-shape1 a sh:NodeShape ;
 	sh:targetSubjectsOf tempo:validTill ;
 	sh:sparql unlcd:xxxTill-iri ;
@@ -152,6 +157,24 @@ SELECT $this ?value WHERE {
 	} GROUP BY $this
 	}
 	FILTER(?value > 0)
+}
+"""
+	.
+
+unlcd:related-solitude
+	sh:prefixes unlcd: ;
+	sh:message "alignments should not exist in solitude" ;
+	sh:select """
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT $this ?value WHERE {
+	{
+	SELECT $this (COUNT(?p) AS ?value) WHERE {
+		$this skos:related ?that ; ?p ?x .
+		FILTER(?p != skos:related)
+	} GROUP BY $this
+	}
+	FILTER(?value = 0)
 }
 """
 	.

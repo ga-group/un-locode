@@ -29,6 +29,12 @@ tmp/%.ttl: tmp/%.csv sql/mklocode.tarql
 	tarql -t sql/mklocode.tarql $< \
 	> $@.t && mv $@.t $@
 
+tmp/codes-locode.ttl:	download/codes-locode/vocab/unlocode
+	find $</ -name '*.jsonld' \
+	| xargs ~/usr/stardog/bin/stardog file cat -f PRETTY_TURTLE \
+	| sed 's@unlcdf:functions@un-loc:hasFunction@; s@rdf:value@skos:notation@; s@unlcdc:countryCode[ \t]*unlcdc:@lcc-cr:isPartOf cc1:@; s@unlcds:countrySubdivision[ \t]*unlcds:\(..\)@lcc-cr:isPartOf cc2:\1-@' \
+	> $@
+
 tmp/un-locode.ttl: .release $(dmp)
 	scripts/canon.R $(filter-out $<,$^) \
 	| tarql -t --stdin --base '!$(REV),$(RDT)' sql/mklocode.tarql \

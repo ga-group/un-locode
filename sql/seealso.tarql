@@ -1,0 +1,14 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX unlcd: <https://service.unece.org/trade/uncefact/vocabulary/unlocode/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fn: <http://www.w3.org/2005/xpath-functions#>
+
+CONSTRUCT {
+	?_loc
+		rdfs:seeAlso ?_rby ;
+		.
+}
+WHERE {
+	BIND(IRI(?loc) AS ?_loc)
+	BIND(IRI(CONCAT(STR(unlcd:), ?by)) AS ?_rby)
+}

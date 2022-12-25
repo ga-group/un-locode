@@ -1867,6 +1867,26 @@ unlcd:BHRAS_2011-2
 	un-loc:hasFunction	unlcdf:1 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+unlcd:BLGUS
+	owl:sameAs	unlcd:BLGUS_2022-1 .
+
+unlcd:BLGUS_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:BLSBH ;
+	geo:lat	17.90 ;
+	geo:long	-62.85 ;
+	lcc-cr:isPartOf	cc1:BL ;
+	rdfs:label	"Gustavia"@en , "Gustavia" ;
+	skos:notation	"BLGUS" ;
+	skos:note	"use BLSBH"@en ;
+	skos:related	<http://sws.geonames.org/3579132/> ;
+	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2012-09-14"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:1 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 unlcd:BMSHT
 	owl:sameAs	unlcd:BMSHT_2013-1 .
 
@@ -4646,6 +4666,25 @@ unlcd:BROTI_2019-1
 	un-loc:hasFunction	unlcdf:3 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+unlcd:BROXO
+	owl:sameAs	unlcd:BROXO_2022-1 .
+
+unlcd:BROXO_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:BROXI ;
+	geo:lat	-23.53 ;
+	geo:long	-41.43 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"OSX1 FPSO"@en , "OSX1 FPSO" ;
+	skos:notation	"BROXO" ;
+	skos:note	"Use  BR OXI"@en ;
+	tempo:efficaciousFrom	"2021-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2021-12-13"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:7 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 unlcd:BROYK
 	owl:sameAs	unlcd:BROYK_2022-1 .
 
@@ -4675,6 +4714,63 @@ unlcd:BRP35_2022-1
 	skos:notation	"BRP35" ;
 	tempo:efficaciousFrom	"2021-01"^^xsd:gYearMonth ;
 	tempo:validFrom	"2021-07-08"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:7 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+unlcd:BRP3O
+	owl:sameAs	unlcd:BRP3O_2022-1 .
+
+unlcd:BRP3O_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:BRP3I ;
+	geo:lat	-22.12 ;
+	geo:long	-39.95 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Petrobras 31 FPSO"@en , "Petrobrás 31 FPSO" ;
+	skos:notation	"BRP3O" ;
+	skos:note	"Use BR P3I"@en ;
+	tempo:efficaciousFrom	"2021-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2021-12-13"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:7 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+unlcd:BRP5Z
+	owl:sameAs	unlcd:BRP5Z_2022-1 .
+
+unlcd:BRP5Z_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:BRP5O ;
+	geo:lat	-22.08 ;
+	geo:long	-39.82 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-RJ ;
+	rdfs:label	"Petrobras 50 FPSO"@en , "Petrobrás 50 FPSO" ;
+	skos:notation	"BRP5Z" ;
+	skos:note	"Use BR P5O"@en ;
+	tempo:efficaciousFrom	"2021-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2021-12-13"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:7 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+unlcd:BRP7Z
+	owl:sameAs	unlcd:BRP7Z_2022-1 .
+
+unlcd:BRP7Z_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:BRP7O ;
+	geo:lat	-24.95 ;
+	geo:long	-42.47 ;
+	lcc-cr:isPartOf	cc1:BR , cc2:BR-SP ;
+	rdfs:label	"Petrobras 70 FPSO"@en , "Petrobrás 70 FPSO" ;
+	skos:notation	"BRP7Z" ;
+	skos:note	"Use BR P7O"@en ;
+	tempo:efficaciousFrom	"2021-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2021-12-13"^^xsd:date ;
 	tempo:validTill	"2022-07-08"^^xsd:date ;
 	un-loc:hasFunction	unlcdf:7 ;
 	un-loc:hasStatus	un-loc:stat-XX .
@@ -9615,9 +9711,6 @@ unlcd:CNGZP_2014-2
 	un-loc:hasFunction	unlcdf:1 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-unlcd:CNHAA
-	owl:sameAs	unlcd:CNHAA_2015-1 .
-
 unlcd:CNHAA_2015-1
 	a	owl:Individual ;
 	a	uncefact:Location ;
@@ -11782,9 +11875,6 @@ unlcd:CNWZP_2015-1
 	tempo:validTill	"2015-07-06"^^xsd:date ;
 	un-loc:hasFunction	unlcdf:1 ;
 	un-loc:hasStatus	un-loc:stat-XX .
-
-unlcd:CNXAN
-	owl:sameAs	unlcd:CNXAN_2015-1 .
 
 unlcd:CNXAN_2015-1
 	a	owl:Individual ;
@@ -37719,9 +37809,6 @@ unlcd:FRA9Z_2015-2
 	un-loc:hasFunction	unlcdf:3 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-unlcd:FRAA4
-	owl:sameAs	unlcd:FRAA4_2013-2 .
-
 unlcd:FRAA4_2013-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
@@ -37889,6 +37976,26 @@ unlcd:FRAE3_2013-2
 	tempo:validFrom	"2012-09-14"^^xsd:date ;
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	unlcdf:1 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+unlcd:FRAEA
+	owl:sameAs	unlcd:FRAEA_2022-1 .
+
+unlcd:FRAEA_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:FRGPC ;
+	geo:lat	47.77 ;
+	geo:long	5.30 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-52 ;
+	rdfs:label	"Longeau"@en , "Longeau" ;
+	skos:notation	"FRAEA" ;
+	skos:note	"use FRGPC"@en ;
+	skos:related	<http://sws.geonames.org/2997753/> ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:3 , unlcdf:6 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 unlcd:FRAFP
@@ -38852,9 +38959,6 @@ unlcd:FRCE9_2013-2
 	tempo:validTill	"2013-12-20"^^xsd:date ;
 	un-loc:hasFunction	unlcdf:1 ;
 	un-loc:hasStatus	un-loc:stat-XX .
-
-unlcd:FRCEP
-	owl:sameAs	unlcd:FRCEP_2017-2 .
 
 unlcd:FRCEP_2017-2
 	a	owl:Individual ;
@@ -43187,6 +43291,25 @@ unlcd:FRMO7_2013-2
 	un-loc:hasFunction	unlcdf:1 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+unlcd:FRMP5
+	owl:sameAs	unlcd:FRMP5_2022-1 .
+
+unlcd:FRMP5_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:FRINE ;
+	geo:lat	45.55 ;
+	geo:long	4.60 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-42 ;
+	rdfs:label	"Saint-Martin-la-Plaine"@en , "Saint-Martin-la-Plaine" ;
+	skos:notation	"FRMP5" ;
+	skos:note	"use FRINE"@en ;
+	tempo:efficaciousFrom	"2021-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2021-12-13"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:3 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 unlcd:FRMWX
 	owl:sameAs	unlcd:FRMWX_2013-2 .
 
@@ -43240,6 +43363,25 @@ unlcd:FRMXV_2021-2
 	tempo:validFrom	"2010-02-08"^^xsd:date ;
 	tempo:validTill	"2021-12-13"^^xsd:date ;
 	un-loc:hasFunction	unlcdf:6 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+unlcd:FRN8E
+	owl:sameAs	unlcd:FRN8E_2022-1 .
+
+unlcd:FRN8E_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:FRNSE ;
+	geo:lat	47.43 ;
+	geo:long	-1.50 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-44 ;
+	rdfs:label	"Nort-sur-Erdre"@en , "Nort-sur-Erdre" ;
+	skos:notation	"FRN8E" ;
+	skos:note	"use FRNSE"@en ;
+	tempo:efficaciousFrom	"2021-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2021-12-13"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:3 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 unlcd:FRN9P
@@ -43809,9 +43951,6 @@ unlcd:FROQQ_2021-2
 	tempo:validTill	"2021-12-13"^^xsd:date ;
 	un-loc:hasFunction	unlcdf:3 ;
 	un-loc:hasStatus	un-loc:stat-XX .
-
-unlcd:FROSB
-	owl:sameAs	unlcd:FROSB_2015-2 .
 
 unlcd:FROSB_2015-2
 	a	owl:Individual ;
@@ -45714,6 +45853,25 @@ unlcd:FRRV4_2013-2
 	un-loc:hasFunction	unlcdf:1 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+unlcd:FRRWW
+	owl:sameAs	unlcd:FRRWW_2022-1 .
+
+unlcd:FRRWW_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:FRRUE ;
+	geo:lat	48.88 ;
+	geo:long	2.20 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-92 ;
+	rdfs:label	"Rueil-Malmaison"@en , "Rueil-Malmaison" ;
+	skos:notation	"FRRWW" ;
+	skos:note	"use FRRUE"@en ;
+	tempo:efficaciousFrom	"2021-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2021-12-13"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:3 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 unlcd:FRRZM
 	owl:sameAs	unlcd:FRRZM_2021-2 .
 
@@ -46064,6 +46222,9 @@ unlcd:FRSF7_2011-2
 	un-loc:hasFunction	unlcdf:6 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+unlcd:FRSFJ
+	owl:sameAs	unlcd:FRSFJ_2022-1 .
+
 unlcd:FRSFJ_2015-1
 	a	owl:Individual ;
 	a	uncefact:Location ;
@@ -46078,6 +46239,23 @@ unlcd:FRSFJ_2015-1
 	tempo:efficaciousTill	"2021-07"^^xsd:gYearMonth ;
 	tempo:validFrom	"2014-06-20"^^xsd:date ;
 	tempo:validTill	"2015-07-06"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:3 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+unlcd:FRSFJ_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:FRSFJ ;
+	geo:lat	48.32 ;
+	geo:long	6.90 ;
+	lcc-cr:isPartOf	cc1:FR , cc2:FR-88 ;
+	rdfs:label	"Saint-Michel-sur-Meurthe"@en , "Saint-Michel-sur-Meurthe" ;
+	skos:notation	"FRSFJ" ;
+	skos:note	"use FRSFJ"@en ;
+	skos:related	<http://sws.geonames.org/2977953/> ;
+	tempo:efficaciousFrom	"2021-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2021-12-13"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
 	un-loc:hasFunction	unlcdf:3 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
@@ -47454,9 +47632,6 @@ unlcd:FRTMU_2013-2
 	un-loc:hasFunction	unlcdf:1 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-unlcd:FRTN2
-	owl:sameAs	unlcd:FRTN2_2013-2 .
-
 unlcd:FRTN2_2013-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
@@ -47919,9 +48094,6 @@ unlcd:FRURP_2011-2
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	unlcdf:6 ;
 	un-loc:hasStatus	un-loc:stat-XX .
-
-unlcd:FRUTL
-	owl:sameAs	unlcd:FRUTL_2011-2 .
 
 unlcd:FRUTL_2011-2
 	a	owl:Individual ;
@@ -49707,9 +49879,6 @@ unlcd:FRZHK_2010-1
 	un-loc:hasFunction	unlcdf:6 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
-unlcd:FRZHN
-	owl:sameAs	unlcd:FRZHN_2010-1 .
-
 unlcd:FRZHN_2010-1
 	a	owl:Individual ;
 	a	uncefact:Location ;
@@ -50892,6 +51061,25 @@ unlcd:GBKNI_2014-2
 	un-loc:hasFunction	unlcdf:1 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+unlcd:GBKPS
+	owl:sameAs	unlcd:GBKPS_2022-1 .
+
+unlcd:GBKPS_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:GBKLR ;
+	geo:lat	55.20 ;
+	geo:long	-6.27 ;
+	lcc-cr:isPartOf	cc1:GB , cc2:GB-ANT ;
+	rdfs:label	"Killroot Power Station Jetty"@en , "Killroot Power Station Jetty" ;
+	skos:notation	"GBKPS" ;
+	skos:note	"use GBKLR"@en ;
+	tempo:efficaciousFrom	"2012-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2012-09-14"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:1 , unlcdf:3 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
 unlcd:GBKUH
 	owl:sameAs	unlcd:GBKUH_2020-1 .
 
@@ -51452,6 +51640,25 @@ unlcd:GBXXX_2011-2
 	tempo:validFrom	"2009-09-23"^^xsd:date ;
 	tempo:validTill	"2012-02-28"^^xsd:date ;
 	un-loc:hasFunction	unlcdf:3 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+unlcd:GBZBY
+	owl:sameAs	unlcd:GBZBY_2022-1 .
+
+unlcd:GBZBY_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:GBMFT ;
+	geo:lat	54.75 ;
+	geo:long	-6.60 ;
+	lcc-cr:isPartOf	cc1:GB ;
+	rdfs:label	"Magherfelt"@en , "Magherfelt" ;
+	skos:notation	"GBZBY" ;
+	skos:note	"Use GBMFT"@en ;
+	tempo:efficaciousFrom	"2009-01"^^xsd:gYearMonth ;
+	tempo:validFrom	"2009-09-23"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:6 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 unlcd:GBZCQ
@@ -65791,6 +65998,9 @@ unlcd:PYPCA_2014-2
 	un-loc:hasFunction	unlcdf:3 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
+unlcd:QAMES
+	owl:sameAs	unlcd:QAMES_2022-1 .
+
 unlcd:QAMES_2005-2
 	a	owl:Individual ;
 	a	uncefact:Location ;
@@ -65806,6 +66016,23 @@ unlcd:QAMES_2005-2
 	tempo:validFrom	"2004-02-18"^^xsd:date ;
 	tempo:validTill	"2005-07-08"^^xsd:date ;
 	un-loc:hasFunction	unlcdf:1 , unlcdf:3 ;
+	un-loc:hasStatus	un-loc:stat-XX .
+
+unlcd:QAMES_2022-1
+	a	owl:Individual ;
+	a	uncefact:Location ;
+	dct:isReplacedBy	unlcd:QAUMS ;
+	geo:lat	25.63 ;
+	geo:long	51.92 ;
+	lcc-cr:isPartOf	cc1:QA , cc2:QA-WA ;
+	rdfs:label	"Mesaieed"@en , "Mesaieed" ;
+	skos:notation	"QAMES" ;
+	skos:note	"Use QAUMS"@en ;
+	skos:related	<http://sws.geonames.org/289525/> ;
+	tempo:efficaciousFrom	"2009-07"^^xsd:gYearMonth ;
+	tempo:validFrom	"2010-02-08"^^xsd:date ;
+	tempo:validTill	"2022-07-08"^^xsd:date ;
+	un-loc:hasFunction	unlcdf:1 , unlcdf:6 ;
 	un-loc:hasStatus	un-loc:stat-XX .
 
 unlcd:REBNT

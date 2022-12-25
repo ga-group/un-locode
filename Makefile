@@ -141,7 +141,7 @@ auto.decouple: un-locode-hist.ttl tmp/decouple.cand
 
 decouple: .decouple
 	ttl2ttl --sortable un-locode.ttl \
-	| grep -Ff <(scripts/decouple.awk .decouple) \
+	| { grep -Ff <(scripts/decouple.awk .decouple); : } \
 	> $@.t
 	scripts/tempoXsameAs.R --newpred tempo:efficaciousTill $@.t .decouple \
 	> $@.eftl && $(RM) $@.t
